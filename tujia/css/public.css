@@ -76,26 +76,12 @@ footer{
     height: 60px;
     
 }
-footer .main{
+footer .footer_link{
+    padding: 15px 0 30px;
     text-align: center;
+    background: #aaa;
 }
-footer ul{
-    height: 60px;
-    display: inline-block;
-    margin: 16px auto;
-}
-footer li{
-    float: left;
-    text-decoration: none;
-}
-footer li+li{
-    border-left: 1px solid #7d7c7f;
-}
-footer a{
-    display: block;
-    font-size: 12px;
-    color: #7d7c7f;
-    text-align: left;
-    padding-left: 14px;
-    padding-right: 10px;
+
+footer span{
+    margin: 0 14px;
 }

@@ -1,0 +1,101 @@
+.main{
+    margin: 0 auto;
+    width: 1190px;
+}
+header{
+    height:136px;
+}
+.top{
+    height: 50px;
+    background-image:url(../images/top.png);
+    background: url(../images/top.png) no-repeat 50% 50%;
+}
+.top_nav{
+    height: 22px;
+    line-height: 22px;
+    background-color: #fff;
+    border-top: 1px solid #fdb400;
+}
+.top_nav ul{
+    float: right;
+    overflow: hidden;
+}
+.top_nav li{
+    float:left;
+    list-style-type: none;
+}
+.top_nav a{
+    display: block;
+    font-size: 12px;
+    color: #3b83cb;
+    text-decoration: none;
+    padding-left: 22px;
+}
+.top_mainnav{
+    background-color: #f7f8f2;
+    border-top: 1px solid #ffd697;
+    height:60px;
+}
+.top_mainnav .main{
+    height: 60px;
+    background: url(../images/top_left_logo.png) no-repeat top left,url(../images/top_right_logo.png) no-repeat top right;
+    margin: 0 auto;
+    text-align: center;
+}
+.top_mainnav ul{
+    height: 60px;
+    display: inline-block;
+}
+.top_mainnav li{
+    position: relative;
+    float: left;
+    margin-top: 24px;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+.top_mainnav .tips_icon{
+    position: absolute;
+    left: 13px;
+    top: -17px;
+    width: 30px;
+    height: 18px;
+    background: url(../images/chaozhi.png) no-repeat;
+}
+.top_mainnav li+li{
+    border-left: 1px solid #ccc;
+}
+.top_mainnav a{
+    display: block;
+    font-size: 12px;
+    color: #ccc;
+}
+footer{
+    width: 100%;
+    border-top: 1px solid #d1d1d1;
+    background-color: #f8f8f8;
+    height: 60px;
+    
+}
+footer .main{
+    text-align: center;
+}
+footer ul{
+    height: 60px;
+    display: inline-block;
+    margin: 16px auto;
+}
+footer li{
+    float: left;
+    text-decoration: none;
+}
+footer li+li{
+    border-left: 1px solid #7d7c7f;
+}
+footer a{
+    display: block;
+    font-size: 12px;
+    color: #7d7c7f;
+    text-align: left;
+    padding-left: 14px;
+    padding-right: 10px;
+}

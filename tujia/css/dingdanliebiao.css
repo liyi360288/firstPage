@@ -123,3 +123,79 @@
 .right-content-orderlist a:hover{
     color: #f60;
 }
+.right-content-allorder>div{
+    width: 96px;
+    height: 26px;
+    float: left;
+    margin: 15px 0 12px;
+    position: relative;
+    border: 1px solid #ddd;
+}
+.right-content-allorder-icon+p{
+    line-height: 26px;
+    margin: 0 0 0 12px ;
+    font-size: 12px;
+    color: #333;
+}
+.right-content-allorder-icon{
+    width: 7px;
+    height: 5px;
+    position: absolute;
+    top:11px;
+    left:78px;
+    background: url(../images/chaozhi.png) no-repeat -193px -232px;
+}
+.right-content-allorder>p{
+    font-size: 12px;
+    color: #666;
+    text-align: right;
+    padding: 21px 0;
+}
+.right-content-allorder>p>span{
+    color: #f60;
+}
+table{
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+th:first-child{
+    text-align: left;
+    padding: 10px 0 10px 14px;
+}
+tr{
+    border: 1px solid #ddd;
+}
+th{
+    background: #f8f8f8;
+    text-align: center;
+}
+td{
+    padding: 14px 20px 18px 14px;
+    background: #fff;
+    text-align: center;
+    vertical-align: top;
+    border: 1px solid #ddd;
+    position: relative;
+}
+td:first-child{
+    width: 248px;
+    box-sizing: border-box;
+    text-align: left;
+}
+td:first-child img{
+    padding-right: 10px;
+}
+
+td:nth-child(6) div{
+    width:16px;
+    height: 15px;
+    position: absolute;
+    top:16px;
+    left:65px;
+    background: url(../images/chaozhi.png) no-repeat -193px -545px;
+}
+td:last-child p{
+    line-height: 29px;
+}

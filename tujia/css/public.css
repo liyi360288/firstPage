@@ -2,86 +2,70 @@
     margin: 0 auto;
     width: 1190px;
 }
-header{
-    height:136px;
-}
 .top{
     height: 50px;
-    background-image:url(../images/top.png);
     background: url(../images/top.png) no-repeat 50% 50%;
+    border-bottom: 1px solid #fdb400;
 }
-.top_nav{
+.top-menu{
     height: 22px;
-    line-height: 22px;
     background-color: #fff;
-    border-top: 1px solid #fdb400;
+    border-bottom: 1px solid #ffd697;
 }
-.top_nav ul{
+.top-menu ul{
     float: right;
-    overflow: hidden;
 }
-.top_nav li{
-    float:left;
-    list-style-type: none;
-}
-.top_nav a{
-    display: block;
+.top-menu li{
+    float: left;
+    line-height: 22px;
     font-size: 12px;
-    color: #3b83cb;
-    text-decoration: none;
-    padding-left: 22px;
+    margin-left: 23px;
+    color: #dd9;
 }
-.top_mainnav{
-    background-color: #f7f8f2;
+.top-menu a{
+    color: #dd9;
+}
+.top-nav{
     border-top: 1px solid #ffd697;
-    height:60px;
-}
-.top_mainnav .main{
-    height: 60px;
-    background: url(../images/top_left_logo.png) no-repeat top left,url(../images/top_right_logo.png) no-repeat top right;
-    margin: 0 auto;
+    background: #f7f8f2;
     text-align: center;
 }
-.top_mainnav ul{
-    height: 60px;
+.top-nav div{
+    background: url(../images/top_left_logo.png) no-repeat top left,url(../images/top_right_logo.png) no-repeat top right;  
+}
+.top-nav ul{
     display: inline-block;
+    line-height: 60px; 
 }
-.top_mainnav li{
+.top-nav li{
+    display: inline;
     position: relative;
-    float: left;
-    margin-top: 24px;
-    padding-right: 16px;
-    padding-left: 16px;
 }
-.top_mainnav .tips_icon{
-    position: absolute;
-    left: 13px;
-    top: -17px;
-    width: 30px;
-    height: 18px;
-    background: url(../images/chaozhi.png) no-repeat;
+.top-nav a{
+    font-size: 12px;
+    color: #ffd697;
+    margin: 0 16px;
 }
-.top_mainnav li+li{
+.top-nav li+li{
     border-left: 1px solid #ccc;
 }
-.top_mainnav a{
-    display: block;
-    font-size: 12px;
-    color: #ccc;
+.top-nav .tips_icon{
+    width: 30px;
+    height: 18px;
+    background: url(../images/chaozhi.png) no-repeat -192px -146px;
+    position: absolute;
+    top:-18px;
+    left: 16px;
 }
 footer{
-    width: 100%;
-    border-top: 1px solid #d1d1d1;
     background-color: #f8f8f8;
-    height: 60px;
-    
 }
-footer .footer_link{
-    padding: 15px 0 30px;
+.footer_link{
+    border-top: 1px solid #d1d1d1;
     text-align: center;
-    background: #aaa;
+    padding: 16px 0 30px;
 }
-
-footer span{
-    margin: 0 14px;
+.footer_link span{
+    margin-left: 10px;
+    margin-right: 14px;
 }

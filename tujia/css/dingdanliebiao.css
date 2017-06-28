@@ -210,8 +210,48 @@ td:first-child p{
 .table-list{
     margin-bottom: 14px;
 }
-.table-list:nth-child(3) td:nth-child(6) .icon{
+.table-list:nth-child(3) td:nth-child(6)>div,.table-list:nth-child(4) td:nth-child(5)>div,.table-list:nth-child(5) td:nth-child(6)>div,.table-list:nth-child(6) td:nth-child(5)>div,.table-list:nth-child(7) td:nth-child(6)>div{
+    display: inline-block;
+}
+.table-list:nth-child(3) td:nth-child(6) .icon,.table-list:nth-child(4) td:nth-child(5) .icon,.table-list:nth-child(5) td:nth-child(6) .icon,.table-list:nth-child(6) td:nth-child(5) .icon,.table-list:nth-child(7) td:nth-child(6) .icon{
     width: 16px;
-    height: 16px;
-    background: url(../images/chaozhi.png) no-repeat -193px -545px;
+    height: 18px;
+    background: url(../images/chaozhi.png) no-repeat -193px -543px;
+}
+.table-list th:first-child span{
+    color: #69c;
+}
+.table-list td:first-child span,.table-list td a{
+    color: #3b83cb;
+}
+.table-list td:nth-child(5){
+    color: #f60;
+}
+.table-list .pay{
+    background: #f60;
+    margin: 0 14px 0 15px;
+    padding: 5px 0;
+    border-radius: 2px;
+}
+.table-list .pay a{
+    color: #fff;
+}
+.page p{
+    padding: 0 10px;
+    font-size: 12px;
+    line-height: 26px;
+    border: 1px solid #ddd;
+}
+.page a{
+    color: #999;
+}
+.page div:nth-child(2){
+    border: 1px solid #f60;
+    margin: 0 8px;
+    color: #f60;
+    line-height: 26px;
+    padding: 0 9px;
+}
+.page{
+    padding: 6px 0 67px;
 }

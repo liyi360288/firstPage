@@ -1,3 +1,6 @@
+.content{
+    background: #f8f8f8;
+}
 .left-content,.right-content{
     float: left;
 }
@@ -31,8 +34,7 @@
 }
 .userimg+ul{
     float: left;
-    margin-top: 20px;
-    margin-bottom: 18px;
+    margin: 16px 0;
 }
 .userimg+ul li:first-child{
     font-size: 14px;
@@ -70,18 +72,18 @@
     background: url(../images/chaozhi.png) no-repeat -193px -973px;
 }
 .left-content-list-title>p{
-    margin-left: 43px;
-    line-height: 41px;
+    padding-left: 43px;
+    line-height: 40px;
 }
 .left-content-list-menu{
     border-top: 1px solid #f1f1f1;
     background: #fff;
 }
 .left-content-list-menu ul{
-    margin:14px 0 14px 43px;
+    padding:5px 0 5px 43px;
 }
 .left-content-list-menu li{
-    margin: 18px 0;
+    line-height: 30px;
 }
 .left-content-list-menu a{
     font-size: 12px;
@@ -91,8 +93,7 @@
     color: #f60;
 }
 .right-content{
-    width: 900px;
-    overflow: hidden;
+    width: 970px;
     margin-left: 20px;
 }
 .right-content-orderlist{
@@ -102,7 +103,8 @@
 .right-content-orderlist li{
     float: left;
     position: relative;
-    margin-bottom: 12px;
+    margin-top: -4px;
+    padding: 0 21px 6px 19px;
 }
 .right-content-orderlist li+li{
     border-left: 1px solid #ddd;
@@ -112,11 +114,10 @@
     height: 2px;
     background: url(../images/chaozhi.png) no-repeat -193px -205px;
     position: absolute;
-    top: 35px;
+    top: 29px;
     left: 0;
 }
 .right-content-orderlist a{
-    margin: 0 20px 12px 19px;
     font-size: 16px;
     color: #333;
 }
@@ -127,7 +128,7 @@
     width: 96px;
     height: 26px;
     float: left;
-    margin: 15px 0 12px;
+    margin-top: 20px;
     position: relative;
     border: 1px solid #ddd;
 }
@@ -149,53 +150,68 @@
     font-size: 12px;
     color: #666;
     text-align: right;
-    padding: 21px 0;
+    padding: 25px 0 19px;
 }
 .right-content-allorder>p>span{
     color: #f60;
 }
+
 table{
     width: 100%;
     text-align: center;
     font-size: 12px;
-    margin-bottom: 12px;
 }
-th:first-child{
+th:first-child div{
+    width: 250px;
     text-align: left;
+    box-sizing: border-box;
     padding: 10px 0 10px 14px;
 }
-tr{
-    border: 1px solid #ddd;
+th:nth-child(2){
+    width: 120px;
+}
+th:nth-child(3){
+    width: 120px;
+}
+th:nth-child(4){
+    width: 80px;
+}
+th:nth-child(5){
+    width: 160px;
+}
+th:nth-child(6){
+    width: 120px;
+}
+th:nth-child(7){
+    width: 120px;
+    line-height: 22px;
 }
 th{
-    background: #f8f8f8;
-    text-align: center;
+    box-sizing: border-box;
+    background: #f8f8f8; 
+}
+table tr:first-child{
+    border: 1px solid #ddd;
+    border-bottom: none;
 }
 td{
-    padding: 14px 20px 18px 14px;
     background: #fff;
-    text-align: center;
+    padding: 18px 0 16px;
     vertical-align: top;
     border: 1px solid #ddd;
-    position: relative;
-}
-td:first-child{
-    width: 248px;
-    box-sizing: border-box;
-    text-align: left;
 }
 td:first-child img{
-    padding-right: 10px;
+    margin: 0px 10px 0 12px;
 }
-
-td:nth-child(6) div{
-    width:16px;
-    height: 15px;
-    position: absolute;
-    top:16px;
-    left:65px;
+td:first-child p{
+    text-align: left;
+    padding-right: 15px;
+}
+.table-list{
+    margin-bottom: 14px;
+}
+.table-list:nth-child(3) td:nth-child(6) .icon{
+    width: 16px;
+    height: 16px;
     background: url(../images/chaozhi.png) no-repeat -193px -545px;
-}
-td:last-child p{
-    line-height: 29px;
 }

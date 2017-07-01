@@ -1,0 +1,30 @@
+.orderlist{
+    background-color: #f8f8f8;
+    line-height: 43px;
+    
+}
+.orderlist span{
+    margin: 0 8px;
+    color: #ccc;
+}
+.orderlist a{
+    font-size: 12px;
+    color: #000;
+}
+.content{
+    background: #f8f8f8;
+}
+.main>p{
+    font-size: 24px;
+    color: #3b83cb;
+    line-height: 38px;
+}
+.backorder{
+    overflow: hidden;
+    line-height: 36px;
+}
+.room-img{
+    width: 423px;
+    height: 264px;
+    background: url(../images/jizhoufangjiantu.jpg) no-repeat;
+}

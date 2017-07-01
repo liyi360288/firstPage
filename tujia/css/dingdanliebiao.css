@@ -229,12 +229,17 @@ td:first-child p{
 }
 .table-list .pay{
     background: #f60;
-    margin: 0 14px 0 15px;
-    padding: 5px 0;
+    display: inline-block;
     border-radius: 2px;
 }
 .table-list .pay a{
     color: #fff;
+    display: block;
+    border-radius: 2px;
+    padding: 5px 21px;
+}
+.table-list .pay a:hover{
+    background: #f90; 
 }
 .page p{
     padding: 0 10px;

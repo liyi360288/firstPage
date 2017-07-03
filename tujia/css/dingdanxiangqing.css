@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .orderlist{
     background-color: #f8f8f8;
     line-height: 43px;
@@ -25,6 +29,65 @@
 }
 .room-img{
     width: 423px;
-    height: 264px;
+    height: 263px;
     background: url(../images/jizhoufangjiantu.jpg) no-repeat;
 }
+.text-center{
+    text-align: center;
+    background: #fff;
+    width: 550px;
+}
+.topcontent-mid{
+    width: 550px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #f1f1f1;
+}
+.topcontent-mid td{
+    
+}
+.topcontent-mid td:first-child{
+    width: 114px;
+    
+}
+.topcontent-mid td:nth-child(2){
+    width: 101px;
+}
+.topcontent-mid td:nth-child(3){
+    width: 101px; 
+}
+.topcontent-mid td:nth-child(4){
+    width: 231px;
+}
+.topcontent-mid tr:first-child{
+    font-size: 12px;
+    color: #999; 
+}
+.topcontent-mid tr:first-child p{
+    padding: 10px 0 0;
+}
+.topcontent-mid tr:nth-child(2){
+    font-size: 40px;
+    color: #333;
+}
+.topcontent-mid tr:nth-child(2) p{
+    line-height: 30px;
+}
+.topcontent-mid tr:nth-child(2) span{
+    font-size: 12px;
+}
+.topcontent-mid tr:nth-child(2) td:nth-child(4){
+    color: #f30;
+}
+tr:nth-child(2) td:nth-child(4) span{
+    font-size: 16px;
+}
+.topcontent-mid tr:nth-child(3){
+    font-size: 12px;
+}
+.topcontent-mid tr:nth-child(4){
+    font-size: 12px;
+}
+.topcontent-mid a{
+    color: #3b83cb;
+}
+

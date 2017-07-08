@@ -27,27 +27,30 @@
     overflow: hidden;
     line-height: 36px;
 }
+.center-top{
+    border: 1px solid  #ddd;
+}
 .room-img{
-    width: 423px;
-    height: 263px;
+    width: 422px;
+    height: 261px;
     background: url(../images/jizhoufangjiantu.jpg) no-repeat;
 }
 .text-center{
-    text-align: center;
     background: #fff;
     width: 550px;
+    height: 261px;
+}
+.tablebox{
+    margin: 0 20px 0 21px;
+    padding: 20px 0;
+    border-bottom: 1px solid #f1f1f1;
+    text-align: center;
 }
 .topcontent-mid{
-    width: 550px;
-    box-sizing: border-box;
-    border-bottom: 1px solid #f1f1f1;
-}
-.topcontent-mid td{
-    
+    line-height: 12px;
 }
 .topcontent-mid td:first-child{
-    width: 114px;
-    
+    width: 93px;
 }
 .topcontent-mid td:nth-child(2){
     width: 101px;
@@ -56,38 +59,174 @@
     width: 101px; 
 }
 .topcontent-mid td:nth-child(4){
-    width: 231px;
+    width: 211px;
 }
 .topcontent-mid tr:first-child{
     font-size: 12px;
     color: #999; 
-}
-.topcontent-mid tr:first-child p{
-    padding: 10px 0 0;
 }
 .topcontent-mid tr:nth-child(2){
     font-size: 40px;
     color: #333;
 }
 .topcontent-mid tr:nth-child(2) p{
-    line-height: 30px;
+    line-height: 50px;
 }
 .topcontent-mid tr:nth-child(2) span{
     font-size: 12px;
+    line-height: 12px;
 }
 .topcontent-mid tr:nth-child(2) td:nth-child(4){
     color: #f30;
 }
 tr:nth-child(2) td:nth-child(4) span{
     font-size: 16px;
+    line-height: 18px;
 }
 .topcontent-mid tr:nth-child(3){
     font-size: 12px;
 }
 .topcontent-mid tr:nth-child(4){
-    font-size: 12px;
+    font-size: 12px;   
+}
+.topcontent-mid tr:nth-child(4) p{
+    margin: 4px 0 0;
 }
 .topcontent-mid a{
     color: #3b83cb;
 }
-
+td+td{
+    border-left: 1px dotted #f1f1f1;
+}
+.text-center .icon{
+    width: 17px;
+    height: 18px;
+    background: url(../images/chaozhi.png) no-repeat -193px -453px;
+}
+.text-center>p{
+    padding: 20px 0 17px 21px;
+    color: #333;
+    font-size: 12px;
+}
+.text-center>p>span{
+    color: #999;
+}
+.text-center>p>span:first-child{
+    padding-left: 22px;
+}
+.text-center>p>span:nth-child(2){
+    padding-left: 46px;
+}
+.text-center li{
+    padding-left: 30px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #333;
+}
+.text-center li:first-child{
+    padding-left: 20px;
+    margin-right: -8px;
+}
+.text-right{
+    width: 216px;
+    font-size: 12px;
+    text-align: left;
+}
+.text-right a{
+    color: #333;
+}
+.text-right li{
+    width: 119px;
+    border: 1px solid #dfdfdf;
+    margin: 8px auto 0;
+    border-radius: 2px;
+}
+.text-right p{
+    line-height: 26px;
+}
+.text-right li:first-child{
+    line-height: 14px;
+    margin-top: 20px;
+}
+.text-right .icon{
+    width: 14px;
+    height: 15px;
+    margin: 6px 10px 6px 19px;  
+}
+.text-right li:nth-child(6){
+    background: #f60;
+    font-size: 18px;
+    width: 166px;
+    height: 34px;
+    line-height: 34px;
+    margin-top: 12px;
+}
+.text-right li:nth-child(6) a{
+    color: #fff;
+}
+.text-right li:nth-child(7){
+    color: #f60;
+}
+.text-right li:first-child,.text-right li:nth-child(6),.text-right li:nth-child(7){
+    text-align: center;
+}
+.text-right li:first-child,.text-right li:nth-child(7){
+    border: none;
+}
+.text-right li:nth-child(2) .icon{
+    background: url(../images/chaozhi.png) no-repeat -193px -319px;
+}
+.text-right li:nth-child(3) .icon{
+    background: url(../images/chaozhi.png) no-repeat -193px -343px;
+}
+.text-right li:nth-child(4) .icon{
+    background: url(../images/chaozhi.png) no-repeat -193px -370px;
+}
+.text-right li:nth-child(5) .icon{
+    background: url(../images/chaozhi.png) no-repeat -193px -427px;
+}
+.roomtable{
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    background: #fff;
+}
+.roomtable>div{
+    margin: 31px 30px 0 30px;
+    border-bottom: 1px solid #ddd;
+}
+.roomtable h3{
+    width: 169px;
+    font-size: 16px;
+    line-height: 16px;
+    color: #333;
+}
+.roomtable-mid,.roomtable-right{
+    width: 90px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #333;
+}
+.roomtable-mid li,.roomtable-right li{
+    padding-bottom: 14px;
+}
+.roomtable-mid li:last-child,.roomtable-right li:last-child{
+    padding-bottom: 31px;
+}
+.roomtable-right{
+    width: auto;
+}
+.add{
+    width: 12px;
+    height: 16px;
+    margin: 0 3px 0 10px;
+    background: url(../images/chaozhi.png) no-repeat -737px -658px;
+}
+.bulle,.roomtable-right a{
+    color: #3b83cb;
+}
+.message{
+    width: 16px;
+    height: 16px;
+    margin: 0 3px 0 10px;
+    background: url(../images/chaozhi.png) no-repeat -722px -883px;
+}

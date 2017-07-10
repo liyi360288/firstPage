@@ -7,7 +7,6 @@
 .orderlist{
     background-color: #f8f8f8;
     line-height: 43px;
-    
 }
 .orderlist span{
     margin: 0 8px;
@@ -91,4 +90,35 @@
 }
 .left-content-list-menu a:hover{
     color: #f60;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.page p{
+    padding: 0 10px;
+    font-size: 12px;
+    line-height: 26px;
+    border: 1px solid #ddd;
+}
+.page a{
+    color: #999;
+}
+.page div:nth-child(2){
+    border: 1px solid #f60;
+    margin: 0 8px;
+    color: #f60;
+    line-height: 26px;
+    padding: 0 9px;
+}
+.page{
+    padding: 6px 0 67px;
 }

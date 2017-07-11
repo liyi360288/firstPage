@@ -1,5 +1,6 @@
 .content{
     background: #f8f8f8;
+    padding-bottom: 50px;
 }
 .left-content,.right-content{
     float: left;
@@ -91,18 +92,121 @@
 .left-content-list-menu a:hover{
     color: #f60;
 }
-
-
-
-
-
-
-
-
-
-
-
-
+.right-content{
+    margin-left: 20px;
+    width: 970px;
+}
+.dpmenu{
+    position: relative;
+    border-bottom: 3px solid #ddd;
+}
+.dpmenu li{
+    float: left;
+    font-size: 16px;
+    line-height: 1;
+    margin-bottom: 12px;
+    margin-top: -1px;
+    padding: 0 22px;
+}
+.dpmenu li:first-child{
+    padding: 0 23px 0 13px;
+}
+.dpmenu a{
+    color: #333;
+}
+.dpmenu li:first-child a{
+    color: #f60;
+}
+.dpmenu li+li{
+    border-left: 1px solid #ddd;
+}
+.dpmenu .icon{
+    width: 107px;
+    height: 2px;
+    background: #f60;
+    padding: 0;
+    position: absolute;
+    top: 28px;
+    left: 0;
+}
+.text{
+    font-size: 12px;
+    color: #666;
+    line-height: 30px;
+    background: #fffbf6;
+    border: 1px solid #f5debf;
+    padding-left: 12px;
+    margin: 19px 0 19px 5px;
+}
+.text span{
+    color: #333;
+}
+.dppiece{
+    float: left;
+    width: 304px;
+    height: 279px;
+    border: 1px solid #ddd;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.dppiece:first-child,.dppiece:nth-child(4){
+    margin-left: 5px;
+}
+.dppiece .icon{
+    height: 179px;
+}
+.dppiece img{
+    width: 100%;
+    height: 100%;
+}
+.dpbot{
+    padding: 0 12px 0;
+    line-height: 1;
+}
+.dpbot h3{
+    font-size: 14px;
+    color: #3b83cb;
+    padding: 12px 0;
+}
+.dpbot p{
+    font-size: 12px;
+    color: #999;
+    margin-bottom: 13px;
+}
+.dpbot .btn{
+    line-height: 28px;
+    position: relative;
+    font-size: 12px;
+}
+.btn a{
+    display: inline-block;
+    float: left;
+    width: 87px;
+    color: #fff;
+    background: #f60;
+    border-radius: 3px;
+    text-align: center;
+}
+.btn .icon{
+    width: 14px;
+    height: 14px;
+    background: url(../images/chaozhi.png) no-repeat -484px -489px;
+    position: absolute;
+    top: 7px;
+    right: 113px;
+}
+.fail a{
+    background: #999;
+}
+.dpfinish{
+    line-height: 28px;
+    font-size: 12px;
+    color: #999;
+    padding-right: 20px;
+}
+.dpfinish a{
+    color: #3b83cb;
+}
 .page p{
     padding: 0 10px;
     font-size: 12px;

@@ -1,0 +1,43 @@
+.content{
+    background: #f8f8f8;
+    padding-bottom: 50px;
+}
+.orderlist{
+    background-color: #f8f8f8;
+    line-height: 43px;
+}
+.orderlist span{
+    margin: 0 8px;
+    color: #ccc;
+}
+.orderlist a{
+    font-size: 12px;
+    color: #000;
+}
+.top-content{
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+.top-content .img{
+    width: 278px;
+    height: 164px;
+    background: url(../images/yinyanminsu.png) no-repeat;
+    padding-right: 20px;
+}
+.img,.text{
+    display: inline-block;
+    vertical-align: top;
+    color: #333;
+    font-size: 12px;
+}
+.top-content h3{
+    font-size: 18px;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+.top-content span{
+    color: #3b83cb;
+}
+.text{
+    line-height: 25px;
+}

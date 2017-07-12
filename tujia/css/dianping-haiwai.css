@@ -1,6 +1,6 @@
 .content{
     background: #f8f8f8;
-    padding-bottom: 50px;
+    padding-bottom: 79px;
 }
 .orderlist{
     background-color: #f8f8f8;
@@ -17,6 +17,7 @@
 .top-content{
     border: 1px solid #ddd;
     padding: 20px;
+    background: #fff;
 }
 .top-content .img{
     width: 278px;
@@ -35,9 +36,73 @@
     line-height: 1;
     margin-bottom: 15px;
 }
-.top-content span{
+.blue{
     color: #3b83cb;
 }
 .text{
     line-height: 25px;
+}
+.sls{
+    letter-spacing: 24px;
+}
+.fls{
+    letter-spacing: 6px;
+}
+.bot-content{
+    padding: 0 30px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    background: #fff;
+    color: #333;
+    font-size: 14px;
+}
+.bot-content li,.lside,.rside{
+    display: inline-block;
+    vertical-align: top;
+}
+.first-low,.second-low,.three-low{
+    border-bottom: 1px solid #ddd;
+    font-size: 0;
+    padding: 26px 0;
+}
+.first-low li{
+    width: 245px;
+    font-size: 14px;
+}
+.first-low>li:first-child,.lside{
+    font-size: 16px;
+    width: 180px;
+}
+.first-low>li:last-child{
+    width: 200px;
+}
+.first-low [class^=icon]{
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    top: 2px;
+    margin-left: 18px;
+    width: 90px;
+    height: 17px;
+    background: url(../images/smallicon.png) no-repeat -683px -432px;
+}
+.bot-content .icon-fourxing{
+    background: url(../images/smallicon.png) no-repeat -437px -432px;
+}
+.rside{
+    width: 948px;
+    font-size: 14px;
+}
+.rside p{
+    
+    line-height: 24px;
+}
+img{
+    float: left;
+    margin-bottom: 4px;
+    margin-top: 15px;
+    margin-right: 12px;
+}
+.three-low{
+    border-bottom: none;
 }

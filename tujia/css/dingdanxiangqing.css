@@ -33,7 +33,8 @@
 .room-img{
     width: 422px;
     height: 261px;
-    background: url(../images/jizhoufangjiantu.jpg) no-repeat;
+    font-size: 0;
+    overflow: hidden;
 }
 .text-center{
     background: #fff;

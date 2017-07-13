@@ -19,13 +19,15 @@
     padding: 20px;
     background: #fff;
 }
-.top-content .img{
+.limg{
+    font-size: 0;
+}
+.limg img{
     width: 278px;
     height: 164px;
-    background: url(../images/yinyanminsu.png) no-repeat;
     padding-right: 20px;
 }
-.img,.text{
+.limg,.text{
     display: inline-block;
     vertical-align: top;
     color: #333;
@@ -96,7 +98,7 @@
     line-height: 24px;
     font-size: 14px;
 }
-img{
+.rside img{
     margin: 15px 12px 4px 0;
 }
 .three-low{

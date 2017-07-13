@@ -58,14 +58,16 @@
     color: #333;
     font-size: 14px;
 }
-.first-low li,.lside,.rside,.syhs,.syhx{
+.first-low li,.lside,.rside{
     display: inline-block;
     vertical-align: top;
 }
-.first-low,.second-low,.three-low{
+.first-low,.second-low,.three-low,.four-low{
     border-bottom: 1px solid #ddd;
-    font-size: 0;
     padding: 26px 0;
+}
+.first-low{
+    font-size: 0;
 }
 .first-low li{
     width: 245px;
@@ -86,69 +88,49 @@
     margin-left: 18px;
     width: 90px;
     height: 17px;
-    background: url(../images/smallicon.png) no-repeat -683px -432px;
-}
-.first-low .icon-fourxing{
-    background: url(../images/smallicon.png) no-repeat -437px -432px;
+    background: url(../images/smallicon.png) no-repeat -437px -492px;
 }
 .rside{
-    width: 948px;
+    width: 740px;
 }
-.rside p{
-    line-height: 24px;
-    font-size: 14px;
+#pinglun{
+    color: #999;
+    width: 740px;
+    height: 140px;
+    box-sizing: border-box;
+    line-height: 22px;
+    resize: none;
+    padding:6px 13px;  
 }
-.rside img{
-    margin: 15px 12px 28px 0;
+.second-low p{
+    display: inline-block;
+    padding-top: 13px;
 }
-.hf{
-    position: relative;
-    border: 1px solid #ddd;
-    padding: 20px 25px 20px 75px;
-    background: #f8f8f8;
+.second-low span,.three-low span{
+    color: #f60;
 }
-.tx{
-    background: url(../images/wsdtx.png) no-repeat;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    position: absolute;
-    top: 20px;
-    left: 20px;
-}
-.sj{
-    width: 0;
-    height: 0;
-    border-width: 8px;
-    border-style: solid;
-    border-color: transparent transparent #f8f8f8;
-    position: absolute;
-    top: -16px;
-    left: 37px;
-    z-index: 99;
-}
-.bk{
-    width: 0;
-    height: 0;
-    border-width: 9px;
-    border-style: solid;
-    border-color: transparent transparent #ddd;
-    position: absolute;
-    top: -18px;
-    left: 36px;
-}
-.color999{
+.lside span{
     color: #999;
 }
-.syhs,.syhx{
-    width: 20px;
-    height: 24px;
-    background: url(../images/smallicon.png) no-repeat -466px -739px;
+.btn{
+    width: 72px;
+    height: 41px;
+    line-height: 41px;
+    color: #3b83cb;
+    border: 1px dotted #39c;
+    background: #e0f5ff;
+    padding-left: 25px;
+    position: relative;
 }
-.syhx{
-    background-position: -762px -762px;
-    margin-left: 15px;
+.jh{
+    width: 17px;
+    height: 16px;
+    background: url(../images/smallicon.png) no-repeat -405px -752px;
+    position: absolute;
+    top: 13px;
+    left: 12px;
 }
-.three-low{
-    border-bottom: none;
+.sctp p{
+    display: inline-block;
+    padding-top: 7px;
 }

@@ -62,11 +62,11 @@
     display: inline-block;
     vertical-align: top;
 }
-.first-low,.second-low,.three-low{
+.first-low,.second-low,.three-low,.four-low{
     border-bottom: 1px solid #ddd;
     padding: 26px 0;
 }
-.first-low,.second-low,.three-low{
+.first-low{
     font-size: 0;
 }
 .first-low li{
@@ -88,22 +88,79 @@
     margin-left: 18px;
     width: 90px;
     height: 17px;
-    background: url(../images/smallicon.png) no-repeat -683px -432px;
-}
-.first-low .icon-fourxing{
-    background: url(../images/smallicon.png) no-repeat -437px -432px;
+    background: url(../images/smallicon.png) no-repeat -437px -492px;
 }
 .rside{
-    width: 948px;
+    width: 740px;
 }
-.rside p{
-    line-height: 24px;
-    font-size: 14px;
+#pinglun{
+    color: #999;
+    width: 740px;
+    height: 140px;
+    box-sizing: border-box;
+    line-height: 22px;
+    resize: none;
+    padding:6px 13px;  
 }
-.rside img{
-    margin: 15px 12px 4px 0;
+.second-low p{
+    display: inline-block;
+    padding-top: 13px;
 }
-.three-low{
-    border-bottom: none;
+.second-low span,.three-low span{
+    color: #f60;
 }
-
+.lside span{
+    color: #999;
+}
+.btn{
+    width: 72px;
+    height: 41px;
+    line-height: 41px;
+    color: #3b83cb;
+    border: 1px dotted #39c;
+    background: #e0f5ff;
+    padding-left: 25px;
+    position: relative;
+}
+.jh{
+    width: 17px;
+    height: 16px;
+    background: url(../images/smallicon.png) no-repeat -405px -752px;
+    position: absolute;
+    top: 13px;
+    left: 12px;
+}
+.sctp p{
+    display: inline-block;
+    padding-top: 7px;
+}
+.four-low .rside{
+    line-height: 51px;
+}
+input{
+    margin-right: 10px;
+    margin-left: 38px;
+}
+input:first-child{
+    margin-left: 0;
+}
+.five-low{
+    text-align: center;
+    padding: 30px 0;
+    font-size: 0;
+}
+.tjbtn{
+    width: 138px;
+    height: 36px;
+    background: #f60;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    vertical-align: top;
+}
+.dagou{
+    width: 36px;
+    height: 36px;
+    background: url(../images/smallicon.png) no-repeat -395px -663px #ff9000;
+    display: inline-block;
+}

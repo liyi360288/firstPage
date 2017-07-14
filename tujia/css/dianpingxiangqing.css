@@ -64,8 +64,10 @@
 }
 .first-low,.second-low,.three-low{
     border-bottom: 1px solid #ddd;
-    font-size: 0;
     padding: 26px 0;
+}
+.first-low,.second-low,.three-low{
+    font-size: 0;
 }
 .first-low li{
     width: 245px;
@@ -93,10 +95,10 @@
 }
 .rside{
     width: 948px;
+    font-size: 14px;
 }
 .rside p{
     line-height: 24px;
-    font-size: 14px;
 }
 .rside img{
     margin: 15px 12px 28px 0;

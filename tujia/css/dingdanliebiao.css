@@ -1,13 +1,9 @@
 .content{
     background: #f8f8f8;
 }
-.left-content,.right-content{
-    float: left;
-}
 .orderlist{
     background-color: #f8f8f8;
     line-height: 43px;
-    
 }
 .orderlist span{
     margin: 0 8px;
@@ -19,82 +15,85 @@
 }
 .left-content{
     width: 200px;
+    border-top: 1px solid #f60;
+    border-left: 1px solid #f1f1f1;
+    border-right: 1px solid #f1f1f1;
 }
-.left-content-list>li{
-    overflow: hidden;
+.one-list{
     position: relative;
+}
+.one-list ul{
+    margin-left: 85px;
+    padding: 15px 0;
+    line-height: 20px;
 }
 .userimg{
     width: 60px;
     height: 60px;
     border-radius: 50% 50%;
     background: url(../images/touxiang.png) no-repeat;
-    margin: 15px 12px;
-    float: left;
+    position: absolute;
+    top: 15px;
+    left: 12px;
 }
-.userimg+ul{
-    float: left;
-    margin: 16px 0;
+.left-content-list>li{
+    position: relative;
 }
-.userimg+ul li:first-child{
+.xm{
     font-size: 14px;
 }
-.userimg+ul li+li{
+.jf,.xgzl{
     font-size: 12px;
 }
-.left-content-list{
-    border: 1px solid #f1f1f1;
-    border-top: 1px solid #f60;
+.one-list{
+    border-bottom: 1px solid #f1f1f1;
+    background: #fff;
+}
+.two-list,.four-list,.six-list,.eight-list,.ten-list{
+    line-height: 40px;
+    padding-left: 43px;
+    border-bottom: 1px solid #f1f1f1;
+}
+.three-list,.five-list,.seven-list,.nine-list,.eleven-list{
+    line-height: 30px;
+    padding: 6px 0 5px 43px;
+    border-bottom: 1px solid #f1f1f1;
+    background: #fff;
 }
 .left-content-list-title{
     border: 1px solid #f1f1f1;
     border-top: 1px solid #f1f1f1;
     background: #f8f8f8;
 }
-.left-content-list-title>div{
+.list-icon{
     position: absolute;
     top:12px;
     left: 12px;
     width: 17px;
-    height: 17px;
+    height: 19px;
     background: url(../images/chaozhi.png) no-repeat -193px -280px;
 }
-.left-content-list li:nth-child(4) div{
+.four-list .list-icon{
     background: url(../images/chaozhi.png) no-repeat -193px -393px;
 }
-.left-content-list li:nth-child(6) div{
+.six-list .list-icon{
     background: url(../images/chaozhi.png) no-repeat -193px -656px;
 }
-.left-content-list li:nth-child(8) div{
+.nine-list .list-icon{
     background: url(../images/chaozhi.png) no-repeat -193px -889px;
 }
-.left-content-list li:nth-child(10) div{
+.eleven-list .list-icon{
     background: url(../images/chaozhi.png) no-repeat -193px -973px;
 }
-.left-content-list-title>p{
-    padding-left: 43px;
-    line-height: 40px;
-}
-.left-content-list-menu{
-    border-top: 1px solid #f1f1f1;
-    background: #fff;
-}
-.left-content-list-menu ul{
-    padding:5px 0 5px 43px;
-}
-.left-content-list-menu li{
-    line-height: 30px;
-}
-.left-content-list-menu a{
+.left-content-list a{
     font-size: 12px;
     color: #666;
 }
-.left-content-list-menu a:hover{
+.left-content-list a:hover{
     color: #f60;
 }
 .right-content{
     width: 970px;
-    margin-left: 20px;
 }
 .right-content-orderlist{
     border-bottom: 1px solid #ddd;

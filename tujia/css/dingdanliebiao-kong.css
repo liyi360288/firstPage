@@ -1,0 +1,97 @@
+.content{
+    background: #f8f8f8;
+}
+.orderlist{
+    background-color: #f8f8f8;
+    line-height: 43px;
+}
+.orderlist span{
+    margin: 0 8px;
+    color: #ccc;
+}
+.orderlist a{
+    font-size: 12px;
+    color: #000;
+}
+.left-content{
+    width: 200px;
+    border-top: 1px solid #f60;
+    border-left: 1px solid #f1f1f1;
+    border-right: 1px solid #f1f1f1;
+}
+.one-list{
+    position: relative;
+}
+.one-list ul{
+    margin-left: 85px;
+    padding: 15px 0;
+    line-height: 20px;
+}
+.userimg{
+    width: 60px;
+    height: 60px;
+    border-radius: 50% 50%;
+    background: url(../images/touxiang.png) no-repeat;
+    position: absolute;
+    top: 15px;
+    left: 12px;
+}
+.left-content-list>li{
+    position: relative;
+}
+.xm{
+    font-size: 14px;
+}
+.jf,.xgzl{
+    font-size: 12px;
+}
+.one-list{
+    border-bottom: 1px solid #f1f1f1;
+    background: #fff;
+}
+.two-list,.four-list,.six-list,.eight-list,.ten-list{
+    line-height: 40px;
+    padding-left: 43px;
+    border-bottom: 1px solid #f1f1f1;
+}
+.three-list,.five-list,.seven-list,.nine-list,.eleven-list{
+    line-height: 30px;
+    padding: 6px 0 5px 43px;
+    border-bottom: 1px solid #f1f1f1;
+    background: #fff;
+}
+.left-content-list-title{
+    border: 1px solid #f1f1f1;
+    border-top: 1px solid #f1f1f1;
+    background: #f8f8f8;
+}
+.list-icon{
+    position: absolute;
+    top:12px;
+    left: 12px;
+    width: 17px;
+    height: 19px;
+    background: url(../images/chaozhi.png) no-repeat -193px -280px;
+}
+.four-list .list-icon{
+    background: url(../images/chaozhi.png) no-repeat -193px -393px;
+}
+.six-list .list-icon{
+    background: url(../images/chaozhi.png) no-repeat -193px -656px;
+}
+.nine-list .list-icon{
+    background: url(../images/chaozhi.png) no-repeat -193px -889px;
+}
+.eleven-list .list-icon{
+    background: url(../images/chaozhi.png) no-repeat -193px -973px;
+}
+.left-content-list a{
+    font-size: 12px;
+    color: #666;
+}
+.left-content-list a:hover{
+    color: #f60;
+}
+.right-content{
+    width: 970px;
+}

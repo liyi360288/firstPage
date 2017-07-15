@@ -1,5 +1,6 @@
 .content{
     background: #f8f8f8;
+    padding-bottom: 36px;
 }
 .orderlist{
     background-color: #f8f8f8;
@@ -92,6 +93,49 @@
 .left-content-list a:hover{
     color: #f60;
 }
+.color a{
+    color: #f60;
+}
 .right-content{
     width: 970px;
+}
+.right-content-orderlist{
+    border-bottom: 1px solid #ddd;
+}
+.right-content-orderlist li{
+    float: left;
+    position: relative;
+    margin-top: -4px;
+    padding: 0 21px 6px 19px;
+}
+.right-content-orderlist li+li{
+    border-left: 1px solid #ddd;
+}
+.hengxian{
+    width: 104px;
+    height: 2px;
+    background: url(../images/chaozhi.png) no-repeat -193px -205px;
+    position: absolute;
+    top: 29px;
+    left: 0;
+}
+.right-content-orderlist a{
+    font-size: 16px;
+    color: #333;
+}
+.right-content-orderlist a:hover{
+    color: #f60;
+}
+.dingdan-list{
+    text-align: center;
+    font-size: 0;
+}
+.dingdan-list img{
+    padding-top: 65px;
+}
+.txt{
+    font-size: 16px;
+    color: #999;
+    line-height: 1;
+    padding-top: 9px;
 }

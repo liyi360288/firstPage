@@ -97,7 +97,6 @@
 }
 .right-content-orderlist{
     border-bottom: 1px solid #ddd;
-    overflow: hidden;
 }
 .right-content-orderlist li{
     float: left;
@@ -108,7 +107,7 @@
 .right-content-orderlist li+li{
     border-left: 1px solid #ddd;
 }
-.right-content-orderlist li div{
+.hengxian{
     width: 104px;
     height: 2px;
     background: url(../images/chaozhi.png) no-repeat -193px -205px;

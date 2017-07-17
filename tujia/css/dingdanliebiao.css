@@ -12,14 +12,14 @@
 }
 .content-top a{
     color: #000;
-}
+}                       /* end-content-top */
 .left-content{
     width: 200px;
     border-top: 1px solid #f60;
     border-left: 1px solid #f1f1f1;
     border-right: 1px solid #f1f1f1;
 }
-.one-list{
+.one-list{                  /* 左边用户资料开始 */
     position: relative;
     padding: 15px 0 15px 85px;
     line-height: 20px;
@@ -47,8 +47,8 @@
 .one-list{
     border-bottom: 1px solid #f1f1f1;
     background: #fff;
-}
-.content-title{
+}                                /* 左边用户资料结束 */
+.content-title{                     
     line-height: 40px;
     padding-left: 12px;
     border-bottom: 1px solid #f1f1f1;
@@ -65,7 +65,10 @@
 .content-menu a{
     color: #666;
 }
-.list-icon{
+.content-menu .color-f60{           /* 订单管理的颜色 */
+    color: #f60;
+}
+.list-icon{                         /* 左边列表的小图标 */
     display: inline-block;
     vertical-align: middle;
     padding-right: 10px;
@@ -87,7 +90,7 @@
 }
 a:hover{
     color: #f60;
-}
+}                           /* 左边content结束 */
 .right-content{
     width: 970px;
 }
@@ -102,6 +105,10 @@ a:hover{
     vertical-align: top;
     padding: 0 20px 12px;
     font-size: 16px;  
+    color: #333;
+}
+.dingdan-menu .color-f60{
+    color: #f60;
 }
 .dingdan-menu span{
     font-size: 16px;
@@ -114,7 +121,7 @@ a:hover{
     height: 2px;
     background: url(../images/chaozhi.png) no-repeat -193px -205px;
 }
-.xllb{
+.xllb{                          /* 订单下拉列表开始 */
     position: relative;
 }
 .btn{
@@ -127,11 +134,10 @@ a:hover{
     padding-left: 12px;
     margin: 20px 0 12px;
 }
-
 .btn a{
     display: block;
 }
-.sjiao{
+.sjiao{                         /* 下拉列表的橙色三角 */
     position: absolute;
     top: 11px;
     right: 12px;
@@ -145,158 +151,266 @@ a:hover{
     display: none;
     position: absolute;
     left: 1px;
-    top: 1px;
+    top: 35px;
     z-index: 200;  
 }
-.btn:hover .xlcd{
+.xlcd a{
     display: block;
-}
-.right-content-orderlist li{
-    float: left;
-    position: relative;
-    margin-top: -4px;
-    padding: 0 21px 6px 19px;
-}
-.right-content-orderlist a{
-    font-size: 16px;
-    color: #333;
-}
-.right-content-orderlist a:hover{
-    color: #f60;
-}
-.right-content-allorder>div{
-    width: 96px;
-    height: 26px;
-    float: left;
-    margin-top: 20px;
-    position: relative;
-    border: 1px solid #ddd;
-}
-.right-content-allorder-icon+p{
+    width: 97px;
     line-height: 26px;
-    margin: 0 0 0 12px ;
-    font-size: 12px;
-    color: #333;
+    border: 1px solid #ddd;
+    background: #fff;
+    text-align: left;
+    padding-left: 12px;
 }
-.right-content-allorder-icon{
-    width: 7px;
-    height: 5px;
-    position: absolute;
-    top:11px;
-    left:78px;
-    background: url(../images/chaozhi.png) no-repeat -193px -232px;
-}
-.right-content-allorder>p{
+.xllb p{
+    float: right;
     font-size: 12px;
     color: #666;
-    text-align: right;
-    padding: 25px 0 19px;
+    margin-top: 24px;
 }
-.right-content-allorder>p>span{
+.xllb p span{
     color: #f60;
-}
-
-table{
+}                               /* 订单下拉列表end */
+.right-content>table{                          /* 表格开始 */
     width: 100%;
     text-align: center;
     font-size: 12px;
-}
-th:first-child div{
-    width: 250px;
-    text-align: left;
-    box-sizing: border-box;
-    padding: 10px 0 10px 14px;
-}
-th:nth-child(2){
-    width: 120px;
-}
-th:nth-child(3){
-    width: 120px;
-}
-th:nth-child(4){
-    width: 80px;
-}
-th:nth-child(5){
-    width: 160px;
-}
-th:nth-child(6){
-    width: 120px;
-}
-th:nth-child(7){
-    width: 120px;
-    line-height: 22px;
-}
-th{
-    box-sizing: border-box;
-    background: #f8f8f8; 
-}
-table tr:first-child{
+    margin-bottom: 14px;
+}                                       
+.first-low{                     /* 第一行 */
+    color: #999;
+    line-height: 37px;
     border: 1px solid #ddd;
     border-bottom: none;
 }
-td{
-    background: #fff;
-    padding: 18px 0 16px;
-    vertical-align: top;
-    border: 1px solid #ddd;
-}
-td:first-child img{
-    margin: 0px 10px 0 12px;
-}
-td:first-child p{
+.first-th{
+    color: #333;
     text-align: left;
-    padding-right: 15px;
+    padding-left: 12px;
 }
-.table-list{
-    margin-bottom: 14px;
+.first-td{
+    text-align: left;
+    padding-right: 23px;
 }
-.table-list:nth-child(3) td:nth-child(6)>div,.table-list:nth-child(4) td:nth-child(5)>div,.table-list:nth-child(5) td:nth-child(6)>div,.table-list:nth-child(6) td:nth-child(5)>div,.table-list:nth-child(7) td:nth-child(6)>div{
+.color-blus{
+    color: #69c;
+}
+.color-f60{
+    color: #f60;
+}
+.color-333{
+    color: #333;
+}
+.qx-td{
+    position: relative;
+}
+.qx-icon{
     display: inline-block;
-}
-.table-list:nth-child(3) td:nth-child(6) .icon,.table-list:nth-child(4) td:nth-child(5) .icon,.table-list:nth-child(5) td:nth-child(6) .icon,.table-list:nth-child(6) td:nth-child(5) .icon,.table-list:nth-child(7) td:nth-child(6) .icon{
+    vertical-align: top;
     width: 16px;
     height: 18px;
     background: url(../images/chaozhi.png) no-repeat -193px -543px;
 }
-.table-list th:first-child span{
-    color: #69c;
+.qx-icon:hover+.qxms{
+    display: block;
 }
-.table-list td:first-child span,.table-list td a{
+.qxms{                              /* 取消订单的框架 */
+    display: none;
+    position: absolute;
+    top: 42px;
+    left: 1px;
+    color: #999;
+    font-size: 12px;
+    line-height: 22px;
+    width: 152px;
+    height: 59px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    background: #fff;
+    text-align: left;
+    padding: 7px 0 6px 13px
+}
+.one-sj,.two-sj,.three-sj,.four-sj{                   /* 取消订单和定金的三角形-开始 */
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 8px;
+    border-color: transparent transparent #ddd;
+}
+.one-sj{                                /* 取消订单的三角形 */
+    top: -17px;
+    left: 70px;
+}
+.two-sj{
+    top: -16px;
+    left: 70px;
+    border-color: transparent transparent #fff;
+    z-index: 20;
+}
+.three-sj{                              /* 定金的三角形 */
+    top: -16px;
+    border-color: transparent transparent #fff;
+    left: 47px;
+    z-index: 20;
+}
+.four-sj{
+    top: -17px;
+    left: 47px;
+}                                 /* 取消订单和定金的三角形-结束 */
+.qx-icon:hover+.djje{               /* 定金明细开始 */
+    display: block;
+}
+.djje-td{
+    position: relative;
+}
+.djje{
+    display: none;
+    position: absolute;
+    top: 42px;
+    right: -24px;
+    color: #999;
+    font-size: 12px;
+    line-height: 22px;
+    width: 132px;
+    height: 59px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    background: #fff;
+    text-align: left;
+    padding: 7px 0 6px 13px;
+}                                   /* 定金明细结束 */
+.second-low{                    /* 第二行 */
+    border: 1px solid #ddd;
+    background: #fff;
+    vertical-align: top;
+}
+.second-low>td+td{
+    border-left: 1px solid #ddd;
+}
+.second-low img{
+    float: left;
+    padding: 0 10px 0 12px;
+}
+.second-low>td{
+    padding: 14px 0 11px;
+}
+.second-low td:nth-child(7){
+    line-height: 22px;
+}
+.first-low th:nth-child(2),.first-low th:nth-child(3),.first-low th:nth-child(6),.first-low th:nth-child(7){
+    width: 119px;
+}
+.first-low th:nth-child(4){
+    width: 79px;
+}
+.first-low th:nth-child(5){
+    width: 159px;
+}
+td a{
     color: #3b83cb;
 }
-.table-list td:nth-child(5){
+.jgmx-td{                       /* 价格明细表开始 */
+    position: relative;
+}
+.jgmx:hover+.jgmx-table{
+    display: block;
+}
+.jgmx-txt{
+    font-size: 14px;
+    line-height: 36px;
+    color: #666;
+    background: #f8f8f8;
+    padding-left: 11px;
+    border: 1px solid #ddd;
+    width:397px;
+}
+.jgmx-table{
+    display: none;
+    position: absolute;
+    top: -10px;
+    left: -500px;
+    text-align: left;
+    line-height: 38px;
+    z-index: 100;
+    
+}
+.jgmx-war{
+    padding: 12px 12px 12px 11px;
+    border: 1px solid #ddd;
+    border-top: none;
+    background: #fff;
+}
+.jgmx-table table{
+    text-align: left;
+    width: 100%;
+}
+.jgmx-war th:first-child,.jgmx-war td:first-child{
+    padding-left: 11px;
+}
+.jgmx-war th:first-child{
+    width: 106px;
+}
+.jgmx-war th:nth-child(2){
+    width: 113px;
+}
+.jgmx-war th:nth-child(3){
+    width: 72px;
+}
+.jgmx-table th{                 /* 价格明细表第一行的颜色 */
+    color: #999;
+}
+.jgmx-table td{                 /* 价格明细表最后三行的颜色 */
+    color: #333;
+}
+.jgmx-table span{               /* 价格明细表价格的颜色 */
     color: #f60;
 }
-.table-list .pay{
+.text-right{
+    text-align: right;
+}
+.bgc-f8{
+    background: #f8f8f8;
+}                               /* 价格明细表end */
+.btn-pay{                       /* 立即支付的按钮 */
+    width: 90px;
+    height: 28px;
     background: #f60;
-    display: inline-block;
+    border: none;
     border-radius: 2px;
+    margin: 3px 0;
 }
-.table-list .pay a{
+.btn-pay:hover{
+    background: #f90;
+}
+.btn-pay a{
     color: #fff;
-    display: block;
-    border-radius: 2px;
-    padding: 5px 21px;
 }
-.table-list .pay a:hover{
-    background: #f90; 
+.page{                              /* 选页 */
+    text-align: right;
+    font-size: 0;
+    margin-bottom: 67px;
 }
-.page p{
-    padding: 0 10px;
+.page li{
+    display: inline-block;
     font-size: 12px;
     line-height: 26px;
+    padding: 0 10px;
     border: 1px solid #ddd;
 }
 .page a{
     color: #999;
 }
-.page div:nth-child(2){
+.page-no{
     border: 1px solid #f60;
-    margin: 0 8px;
     color: #f60;
-    line-height: 26px;
-    padding: 0 9px;
+    margin: 0 8px;
 }
-.page{
-    padding: 6px 0 67px;
-}
+
+
+
+
+
+
+

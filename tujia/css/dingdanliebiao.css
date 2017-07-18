@@ -2,7 +2,6 @@
     background: #f8f8f8;
 }
 .content-top{
-    background-color: #f8f8f8;
     line-height: 43px;
     font-size: 12px;
 }
@@ -121,23 +120,22 @@ a:hover{
     height: 2px;
     background: url(../images/chaozhi.png) no-repeat -193px -205px;
 }
-.xllb{                          /* 订单下拉列表开始 */
-    position: relative;
-}
-.btn{
-    position: relative;
+                                     /* 下拉列表开始 */                       
+.btn a{
+    display: block;
     width: 97px;
     line-height: 26px;
     border: 1px solid #ddd;
     background: #fff;
     text-align: left;
-    padding-left: 12px;
+    padding-left: 12px;   
+}
+.btn{
     margin: 20px 0 12px;
+    position: relative;
+    border: none;
 }
-.btn a{
-    display: block;
-}
-.sjiao{                         /* 下拉列表的橙色三角 */
+.sjiao{                         /* 下拉列表鼠标未移到的橙色三角 */
     position: absolute;
     top: 11px;
     right: 12px;
@@ -147,21 +145,35 @@ a:hover{
     border-style: solid;
     border-color: #f60 transparent transparent; 
 }
+.xjiao{                       /* 下拉列表鼠标hove的橙色三角 */
+    position: absolute;
+    display: none;
+    top: 7px;
+    right: 12px;
+    width: 0;
+    height: 0;
+    border-width:4px;
+    border-style: solid;
+    border-color: transparent transparent #f60; 
+}
+.btn:hover .xlcd{
+    display: block;
+}
+.btn:hover .sjiao{
+    display: none;
+}
+.btn:hover .xjiao{
+    display: block;
+}
 .xlcd{
     display: none;
     position: absolute;
-    left: 1px;
-    top: 35px;
+    left: 0;
+    top: 100%;
     z-index: 200;  
 }
 .xlcd a{
-    display: block;
-    width: 97px;
-    line-height: 26px;
-    border: 1px solid #ddd;
-    background: #fff;
-    text-align: left;
-    padding-left: 12px;
+    border-top: none;
 }
 .xllb p{
     float: right;

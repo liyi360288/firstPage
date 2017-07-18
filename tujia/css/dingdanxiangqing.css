@@ -1,28 +1,122 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-.orderlist{
-    background-color: #f8f8f8;
-    line-height: 43px;
-    
-}
-.orderlist span{
-    margin: 0 8px;
-    color: #ccc;
-}
-.orderlist a{
-    font-size: 12px;
-    color: #000;
-}
 .content{
     background: #f8f8f8;
 }
-.main>p{
+.content-top{
+    line-height: 43px;
+    font-size: 12px;
+}
+.content-top span{
+    margin: 0 7px;
+    color: #ccc;
+}
+.content-top a{
+    color: #000;
+}                       /* end-content-top */
+.title a{
     font-size: 24px;
     color: #3b83cb;
-    line-height: 38px;
 }
+.back{
+    color: #333;
+    font-size: 14px;
+    line-height: 29px;
+}
+.back a{
+    font-size: 12px;
+    color: #3b83cb;
+}
+.container-top{
+    display: table;
+    border: 1px solid #ddd;
+    width: 100%;
+}
+.container-top .left-side{
+    width: 422px;
+    font-size: 0;
+}
+.container-top .mid-side{
+    padding: 20px;
+    font-size: 12px;
+    color: #333;
+}
+.mid-side ul{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+.mid-side li+li{
+    border-left: 1px dotted #ddd;
+}
+.mid-side li{
+    display: inline-block;
+    vertical-align: top;
+    width: 101px;
+    text-align: center;
+}
+.mid-side li:first-child{
+    width: 93px;
+}
+.mid-side li:last-child{
+    width: auto;
+}
+.big{
+    font-size: 40px;
+}
+.mid-side .icon{
+    display: inline-block;
+    vertical-align: middle;
+    width: 18px;
+    height: 20px;
+    margin: 0 3px 0 28px;
+    background: url(../images/chaozhi.png) no-repeat -193px -453px;
+}
+.mid-side .icon:first-child{
+    margin-left: 20px;
+}
+.container-top .mid-side,.container-top .right-side,.container-top .left-side{
+    display: table-cell;
+    vertical-align: top;
+}
+
+.container-top .right-side{
+    width: 216px;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 18px;
+}
+.right-side a{
+    display: block;
+    margin: 8px auto;
+    width: 119px;
+    line-height: 26px;
+    background: #fff;
+    border: 1px solid #ddd;
+    color: #333;
+}
+.right-side-icon{
+    display: inline-block;
+    vertical-align: middle;    
+    width: 17px;
+    height: 17px;
+    margin-right: 9px;
+    background: url(../images/chaozhi.png) no-repeat -193px -319px;
+}
+.right-side .pay{
+    color: #fff;
+    background: #f60;
+    font-size: 18px;
+    width: 168px;
+    line-height: 36px;
+    margin: 12px auto 6px;
+}
+.fs-14{                             /* 未付款的14号字体 */
+    font-size: 14px;
+}
+.color-f60{                         /* 付款剩余时间的颜色 */
+    color: #f60;
+}
+/* 
+
+
 .backorder{
     overflow: hidden;
     line-height: 36px;
@@ -303,3 +397,4 @@ td+td{
     color: #fff;
     margin-right: 40px;
 }
+ */

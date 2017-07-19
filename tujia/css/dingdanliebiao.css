@@ -125,10 +125,15 @@ a:hover{
     display: block;
     width: 97px;
     line-height: 26px;
-    border: 1px solid #ddd;
+    border: 1px solid #ffcd5d;
     background: #fff;
     text-align: left;
-    padding-left: 12px;   
+    padding-left: 12px;
+    color: #333;   
+}
+.btn a:hover{
+    background: #ff8533;
+    color: #fff;
 }
 .btn{
     margin: 20px 0 12px;
@@ -172,9 +177,13 @@ a:hover{
     top: 100%;
     z-index: 200;  
 }
-.xlcd a{
+.xlcd{
+    border: 1px solid #ddd;
     border-top: none;
 }
+.xlcd a{
+    border: none;
+}                                            /* 订单下拉列表end */
 .xllb p{
     float: right;
     font-size: 12px;
@@ -183,7 +192,7 @@ a:hover{
 }
 .xllb p span{
     color: #f60;
-}                               /* 订单下拉列表end */
+}                              
 .right-content>table{                          /* 表格开始 */
     width: 100%;
     text-align: center;
@@ -346,7 +355,6 @@ td a{
     text-align: left;
     line-height: 38px;
     z-index: 100;
-    
 }
 .jgmx-war{
     padding: 12px 12px 12px 11px;

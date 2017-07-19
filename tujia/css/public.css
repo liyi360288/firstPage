@@ -1,6 +1,7 @@
 .main{
     margin: 0 auto;
     width: 1190px;
+    overflow: hidden;
 }
 .top{
     height: 50px;

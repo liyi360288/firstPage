@@ -118,7 +118,7 @@ a:hover{
     left: 0;
     width: 104px;
     height: 2px;
-    background: url(../images/chaozhi.png) no-repeat -193px -205px;
+    background: #f60;
 }
                                      /* 下拉列表开始 */                       
 .btn a{

@@ -2,52 +2,43 @@
     background: #f8f8f8;
     padding-bottom: 79px;
 }
-.orderlist{
-    background-color: #f8f8f8;
+.content-top{
     line-height: 43px;
+    font-size: 12px;
 }
-.orderlist span{
-    margin: 0 8px;
+.content-top span{
+    margin: 0 7px;
     color: #ccc;
 }
-.orderlist a{
-    font-size: 12px;
+.content-top a{
     color: #000;
-}
+}   
 .top-content{
     border: 1px solid #ddd;
     padding: 20px;
     background: #fff;
-}
-.limg{
     font-size: 0;
-}
-.limg img{
-    width: 278px;
-    height: 164px;
+} 
+.top-content img{
     padding-right: 20px;
 }
-.limg,.text{
+.top-content ul{
     display: inline-block;
     vertical-align: top;
-    color: #333;
     font-size: 12px;
-}
-.top-content h3{
-    font-size: 18px;
-    line-height: 1;
-    margin-bottom: 15px;
-}
-.blue{
-    color: #3b83cb;
-}
-.text{
     line-height: 25px;
 }
-.sls{
-    letter-spacing: 24px;
+.top-content .title{
+    font-size: 18px;
+    margin-bottom: 7px;
 }
-.fls{
+.top-content .title a{
+    color: #3b83cb;
+}
+.dizhi{                             /* 地址的间隔符 */
+    letter-spacing: 2em;
+}
+.ruzhu{                             /* 入住人的间隔符 */
     letter-spacing: 6px;
 }
 .bot-content{
@@ -66,7 +57,7 @@
     border-bottom: 1px solid #ddd;
     padding: 26px 0;
 }
-.first-low,.second-low,.three-low{
+.first-low,.second-low .rside{
     font-size: 0;
 }
 .first-low li{
@@ -93,12 +84,12 @@
 .first-low .icon-fourxing{
     background: url(../images/smallicon.png) no-repeat -437px -432px;
 }
-.rside{
-    width: 948px;
-}
-.rside p{
-    line-height: 24px;
+.second-low .rside p{
     font-size: 14px;
+    line-height: 24px;
+}
+.rside{
+    width: 940px;
 }
 .rside img{
     margin: 15px 12px 4px 0;

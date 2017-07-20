@@ -19,6 +19,9 @@
     background: #fff;
     font-size: 0;
 } 
+.top-content img{
+    padding-right: 20px;
+}
 .top-content ul{
     display: inline-block;
     vertical-align: top;
@@ -32,35 +35,10 @@
 .top-content .title a{
     color: #3b83cb;
 }
-
-
-
-
-
-.top-content img{
-    padding-right: 20px;
+.dizhi{                             /* 地址的间隔符 */
+    letter-spacing: 2em;
 }
-.limg,.text{
-    display: inline-block;
-    vertical-align: top;
-    color: #333;
-    font-size: 12px;
-}
-.top-content h3{
-    
-    line-height: 1;
-    
-}
-.blue{
-    color: #3b83cb;
-}
-.text{
-    line-height: 25px;
-}
-.sls{
-    letter-spacing: 24px;
-}
-.fls{
+.ruzhu{                             /* 入住人的间隔符 */
     letter-spacing: 6px;
 }
 .bot-content{
@@ -75,11 +53,11 @@
     display: inline-block;
     vertical-align: top;
 }
-.first-low,.second-low,.three-low,.four-low{
+.first-low,.second-low,.three-low,.four-low,.five-low,.six-low{
     border-bottom: 1px solid #ddd;
     padding: 26px 0;
 }
-.first-low{
+.first-low,.second-low .rside{
     font-size: 0;
 }
 .first-low li{
@@ -113,67 +91,97 @@
     box-sizing: border-box;
     line-height: 22px;
     resize: none;
-    padding:6px 13px;  
+    padding:6px 13px; 
+    font-size: 14px; 
 }
 .second-low p{
-    display: inline-block;
+    width: 100%;
+    font-size: 14px;
     padding-top: 13px;
 }
-.second-low span,.three-low span{
+.second-low span,.three-low span,.six-low span{
     color: #f60;
+}
+.second-low .color-666{
+    color: #666;
 }
 .lside span{
     color: #999;
 }
-.btn{
-    width: 72px;
-    height: 41px;
-    line-height: 41px;
-    color: #3b83cb;
-    border: 1px dotted #39c;
-    background: #e0f5ff;
-    padding-left: 25px;
+.three-low .rside,.six-low .rside{
+    font-size: 0;
+}
+.three-low .btn,.six-low .btn{
     position: relative;
-}
-.jh{
-    width: 17px;
-    height: 16px;
-    background: url(../images/smallicon.png) no-repeat -405px -752px;
-    position: absolute;
-    top: 13px;
-    left: 12px;
-}
-.sctp p{
     display: inline-block;
-    padding-top: 7px;
 }
-.four-low .rside{
+.three-low .btn-file,.six-low .btn-file{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 74px;
+    height: 43px;
+    opacity: 0;
+    z-index: 20;
+}
+.three-low .file-icon,.six-low .file-icon{
+    display: inline-block;
+    width: 74px;
+    height: 43px;
+    background: url(../images/file-icon.png) no-repeat;
+}                                               /* 按钮hover更改背景图 */
+.three-low .btn-file:hover+.file-icon,.six-low .btn-file:hover+.file-icon{
+    background: url(../images/file-hover.png) no-repeat;
+}
+.three-low i,.six-low i{
+    font-style: normal;
+}
+.three-low .rside p,.six-low .rside p{
+    padding-top: 11px;
+    font-size: 14px;
+}
+.four-low .rside{                           /* 单选项栏 */
     line-height: 51px;
 }
-input{
+.four-low input{
     margin-right: 10px;
     margin-left: 38px;
 }
-input:first-child{
+.four-low input:first-child{
     margin-left: 0;
 }
-.five-low{
+.five-low{                                  /* 提交按钮栏 */
     text-align: center;
     padding: 30px 0;
     font-size: 0;
 }
 .tjbtn{
-    width: 138px;
+    width: 168px;
     height: 36px;
-    background: #f60;
+    background: url(../images/tijiao-btn.png) no-repeat;
     border: none;
     color: #fff;
     font-size: 18px;
     vertical-align: top;
 }
-.dagou{
-    width: 36px;
-    height: 36px;
-    background: url(../images/smallicon.png) no-repeat -395px -663px #ff9000;
+.tjbtn:hover{
+    background: url(../images/tijiao-btn-hover.png) no-repeat;
+}
+.six-low .img-box{                              /* 上传图片栏的css */
     display: inline-block;
+    position: relative;
+    vertical-align: top;
+    margin-right: 12px;
+}
+.six-low .img-box:hover .x-icon{
+    background: url(../images/x-icon-hover.png) no-repeat;
+}
+.six-low .x-icon{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 16px;
+    height: 16px;
+    background: url(../images/x-icon.png) no-repeat;
 }

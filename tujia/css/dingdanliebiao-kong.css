@@ -1,141 +1,128 @@
 .content{
     background: #f8f8f8;
-    padding-bottom: 36px;
 }
-.orderlist{
-    background-color: #f8f8f8;
+.content-top{
     line-height: 43px;
+    font-size: 12px;
 }
-.orderlist span{
-    margin: 0 8px;
+.content-top span{
+    margin: 0 7px;
     color: #ccc;
 }
-.orderlist a{
-    font-size: 12px;
+.content-top a{
     color: #000;
-}
+}                       /* end-content-top */
 .left-content{
     width: 200px;
     border-top: 1px solid #f60;
     border-left: 1px solid #f1f1f1;
     border-right: 1px solid #f1f1f1;
+    margin-bottom: 35px;
 }
-.one-list{
+.one-list{                  /* 左边用户资料开始 */
     position: relative;
-}
-.one-list ul{
-    margin-left: 85px;
-    padding: 15px 0;
+    padding: 15px 0 15px 85px;
     line-height: 20px;
+    color: #333;
+    font-size: 12px;
 }
 .userimg{
     width: 60px;
     height: 60px;
-    border-radius: 50% 50%;
-    background: url(../images/touxiang.png) no-repeat;
     position: absolute;
     top: 15px;
     left: 12px;
 }
-.left-content-list>li{
-    position: relative;
+.userimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
 }
 .xm{
     font-size: 14px;
 }
-.jf,.xgzl{
-    font-size: 12px;
+.one-list a{
+    color: #2e7dcd;
 }
 .one-list{
     border-bottom: 1px solid #f1f1f1;
     background: #fff;
-}
-.two-list,.four-list,.six-list,.eight-list,.ten-list{
+}                                /* 左边用户资料结束 */
+.content-title{                     
     line-height: 40px;
-    padding-left: 43px;
+    padding-left: 12px;
     border-bottom: 1px solid #f1f1f1;
+    font-size: 14px;
+    color: #333;;
 }
-.three-list,.five-list,.seven-list,.nine-list,.eleven-list{
+.content-menu{
     line-height: 30px;
     padding: 6px 0 5px 43px;
     border-bottom: 1px solid #f1f1f1;
     background: #fff;
+    font-size: 12px;
 }
-.left-content-list-title{
-    border: 1px solid #f1f1f1;
-    border-top: 1px solid #f1f1f1;
-    background: #f8f8f8;
+.content-menu a{
+    color: #666;
 }
-.list-icon{
-    position: absolute;
-    top:12px;
-    left: 12px;
+.content-menu .color-f60{           /* 订单管理的颜色 */
+    color: #f60;
+}
+.list-icon{                         /* 左边列表的小图标 */
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 10px;
     width: 17px;
     height: 19px;
     background: url(../images/chaozhi.png) no-repeat -193px -280px;
 }
-.four-list .list-icon{
+.wdzc{
     background: url(../images/chaozhi.png) no-repeat -193px -393px;
 }
-.six-list .list-icon{
+.grzx{
     background: url(../images/chaozhi.png) no-repeat -193px -656px;
 }
-.nine-list .list-icon{
+.yqytc{
     background: url(../images/chaozhi.png) no-repeat -193px -889px;
 }
-.eleven-list .list-icon{
+.ywyh{
     background: url(../images/chaozhi.png) no-repeat -193px -973px;
 }
-.left-content-list a{
-    font-size: 12px;
-    color: #666;
-}
-.left-content-list a:hover{
+a:hover{
     color: #f60;
-}
-.color a{
-    color: #f60;
-}
+}                           /* 左边content结束 */
 .right-content{
     width: 970px;
+    text-align: center;
 }
-.right-content-orderlist{
-    border-bottom: 1px solid #ddd;
-}
-.right-content-orderlist li{
-    float: left;
+.dingdan-menu{
     position: relative;
-    margin-top: -4px;
-    padding: 0 21px 6px 19px;
+    font-size: 0;
+    line-height: 1;
+    border-bottom: 2px solid #ddd;
+    text-align: left;
 }
-.right-content-orderlist li+li{
-    border-left: 1px solid #ddd;
-}
-.hengxian{
-    width: 104px;
-    height: 2px;
-    background: url(../images/chaozhi.png) no-repeat -193px -205px;
-    position: absolute;
-    top: 29px;
-    left: 0;
-}
-.right-content-orderlist a{
-    font-size: 16px;
+.dingdan-menu a{
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 20px 12px;
+    font-size: 16px;  
     color: #333;
 }
-.right-content-orderlist a:hover{
+.dingdan-menu .color-f60{
     color: #f60;
 }
-.dingdan-list{
-    text-align: center;
-    font-size: 0;
-}
-.dingdan-list img{
-    padding-top: 65px;
-}
-.txt{
+.dingdan-menu span{
     font-size: 16px;
-    color: #999;
-    line-height: 1;
-    padding-top: 9px;
 }
+.hengxian{
+    position: absolute;
+    top: 28px;
+    left: 0;
+    width: 104px;
+    height: 2px;
+    background: #f60;
+}
+.right-content img{
+    padding-top: 57px;
+} 

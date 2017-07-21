@@ -2,18 +2,192 @@
     background: #f8f8f8;
     padding-bottom: 79px;
 }
-.orderlist{
-    background-color: #f8f8f8;
+.content-top{
     line-height: 43px;
+    font-size: 12px;
 }
-.orderlist span{
-    margin: 0 8px;
+.content-top span{
+    margin: 0 7px;
     color: #ccc;
 }
-.orderlist a{
-    font-size: 12px;
+.content-top a{
     color: #000;
+} 
+.top-content{
+    border: 1px solid #ddd;
+    padding: 20px;
+    background: #fff;
+    font-size: 0;
+} 
+.top-content img{
+    padding-right: 20px;
 }
+.top-content ul{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 12px;
+    line-height: 25px;
+}
+.top-content .title{
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+.top-content .title a{
+    color: #3b83cb;
+}
+.dizhi{                             /* 地址的间隔符 */
+    letter-spacing: 2em;
+}
+.ruzhu{                             /* 入住人的间隔符 */
+    letter-spacing: 6px;
+}
+.bot-content{
+    padding: 0 30px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    background: #fff;
+    color: #333;
+    font-size: 14px;
+}
+.first-low li,.lside,.rside{
+    display: inline-block;
+    vertical-align: top;
+}
+.first-low,.second-low,.three-low,.four-low,.five-low,.six-low{
+    border-bottom: 1px solid #ddd;
+    padding: 26px 0;
+}
+.first-low,.second-low .rside{
+    font-size: 0;
+}
+.first-low li{
+    width: 245px;
+    font-size: 14px;
+}
+.first-low>li:first-child,.lside{
+    font-size: 16px;
+    width: 180px;
+}
+.first-low>li:last-child{
+    width: 200px;
+}
+.first-low [class^=icon]{
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    top: 2px;
+    margin-left: 18px;
+    width: 90px;
+    height: 17px;
+    background: url(../images/smallicon.png) no-repeat -437px -492px;
+}
+.rside{
+    width: 740px;
+}
+#pinglun{
+    color: #999;
+    width: 740px;
+    height: 140px;
+    box-sizing: border-box;
+    line-height: 22px;
+    resize: none;
+    padding:6px 13px; 
+    font-size: 14px; 
+}
+.second-low p{
+    width: 100%;
+    font-size: 14px;
+    padding-top: 13px;
+}
+.second-low span,.three-low span{
+    color: #f60;
+}
+.second-low .color-666{
+    color: #666;
+}
+.lside span{
+    color: #999;
+}
+.three-low .rside{
+    font-size: 0;
+}
+.three-low .btn{
+    position: relative;
+    display: inline-block;
+}
+.three-low .btn-file{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 74px;
+    height: 43px;
+    opacity: 0;
+    z-index: 20;
+}
+.three-low .file-icon{
+    display: inline-block;
+    width: 74px;
+    height: 43px;
+    background: url(../images/file-icon.png) no-repeat;
+}                                               /* 按钮hover更改背景图 */
+.three-low .btn-file:hover+.file-icon,.six-low .btn-file:hover+.file-icon{
+    background: url(../images/file-hover.png) no-repeat;
+}
+.three-low i{
+    font-style: normal;
+}
+.three-low .rside p,.six-low .rside p{
+    padding-top: 11px;
+    font-size: 14px;
+}
+.four-low .rside{                           /* 单选项栏 */
+    line-height: 51px;
+}
+.four-low input{
+    margin-right: 10px;
+    margin-left: 38px;
+}
+.four-low input:first-child{
+    margin-left: 0;
+}
+.five-low{                                  /* 提交按钮栏 */
+    text-align: center;
+    padding: 30px 0;
+    font-size: 0;
+}
+.tjbtn{
+    position: relative;
+    width: 132px;
+    height: 36px;
+    background: #f60;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    vertical-align: top;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.tjbtn .icon{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -36px;
+    width: 36px;
+    height: 36px;
+    background: url(../images/smallicon.png) no-repeat -395px -665px #f90;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.tjbtn:hover{
+    background: #f90;
+}
+.tjbtn:hover .icon{
+    background: url(../images/smallicon.png) no-repeat -395px -665px #fb3;
+}
+
+
+
+/* 
 .top-content{
     border: 1px solid #ddd;
     padding: 20px;
@@ -163,4 +337,4 @@ input:first-child{
     height: 36px;
     background: url(../images/smallicon.png) no-repeat -395px -663px #ff9000;
     display: inline-block;
-}
+} */

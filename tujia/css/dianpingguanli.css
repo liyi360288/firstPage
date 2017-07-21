@@ -1,5 +1,6 @@
 .content{
     background: #f8f8f8;
+    padding-bottom: 57px;
 }
 .content-top{
     line-height: 43px;
@@ -139,6 +140,9 @@ a:hover{
 .text span{
     color: #333;
 }
+.dp-list{
+    font-size: 0;
+}
 .dp-box{
     display: inline-block;
     vertical-align: top;
@@ -146,130 +150,105 @@ a:hover{
     width: 304px;
     height: 279px;
     border: 1px solid #ddd;
+    background: #fff;
+    margin: 0 20px 20px 0;
+}
+.dp-box:nth-child(3){
+    margin-right: 0;
 }
 .dp-box img{
     width: 304px;
     height: 179px;
 }
 .dp-box-content{
-    padding:11px 0 0 12px;
+    padding:11px 12px 0 12px;
     line-height: 1;
 }
 .dp-box .title{
     display: block;
     font-size: 14px;
     color: #3b83cb;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 .dp-box .check-in{
-    
     font-size: 12px;
     color: #999;
     margin-bottom: 14px;
 }
-.dp-box .btn{
+.dp-box .btn-ok{
+    border: none;
+}
+.dp-box .btn-fail{
+    width: 87px;
+    height: 28px;
+    border: none;
+    font-size: 12px;
+    line-height: 28px;
+    text-align: center;
+    background: #ccc;
+    cursor: not-allowed;
+}
+.dp-box .btn-ok a{
     display: inline-block;
     width: 87px;
     height: 28px;
-    background: #f60;
     color: #fff;
     text-align: center;
+    background: #f60;
     font-size: 12px;
     line-height: 28px;
     border-radius: 3px;
 }
-
-
-/* 
-.right-content{
-    margin-left: 20px;
-    width: 970px;
-}
-
-
-.dppiece{
-    float: left;
-    width: 304px;
-    height: 279px;
-    border: 1px solid #ddd;
-    margin-left: 20px;
-    margin-bottom: 20px;
-}
-.dppiece:first-child,.dppiece:nth-child(4){
-    margin-left: 5px;
-}
-.dppiece .icon{
-    height: 179px;
-}
-.dppiece img{
-    width: 100%;
-    height: 100%;
-}
-.dpbot{
-    padding: 0 12px 0;
-    line-height: 1;
-}
-.dpbot h3{
-    font-size: 14px;
-    color: #3b83cb;
-    padding: 12px 0;
-}
-.dpbot p{
-    font-size: 12px;
-    color: #999;
-    margin-bottom: 13px;
-}
-.dpbot .btn{
-    line-height: 28px;
-    position: relative;
-    font-size: 12px;
-}
-.btn a{
+.dp-box .icon{
     display: inline-block;
-    float: left;
-    width: 87px;
-    color: #fff;
-    background: #f60;
-    border-radius: 3px;
-    text-align: center;
-}
-.btn .icon{
+    vertical-align: top;
     width: 14px;
     height: 14px;
+    margin-right: 5px;
     background: url(../images/chaozhi.png) no-repeat -484px -489px;
-    position: absolute;
+}
+.fail-txt{
+    position: relative;
     top: 7px;
-    right: 113px;
-}
-.fail a{
-    background: #999;
-}
-.dpfinish{
-    line-height: 28px;
+    display: inline-block;
+    float: right;
     font-size: 12px;
     color: #999;
-    padding-right: 20px;
 }
-.dpfinish a{
+#ydp{
+    height: 263px;
+}
+.dp-box-content p{
+    font-size: 12px;
+}
+.ydp-txt a{
     color: #3b83cb;
 }
-.page p{
-    padding: 0 10px;
+.ydp-txt a:hover{
+    color: #f60;
+}
+.ydp-txt{
+    float: right;
+}
+
+.page{                              /* 选页 */
+    text-align: right;
+    font-size: 0;
+    margin-bottom: 67px;
+}
+.page li{
+    display: inline-block;
     font-size: 12px;
     line-height: 26px;
+    padding: 0 10px;
     border: 1px solid #ddd;
 }
 .page a{
     color: #999;
 }
-.page div:nth-child(2){
+.page-no{
     border: 1px solid #f60;
-    margin: 0 8px;
     color: #f60;
-    line-height: 26px;
-    padding: 0 9px;
+    margin: 0 8px;
 }
-.page{
-    padding: 6px 0 67px;
-}
- */
+

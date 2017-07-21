@@ -1,13 +1,173 @@
+.content{
+    background: #f8f8f8;
+    padding-bottom: 79px;
+}
+.content-top{
+    line-height: 43px;
+    font-size: 12px;
+}
+.content-top span{
+    margin: 0 7px;
+    color: #ccc;
+}
+.content-top a{
+    color: #000;
+}  
+.top-content{
+    border: 1px solid #ddd;
+    padding: 20px;
+    background: #fff;
+    font-size: 0;
+} 
+.top-content img{
+    padding-right: 20px;
+}
+.top-content ul{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 12px;
+    line-height: 25px;
+}
+.top-content .title{
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+.top-content .title a{
+    color: #3b83cb;
+}
+.dizhi{                             /* 地址的间隔符 */
+    letter-spacing: 2em;
+}
+.ruzhu{                             /* 入住人的间隔符 */
+    letter-spacing: 6px;
+}
+.bot-content{
+    padding: 0 30px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    background: #fff;
+    color: #333;
+    font-size: 14px;
+}
+.first-low li,.lside,.rside{
+    display: inline-block;
+    vertical-align: top;
+}
+.first-low,.second-low,.three-low{
+    border-bottom: 1px solid #ddd;
+    padding: 26px 0;
+}
+.first-low,.second-low,.second-low .rside{
+    font-size: 0;
+}
+.first-low li{
+    width: 245px;
+    font-size: 14px;
+}
+.first-low>li:first-child,.lside{
+    font-size: 16px;
+    width: 180px;
+}
+.first-low>li:last-child{
+    width: 200px;
+}
+.first-low [class^=icon]{
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    top: 2px;
+    margin-left: 18px;
+    width: 90px;
+    height: 17px;
+    background: url(../images/smallicon.png) no-repeat -683px -432px;
+}
+.first-low .icon-fourxing{
+    background: url(../images/smallicon.png) no-repeat -437px -432px;
+}
+.second-low .rside{
+    width: 940px;
+    
+}
+.second-low .rside .dp-text{
+    font-size: 14px;
+    line-height: 24px;
+}
+.second-low .rside .hf{
+    font-size: 14px;
+    line-height: 24px;
+}
+.rside img{
+    margin: 15px 12px 28px 0;
+}
+.hf{
+    position: relative;
+    border: 1px solid #ddd;
+    padding: 20px 25px 20px 75px;
+    background: #f8f8f8;
+    margin-bottom: 4px;
+}
+.tx{
+    background: url(../images/wsdtx.png) no-repeat;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.sj{
+    width: 0;
+    height: 0;
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent transparent #f8f8f8;
+    position: absolute;
+    top: -16px;
+    left: 37px;
+    z-index: 99;
+}
+.bk{
+    width: 0;
+    height: 0;
+    border-width: 9px;
+    border-style: solid;
+    border-color: transparent transparent #ddd;
+    position: absolute;
+    top: -18px;
+    left: 36px;
+}
+.color999{
+    color: #999;
+}
+.syhs,.syhx{
+    width: 20px;
+    height: 24px;
+    background: url(../images/smallicon.png) no-repeat -466px -739px;
+}
+.syhx{
+    background-position: -762px -762px;
+    margin-left: 15px;
+}
+
+.syhs,.syhx{
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 24px;
+    background: url(../images/smallicon.png) no-repeat -466px -739px;
+}
+.syhx{
+    background-position: -762px -762px;
+    margin-left: 15px;
+}
+.three-low{
+    border-bottom: none;
+}
 
 
 
 
-
-
-
-
-
-
+/* 
 .content{
     background: #f8f8f8;
     padding-bottom: 79px;
@@ -163,4 +323,4 @@
 }
 .three-low{
     border-bottom: none;
-} 
+}  */

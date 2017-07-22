@@ -11,13 +11,12 @@
 }
 .content-top a{
     color: #000;
-}                       /* end-content-top */
+} 
 .left-content{
     width: 200px;
     border-top: 2px solid #f60;
     border-left: 1px solid #f1f1f1;
     border-right: 1px solid #f1f1f1;
-    margin-bottom: 35px;
 }
 .one-list{                  /* 左边用户资料开始 */
     position: relative;
@@ -47,7 +46,7 @@
 .one-list{
     border-bottom: 1px solid #f1f1f1;
     background: #fff;
-}                                /* 左边用户资料结束 */
+}
 .content-title{                     
     line-height: 40px;
     padding-left: 12px;
@@ -90,39 +89,103 @@
 }
 a:hover{
     color: #f60;
-}                           /* 左边content结束 */
+}                                 /* 左边content结束 */
 .right-content{
     width: 970px;
+}
+.right-content h1{
+    padding-left: 20px;
+    font-size: 16px;
+    line-height: 40px;
+    border: 1px solid #ddd;
+    border-bottom-color: #f1f1f1;
+}
+.zhye-title{
+    padding: 19px 20px 20px 12px;
+    border: 1px solid #ddd;
+    border-top: none;
+    background: #fff;
+    color: #999;
+    font-size: 14px;
     text-align: center;
+    line-height: 28px;
 }
-.dingdan-menu{
-    position: relative;
-    font-size: 0;
-    line-height: 1;
-    border-bottom: 2px solid #ddd;
-    text-align: left;
+.zhye-title .mid{
+    display: inline;
 }
-.dingdan-menu a{
-    display: inline-block;
+.zhye-title .btn{
     vertical-align: top;
-    padding: 0 20px 12px;
-    font-size: 16px;  
+    width: 60px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    background: #f60;
+    border-radius: 3px;
+    border: none;
+    color: #fff;
+}
+.zhye-title .btn:hover{
+    background: #f90;
+}
+.zhye-title .color-f30{
+    font-size: 18px;
+}
+.color-f30{
+    color: #f30;
+}
+.color-333{
     color: #333;
 }
-.dingdan-menu .color-f60{
-    color: #f60;
+.dropdown{
+    display: inline-block;
+    position: relative;
+    background: #fff;
+    border: none;
 }
-.dingdan-menu span{
-    font-size: 16px;
+.dropdown a{
+    position: relative;
+    display: block;
+    width: 85px;
+    line-height: 26px;
+    text-align: left;
+    padding-left: 12px;
+    border: 1px solid #ddd;
+    color: #333;
 }
-.hengxian{
+.dropdown:hover ul{
+    display: block;
+}
+.dropdown ul{
+    display: none;
     position: absolute;
-    top: 28px;
+    top: 100%;
     left: 0;
-    width: 104px;
-    height: 2px;
-    background: #f60;
+    border: 1px solid #ddd;
+    border-top: none;
+    z-index: 20;
 }
-.right-content img{
-    padding-top: 57px;
-} 
+.dropdown ul a{
+    border: none;
+    background: #fff;
+}
+.ssj{                         /* 下拉列表鼠标未移到的橙色三角 */
+    position: absolute;
+    top: 11px;
+    right: 12px;
+    width: 0;
+    height: 0;
+    border-width:4px;
+    border-style: solid;
+    border-color: #f60 transparent transparent; 
+}
+.xsj{                       /* 下拉列表鼠标hove的橙色三角 */
+    position: absolute;
+    display: none;
+    top: 7px;
+    right: 12px;
+    width: 0;
+    height: 0;
+    border-width:4px;
+    border-style: solid;
+    border-color: transparent transparent #f60; 
+}

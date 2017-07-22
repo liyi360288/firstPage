@@ -13,103 +13,97 @@
     <div>
         <header>
             <div class="top">
+                <img src="images/top.png" alt="">
             </div>
             <div class="top-menu">
                 <div class="main">
+                    <a href="#">我的途家</a>
+                    <a href="#">[退出]</a>
+                    <a href="#">会员俱乐部</a>
+                    <a href="#">申请开店</a>                          
+                </div>
+            </div>
+            <div class="nav-war">
+                <nav class="nav main">
+                    <a href="#">首页</a>
+                    <span>|</span>
+                    <a href="#">国内公寓</a>
+                    <span>|</span>
+                    <a href="#">海外公寓</a>
+                    <span>|</span>
+                    <a href="#">精选优惠<i class="tips_icon"></i></a>
+                    <span>|</span>
+                    <a href="#">周租月租</a>
+                    <span>|</span>
+                    <a href="#">免费体验房</a>
+                    <span>|</span>
+                    <a href="#">特色房</a>
+                </nav> 
+            </div>
+        </header><!-- end-头部 -->
+        <div class="content">
+            <div class="clearfix main">
+                <div class="content-top">
+                    <a href="#">途家网</a>
+                    <span>&gt;</span>
+                    <a href="#">我的途家</a>
+                    <span>&gt;</span>
+                    <a href="#">账户余额</a>
+                    <span>&gt;</span>
+                    <a href="#">账户提现</a>    
+                </div>
+                <h1 class="tx-title">
+                    <strong>账户提现</strong>余额：<span>100.00</span> 元
+                </h1>
+                <div class="tx-content">
                     <ul>
-                        <li>
-                            <a href="#">我的途家</a>
+                        <li class="first-low">
+                            <span class="lside">手机号：</span>
+                            <span class="rside">186****0414<button class="btn">获取手机验证码</button></span>
                         </li>
-                        <li>
-                            <a href="#">[退出]</a>
+                        <li class="second-low">
+                            <span class="lside">验证码：</span>
+                            <span class="rside">
+                                <input type="text" class="yzm">                            
+                                <i class="icon"></i> 验证码不正确     
+                            </span>
+                                                                              
                         </li>
-                        <li>
-                            <a href="#">会员俱乐部</a>
+                        <li class="three-low">
+                            <span class="lside">提现到：</span>
+                            <button class="tx-btn" id="btn-yh">
+                                <span class="tx-btn-title">银行账户</span>
+                                刘阿布 招商银行 尾号：2222
+                                <i class="icon"></i>
+                            </button>
+                            <button class="tx-btn" id="btn-zfb">
+                                <span class="tx-btn-title">支付宝</span>
+                                刘阿布  zhangzha***@126.com
+                                <i class="icon"></i>
+                            </button>
                         </li>
-                        <li>
-                            <a href="#">申请开店</a>
+                        <li class="four-low">
+                            <span class="lside">提现金额：</span><input type="text" class="txje">
+                        </li>
+                        <li class="five-low">
+                            <span class="lside"></span>
+                            <span class="rside">可提现金额：<span class="color-f30">0.00</span>元</span>
+                        </li>
+                        <li class="six-low">
+                            <span class="lside"></span>
+                            <button class="btn-last">
+                                <i class="icon"></i>
+                                提现
+                            </button>
                         </li>
                     </ul>
                 </div>
-            </div>
-            <div class="top-nav">
-                <div class="main">
-                   <ul>
-                        <li>
-                            <a href="#">首页</a>
-                        </li>
-                        <li>
-                            <a href="#">国内公寓</a>
-                        </li>
-                        <li>
-                            <a href="#">海外公寓</a>
-                        </li>
-                        <li>
-                            <i class="tips_icon"></i>
-                            <a href="#">精选优惠</a>
-                        </li>
-                        <li>
-                            <a href="#">周租月租</a>
-                        </li>
-                        <li>
-                            <a href="#">免费体验房</a>
-                        </li>
-                        <li>
-                            <a href="#">特色房</a>
-                        </li>
-                    </ul> 
-                </div> 
-            </div>
-        </header>
-        <div class="orderlist">
-            <div class="main">
-                <a href="#">途家网</a>
-                <span>></span><a href="#">我的途家</a>
-                <span>></span><a href="#">账户余额</a>
-                <span>></span><a href="#">账户提现</a>    
-            </div>
-        </div>
-        <div class="content">
-            <div class="clearfix main">
-                <div class="tx-txt">
-                    <h1 class="zhtx">账户提现</h1>
-                    <p class="zhye">余额：<span>100.00</span>元</p>                    
-                </div>
-                <div class="tx-content clearfix">
-                    <form action="">
-                        <div class="lside">
-                            <ul>
-                                <li>手机号：</li>
-                                <li>验证码：</li>
-                                <li>提现到：</li>
-                                <li>提现金额：</li>
-                            </ul>
-                        </div>
-                        <div class="rside">
-                            <ul>
-                                <li>
-                                    186****0414<button>获取手机验证码</button>
-                                </li>
-                                <li>
-                                    <input type="text">
-                                </li>
-                                <li>
-                                    <button></button>
-                                    <button></button>
-                                </li>
-                                <li>
-                                    <input type="text">
-                                </li>
-                                <li>
-                                    可提现金额：0.00元
-                                </li>
-                                <li>
-                                    <button>提现</button>
-                                </li>
-                            </ul>
-                        </div>
-                    </form>                   
-                </div>
+                <script src="jquery-3.2.1.min.js"></script>
+                <script>
+                    $ (".tx-btn").click( function(){
+                        $(this).addClass("active").siblings().removeClass('active');
+                    });
+                </script>                   
             </div>           
         </div>
         <footer>

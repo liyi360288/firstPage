@@ -1,55 +1,164 @@
 .content{
     background: #f8f8f8;
-    padding-bottom: 36px;
 }
-.orderlist{
-    background-color: #f8f8f8;
+.content-top{
     line-height: 43px;
+    font-size: 12px;
 }
-.orderlist span{
-    margin: 0 8px;
+.content-top span{
+    margin: 0 7px;
     color: #ccc;
 }
-.orderlist a{
-    font-size: 12px;
+.content-top a{
     color: #000;
-}
-.tx-txt{
+} 
+.tx-title{                                  /* 账户余额标题begin */
     line-height: 40px;
-}
-.zhtx,.zhye{
-    display: inline;
-}
-.zhtx{
-    font-size: 16px;
-    color: #333;
+    color: #666;
+    font-size: 12px;
     padding-left: 20px;
+    border: 1px solid #ddd;
+    border-bottom: none;
+}
+.tx-title strong{
+    color: #333;
+    font-size: 16px;
     padding-right: 30px;
 }
-.zhye{
-    font-size: 12px;
-    color: #666;
+.tx-title span{
+    color: #f30;
+}                                               /* 账户余额标题end */
+.tx-content{                                    /* 提现列表begin */
+    padding: 30px 0 50px;
+    text-align: left;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-top: none;
 }
-.zhye span{             /* 100变色 */
+.tx-content li{                     /* 为每一列拉开距离，清除间距 */
+    font-size: 0;
+    margin-bottom: 18px;
+}
+.tx-content .lside{                     /* 左边设置宽度 */
+    display: inline-block;
+    width: 210px;
+    font-size: 14px;
+    text-align: right;
+    line-height: 28px;
+}
+.tx-content .rside{                     /* 为有单独文字的设置字体大小 */
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+}
+.first-low .btn{                        /* 第一行的按钮发送验证码 */
+    font-size: 12px;
+    margin-left: 60px;
+    width: 104px;
+    line-height: 28px;
+    color: #2e7dcd;
+    border: 1px solid #dbeaf9;
+    background: #ecf5fe;
+}
+.second-low .yzm,.four-low .txje{               /* 文本输入框 */
+    vertical-align: top;
+    width: 260px;
+    line-height: 28px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+}
+.second-low .rside{
+    line-height: 28px;
+}
+.second-low .icon{                  /* 验证码不正确的icon */
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5px;
+    width: 16px;
+    height: 28px;
+    background: url(../images/tubiaoji.png) no-repeat -117px -329px;
+}
+.three-low .tx-btn{                         /* 支付宝、银行卡提现按钮 */
+    position: relative;
+    width: 360px;
+    height: 48px;
+    font-size: 14px;
+    line-height: 44px;
+    border: 2px solid #ddd;
+    background: #fff;
+    text-align: left;
+    margin-right: 20px;
+}
+.three-low .tx-btn:hover{
+    border-color: #ffcd5d;
+}
+.three-low .tx-btn:hover .icon{
+    display: block;
+}
+.three-low .tx-btn-title{
+    display: inline-block;
+    width: 78px;
+    line-height: 44px;
+    background: #f8f8f8;
+    text-align: center;
+    border-right: 1px solid #f1f1f1;
+    margin-right: 8px;
+}
+.three-low .icon{
+    display: none;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 33px;
+    height: 33px;
+    background: url(../images/tubiaoji.png) no-repeat -107px -160px;
+}
+.three-low .tx-btn.active{
+    border-color: #f90;
+}
+.three-low .tx-btn.active .icon{
+    display: block;
+    background-position: -107px -217px;
+}
+.color-f30{
     color: #f30;
 }
-.tx-content{
-    background: #fff;
-}
-.lside{
-    float: left;
-    width: 210px;
-    text-align: right;
+.five-low{
     font-size: 14px;
-    color: #333;
-    line-height: 60px;
-    padding-top: 15px;
+    line-height: 1;
 }
-.rside{
-    float: left;
-    text-align: left;
-    font-size: 14px;
-    color: #333;
-    line-height: 60px;
-    padding-top: 15px;
+.six-low{                           /* 最后一行的提交按钮 */
+    font-size: 0;
+    margin-top: 30px;
+}
+.six-low .btn-last{
+    position: relative;
+    width: 96px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 18px;
+    color: #fff;
+    margin-left: 36px;
+    border: none;
+    background: #f60;
+    text-align: center;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.six-low .icon{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    top: 0;
+    left: -36px;
+    background: url(../images/tubiaoji.png) no-repeat #ff9000 -106px -269px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.six-low .btn-last:hover{
+    background: #ff9000;
+}
+.six-low .btn-last:hover .icon{
+    background: url(../images/tubiaoji.png) no-repeat #fb3 -106px -269px;
 }

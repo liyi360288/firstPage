@@ -136,6 +136,9 @@ a:hover{
 .color-333{
     color: #333;
 }
+.btn-box{
+    padding: 20px 0 12px;
+}                               /* 下拉列表开始 */
 .dropdown{
     display: inline-block;
     position: relative;
@@ -152,7 +155,19 @@ a:hover{
     border: 1px solid #ddd;
     color: #333;
 }
+.dropdown a:hover{
+    background: #ff8533;
+}
 .dropdown:hover ul{
+    display: block;
+}
+.dropdown:hover>a{
+    border-color: #ffcd5d;
+}
+.dropdown:hover .ssj{
+    display: none;
+}
+.dropdown:hover .xsj{
     display: block;
 }
 .dropdown ul{
@@ -188,4 +203,50 @@ a:hover{
     border-width:4px;
     border-style: solid;
     border-color: transparent transparent #f60; 
+}
+.btn-cx{
+    width: 60px;
+    line-height: 28px;
+    background: #3b83cb;
+    font-size: 12px;
+    text-align: center;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+}
+.btn-cx:hover{
+    background: #37b2eb;
+}
+.table-box{
+    border: 1px solid #ddd;
+}
+table{
+    width: 100%;
+    text-align: left;
+    font-size: 12px;
+}
+th:first-child,td:first-child{
+    padding-left: 12px;
+}
+th:first-child{
+    width: 209px;
+}
+th:nth-child(2),th:nth-child(3){
+    width: 200px;
+}
+th{
+    color: #999;
+    line-height: 37px;
+    border-bottom: 1px solid #ddd;
+}
+td{
+    color: #333;
+    line-height: 38px;
+    background: #fff;
+}
+tr:nth-child(2){
+    border-bottom: 1px dotted #ddd;
+}
+.table-box span{
+    color: #f60;
 }

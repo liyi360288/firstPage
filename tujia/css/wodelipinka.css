@@ -1,0 +1,226 @@
+.content{
+    background: #f8f8f8;
+}
+.content-top{
+    line-height: 43px;
+    font-size: 12px;
+}
+.content-top span{
+    margin: 0 7px;
+    color: #ccc;
+}
+.content-top a{
+    color: #000;
+} 
+.left-content{
+    width: 200px;
+    border-top: 2px solid #f60;
+    border-left: 1px solid #f1f1f1;
+    border-right: 1px solid #f1f1f1;
+    margin-bottom: 50px;
+}
+.one-list{                  /* 左边用户资料开始 */
+    position: relative;
+    padding: 15px 0 15px 85px;
+    line-height: 20px;
+    color: #333;
+    font-size: 12px;
+}
+.userimg{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 15px;
+    left: 12px;
+}
+.userimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.xm{
+    font-size: 14px;
+}
+.one-list a{
+    color: #2e7dcd;
+}
+.one-list{
+    border-bottom: 1px solid #f1f1f1;
+    background: #fff;
+}
+.content-title{                     
+    line-height: 40px;
+    padding-left: 12px;
+    border-bottom: 1px solid #f1f1f1;
+    font-size: 14px;
+    color: #333;;
+}
+.content-menu{
+    line-height: 30px;
+    padding: 6px 0 5px 43px;
+    border-bottom: 1px solid #f1f1f1;
+    background: #fff;
+    font-size: 12px;
+}
+.content-menu a{
+    color: #666;
+}
+.content-menu .color-f60{           /* 订单管理的颜色 */
+    color: #f60;
+}
+.list-icon{                         /* 左边列表的小图标 */
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 10px;
+    width: 17px;
+    height: 19px;
+    background: url(../images/chaozhi.png) no-repeat -193px -280px;
+}
+.wdzc{
+    background: url(../images/chaozhi.png) no-repeat -193px -393px;
+}
+.grzx{
+    background: url(../images/chaozhi.png) no-repeat -193px -656px;
+}
+.yqytc{
+    background: url(../images/chaozhi.png) no-repeat -193px -889px;
+}
+.ywyh{
+    background: url(../images/chaozhi.png) no-repeat -193px -973px;
+}
+a:hover{
+    color: #f60;
+}                                 /* 左边content结束 */
+.right-content{
+    width: 970px;
+}
+.right-content .title{
+    font-size: 16px;
+    color: #333;
+    padding-left: 20px;
+
+    line-height: 40px;
+    border: 1px solid #ddd;
+}
+.right-content .text{
+    color: #999;
+    border: 1px solid #ddd;
+    border-top: none;
+    background: #fff;
+    padding: 20px 20px 20px 19px;
+}
+.right-content .text span{
+    color: #f30;
+    font-size: 18px;
+}
+.right-content .text .btn{
+    color: #fff;
+    background: #f60;
+    width: 90px;
+    line-height: 28px;
+    font-size: 12px;
+    border: none;
+}
+.right-content .text .btn:hover{
+    background: #f90;
+}
+.lpk-list{
+    border: 1px solid #ddd;
+    border-bottom: none;
+    line-height: 38px;
+    background: #fff;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.lpk-list a{
+    color: #333;
+    font-size: 14px;
+}
+.lpk-list .color-f60{
+    color: #f60;
+}
+.lpk-list span{
+    padding: 0 19px;
+}
+.table-box{
+    border: 1px solid #ddd;
+    font-size: 12px;
+    line-height: 37px;
+}
+table{
+    width: 100%;
+}
+tr{
+    border-bottom: 1px dotted #ddd;
+}
+th{
+    text-align: left;
+    color: #999;
+}
+th:first-child{
+    width: 168px;
+}
+th:nth-child(2),th:nth-child(3){
+    width: 140px;
+}
+th:nth-child(4){
+    width: 90px;
+}
+th:nth-child(5){
+    width: 120px;
+}
+th:nth-child(6){
+    width: 130px;
+}
+th:nth-child(7){
+    width: 80px;
+}
+td{
+    background: #fff;
+    position: relative;
+}
+th:first-child,td:first-child{
+    padding-left: 12px;
+}
+td:nth-child(2),td:nth-child(3){
+    color: #f60;
+}
+td:nth-child(8) a{
+    color: #3b83cb;
+}
+td:nth-child(8):hover .tc-box{
+    display: block;
+}
+.tc-box{
+    display: none;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    top: 300px;
+    left: 400px;
+    width: 498px;
+    border: 1px solid #ddd;
+}
+.tc-txt{
+    position: relative;
+    padding: 0 12px;
+    font-size: 14px;
+    color: #666;
+    line-height: 36px;
+    border-bottom: 1px solid #ddd;
+}
+.tc-txt span{
+    display: block;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    width: 15px;
+    height: 15px;
+    background: url(../images/tubiaoji.png) no-repeat -127px -129px;
+}
+.tc-content{
+    background: #fff;
+    padding:15px 12px;
+    line-height: 22px;
+    font-size: 12px;
+}

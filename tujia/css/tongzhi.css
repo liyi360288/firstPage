@@ -95,6 +95,7 @@ a:hover{
     width: 970px;
 }
 .men_list{
+    position: relative;
     line-height: 1;
     font-size: 16px;
     padding-bottom: 10px;
@@ -102,13 +103,45 @@ a:hover{
 }
 .men_list a{
     color: #333;
-    padding: 0 20px;
+    padding: 0 18px;
 }
-
-
-
-
-
+.men_list .color-f60{
+    color: #f60;
+}
+.hengxian{
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 70px;
+    height: 2px;
+    background: #f60;
+}
+.tongzhi_box{
+    font-size: 12px;
+    line-height: 1;
+    padding: 0 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    margin: 20px 0
+}
+.tongzhi_box h3{
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 18px;
+}
+.tongzhi_box p{
+    color: #666;
+    padding-bottom: 17px;
+    border-bottom: 1px dotted #ddd;
+    line-height: 20px;
+}
+.tongzhi_box p:last-child{
+    border-bottom: none;
+}
+.tongzhi_box span{
+    color: #999;
+}
 .page{                              /* 选页 */
     text-align: right;
     font-size: 0;

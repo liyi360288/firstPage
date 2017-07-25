@@ -1,0 +1,108 @@
+.content{
+    background: #f8f8f8;
+}
+.content-top{
+    line-height: 43px;
+    font-size: 12px;
+}
+.content-top span{
+    margin: 0 7px;
+    color: #ccc;
+}
+.content-top a{
+    color: #000;
+} 
+.left-content{
+    width: 200px;
+    border-top: 2px solid #f60;
+    border-left: 1px solid #f1f1f1;
+    border-right: 1px solid #f1f1f1;
+    margin-bottom: 50px;
+}
+.one-list{                  /* 左边用户资料开始 */
+    position: relative;
+    padding: 15px 0 15px 85px;
+    line-height: 20px;
+    color: #333;
+    font-size: 12px;
+}
+.userimg{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 15px;
+    left: 12px;
+}
+.userimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.xm{
+    font-size: 14px;
+}
+.one-list a{
+    color: #2e7dcd;
+}
+.one-list{
+    border-bottom: 1px solid #f1f1f1;
+    background: #fff;
+}
+.content-title{                     
+    line-height: 40px;
+    padding-left: 12px;
+    border-bottom: 1px solid #f1f1f1;
+    font-size: 14px;
+    color: #333;;
+}
+.content-menu{
+    line-height: 30px;
+    padding: 6px 0 5px 43px;
+    border-bottom: 1px solid #f1f1f1;
+    background: #fff;
+    font-size: 12px;
+}
+.content-menu a{
+    color: #666;
+}
+.content-menu .color-f60{           /* 订单管理的颜色 */
+    color: #f60;
+}
+.list-icon{                         /* 左边列表的小图标 */
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 10px;
+    width: 17px;
+    height: 19px;
+    background: url(../images/chaozhi.png) no-repeat -193px -280px;
+}
+.wdzc{
+    background: url(../images/chaozhi.png) no-repeat -193px -393px;
+}
+.grzx{
+    background: url(../images/chaozhi.png) no-repeat -193px -656px;
+}
+.yqytc{
+    background: url(../images/chaozhi.png) no-repeat -193px -889px;
+}
+.ywyh{
+    background: url(../images/chaozhi.png) no-repeat -193px -973px;
+}
+a:hover{
+    color: #f60;
+}                                 /* 左边content结束 */
+.right-content{
+    width: 970px;
+    border: 1px solid #ddd;
+}
+.right-content h1{
+    font-size: 16px;
+    color: #333;
+    line-height: 39px;
+    border-bottom: 1px solid #ddd;
+    padding-left: 20px;
+}
+.grzl_box{
+    padding: 30px 20px 40px;
+    background: #fff;
+}

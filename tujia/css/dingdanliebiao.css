@@ -421,17 +421,20 @@ td a{
     line-height: 26px;
     padding: 0 10px;
     border: 1px solid #ddd;
+    background: #fff;
+    color: #333;
+}
+.page li:hover{
+    border-color: #f60;
 }
 .page a{
-    color: #999;
+    color: #333;
 }
 .page-no{
     border: 1px solid #f60;
     color: #f60;
     margin: 0 8px;
 }
-
-
 
 
 

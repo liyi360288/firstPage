@@ -94,133 +94,125 @@ a:hover{
 .right-content{
     width: 970px;
 }
-.right-content .title{
+.right-content h1{
     font-size: 16px;
     color: #333;
-    padding-left: 20px;
-
-    line-height: 40px;
+    line-height: 1;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 12px;
+}
+.wdsc_container{
+    font-size: 0;
+    padding-top: 20px;
+}
+.wdsc_box{
+    display: inline-block;
+    vertical-align: top;
     border: 1px solid #ddd;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
-.right-content .text{
-    color: #999;
-    border: 1px solid #ddd;
-    border-top: none;
-    background: #fff;
-    padding: 20px 20px 20px 19px;
+.wdsc_box:first-child,.wdsc_box:nth-child(4){
+    margin-left: 6px;
 }
-.right-content .text span{
-    color: #f30;
-    font-size: 18px;
-}
-.right-content .text .btn{
-    color: #fff;
-    background: #f60;
-    width: 90px;
-    line-height: 28px;
-    font-size: 12px;
-    border: none;
-}
-.right-content .text .btn:hover{
-    background: #f90;
-}
-.lpk-list{
-    border: 1px solid #ddd;
-    border-bottom: none;
-    line-height: 38px;
-    background: #fff;
-    margin-top: 20px;
-    padding-left: 20px;
-}
-.lpk-list a{
-    color: #333;
-    font-size: 14px;
-}
-.lpk-list .color-f60{
-    color: #f60;
-}
-.lpk-list span{
-    padding: 0 19px;
-}
-.table-box{
-    border: 1px solid #ddd;
-    font-size: 12px;
-    line-height: 37px;
-}
-table{
-    width: 100%;
-}
-tr{
-    border-bottom: 1px dotted #ddd;
-}
-th{
-    text-align: left;
-    color: #999;
-}
-th:first-child{
-    width: 168px;
-}
-th:nth-child(2),th:nth-child(3){
-    width: 140px;
-}
-th:nth-child(4){
-    width: 90px;
-}
-th:nth-child(5){
-    width: 120px;
-}
-th:nth-child(6){
-    width: 130px;
-}
-th:nth-child(7){
-    width: 80px;
-}
-td{
-    background: #fff;
+.img_box{
     position: relative;
+    width: 304px;
+    height: 191px;
 }
-th:first-child,td:first-child{
-    padding-left: 12px;
-}
-td:nth-child(2),td:nth-child(3){
-    color: #f60;
-}
-td:nth-child(8) a{
-    color: #3b83cb;
-}
-td:nth-child(8) a:hover+.tc-box{
+.img_box:hover .icon{
     display: block;
 }
-.tc-box{
+.img_box img{
+    width: 100%;
+    height: 100%;
+}
+.img_box .icon{
     display: none;
     position: absolute;
-    top: -100px;
-    left: -700px;
-    width: 498px;
-    border: 1px solid #ddd;
-    z-index: 10;
-}
-.tc-txt{
-    position: relative;
-    padding: 0 12px;
-    font-size: 14px;
-    color: #666;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     line-height: 36px;
-    border-bottom: 1px solid #ddd;
-    background: #f8f8f8;
+    background: #f76808;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
 }
-.tc-txt span{
-    display: block;
-    position: absolute;
-    top: 12px;
-    right: 12px;
-    width: 15px;
-    height: 15px;
-    background: url(../images/tubiaoji.png) no-repeat -127px -129px;
+.img_box .icon:hover{
+    background: #fea218;
 }
-.tc-content{
+.wdsc_box a{
+    color: #3b83cb;
+    font-size: 14px;
+}
+.content_box{
+    padding: 12px 12px 0;
     background: #fff;
-    padding:15px 12px;
-    line-height: 22px;
+    line-height: 1;
+}
+.content_box p{
+    color: #333;
     font-size: 12px;
+    padding: 10px 0 12px;
+}
+.content_box p span{
+    padding: 0 8px;
+}
+.piece{
+    font-size: 12px;
+    color: #999;
+    
+    border-top: 1px solid #ddd;
+    padding: 12px 0;
+}
+.piece .icon{
+    display: inline-block;
+    vertical-align: bottom;
+    position: relative;
+    top: 2px;
+    width: 17px;
+    height: 15px;
+    margin-right: 4px;
+    background: url(../images/tubiaoji.png) no-repeat -118px -447px;
+}
+.piece .color-f30{
+    color: #f30;
+}
+.piece .fs-18{
+    font-size: 18px;
+}
+.piece .qxsc{
+    color: #333;
+}
+.piece .qxsc:hover{
+    text-decoration: underline;
+}
+.piece .qxsc:hover .icon{
+    background: url(../images/tubiaoji.png) no-repeat -118px -475px;
+}
+.page{                              /* 选页 */
+    text-align: right;
+    font-size: 0;
+    margin-bottom: 67px;
+}
+.page li{
+    display: inline-block;
+    font-size: 12px;
+    line-height: 26px;
+    padding: 0 10px;
+    border: 1px solid #ddd;
+    background: #fff;
+    color: #333;
+}
+.page li:hover{
+    border-color: #f60;
+}
+.page a{
+    color: #333;
+}
+.page-no{
+    border: 1px solid #f60;
+    color: #f60;
+    margin: 0 8px;
 }

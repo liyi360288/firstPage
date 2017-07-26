@@ -103,6 +103,144 @@ a:hover{
     padding-left: 20px;
 }
 .grzl_box{
-    padding: 30px 20px 40px;
+    padding: 0 20px;
     background: #fff;
+}
+.grzl_box_top{
+    border-bottom: 1px solid #ddd;
+    padding: 30px 0 40px;
+}
+.grzl_box_top .lside{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 0;
+    width: 634px;
+    border-right: 1px dotted #ddd;
+}
+.grzl_box_top img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 20px 0 10px;
+}
+.grzl_box_top .lside ul{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 12px;
+    line-height: 25px;
+}
+.grzl_box_top .lside .icon{
+    display: inline-block;
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+    background: url(../images/tubiaoji.png) no-repeat -116px -309px;
+}
+.grzl_box_top .lside span{
+    margin-left: 28px;
+}
+.grzl_box_top .lside a{
+    color: #3b83cb;
+}
+.grzl_box_top .rside{
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 48px;
+    font-size: 0;
+}
+.grzl_box_top .rside li:first-child{
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 6px;
+}
+.grzl_box_top .rside li{
+    font-size: 12px;
+    color: #999;
+    line-height: 22px;
+}
+.grzl_box_top .rside ul{
+    display: inline-block;
+    vertical-align: top;
+}
+.grzl_box_bot ul{
+    font-size: 0;
+}
+.grzl_box_bot .lside{
+    display: inline-block;
+    width: 130px;
+    text-align: right;
+    font-size: 14px;
+}
+.xingming input{
+    width: 260px;
+    height: 28px;
+    border: 1px solid #ddd;
+}
+.xingming .icon{
+    display: inline-block;
+    vertical-align: middle;
+    width: 15px;
+    height: 16px;
+    margin: 0 2px 0 8px;
+    background: url(../images/tubiaoji.png) no-repeat -117px -371px;
+}
+.xingming a{
+    font-size: 12px;
+    color: #3b83cb;
+    vertical-align: middle;
+}
+.jiaxiang .btn{
+    position: relative;
+    width: 123px;
+    height: 30px;
+    border: 1px solid #ddd;
+    text-align: left;
+    text-indent: 12px;
+    background: #fff;
+    font-size: 14px;
+    margin-right: 10px;
+}
+.grzl_box_bot .xsjiao{
+    display: block;
+    position: absolute;
+    top: 12px;
+    right: 12px; 
+    width: 0;
+    height: 0;
+    border: 4px solid;
+    border-color: #f60 transparent transparent;
+}
+.grzl_box_bot .ssjiao{
+    display: none;
+    position: absolute;
+    top: 7px;
+    right: 12px; 
+    width: 0;
+    height: 0;
+    border: 4px solid;
+    border-color: transparent transparent #f60 ;
+}
+.xingbie{
+    font-size: 14px;
+}
+#girl{
+    margin-left: 35px;
+}
+.birthday{
+    font-size: 0;
+}
+.birthday .btn{
+    vertical-align: middle;
+    width: 65px;
+    height: 30px;
+    font-size: 12px;
+    background: #fff;
+    border: 1px solid #ddd;
+    text-align: left;
+    text-indent: 10px;
+}
+.birthday .date{
+    font-size: 14px;
+    vertical-align: middle;
+    margin: 0 10px;
 }

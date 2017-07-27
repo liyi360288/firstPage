@@ -117,11 +117,36 @@ a:hover{
     width: 634px;
     border-right: 1px dotted #ddd;
 }
-.grzl_box_top img{
+.grzl_box_top .lside .email{
+    position: relative;
+    top: 1px;
+}
+.grzl_box_top .touxiang{
+    display: inline-block;
+    position: relative;
     width: 100px;
     height: 100px;
     border-radius: 50%;
     margin: 0 20px 0 10px;
+}
+.grzl_box_top .touxiang img{
+    border-radius: 50%;
+}
+.touxiang img:hover+.change_img{
+    display: block;
+}
+.grzl_box_top .touxiang .change_img{
+    display: none;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    margin-left: -30px;
+    margin-top: -30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    opacity: .8;
+    background: url(../images/tubiaoji.png) no-repeat -95px -521px #747474;
 }
 .grzl_box_top .lside ul{
     display: inline-block;
@@ -162,14 +187,30 @@ a:hover{
     display: inline-block;
     vertical-align: top;
 }
+.grzl_box_bot{
+    padding: 30px 0 10px;
+}
 .grzl_box_bot ul{
     font-size: 0;
+}
+.grzl_box_bot li{
+    margin-bottom: 21px;
 }
 .grzl_box_bot .lside{
     display: inline-block;
     width: 130px;
     text-align: right;
     font-size: 14px;
+}
+.grzl_box_bot .btn{
+    background: #fff;
+    border: 1px solid #ddd;
+    text-align: left;
+    text-indent: 10px;
+}
+.xingming .lside,.birthday .lside{
+    position: relative;
+    top: 5px;
 }
 .xingming input{
     width: 260px;
@@ -191,12 +232,8 @@ a:hover{
 }
 .jiaxiang .btn{
     position: relative;
-    width: 123px;
+    width: 125px;
     height: 30px;
-    border: 1px solid #ddd;
-    text-align: left;
-    text-indent: 12px;
-    background: #fff;
     font-size: 14px;
     margin-right: 10px;
 }
@@ -222,6 +259,7 @@ a:hover{
 }
 .xingbie{
     font-size: 14px;
+    line-height: 27px;
 }
 #girl{
     margin-left: 35px;
@@ -230,17 +268,81 @@ a:hover{
     font-size: 0;
 }
 .birthday .btn{
+    position: relative;
     vertical-align: middle;
-    width: 65px;
+    width: 67px;
     height: 30px;
     font-size: 12px;
-    background: #fff;
-    border: 1px solid #ddd;
-    text-align: left;
     text-indent: 10px;
 }
 .birthday .date{
     font-size: 14px;
     vertical-align: middle;
-    margin: 0 10px;
+    margin: 0 8px;
+}
+.city .btn,.jiaoyu .btn{
+    position: relative;
+    width: 125px;
+    height: 30px;
+    font-size: 14px;
+    margin-right: 10px;
+}
+.hangye .btn{
+    position: relative;
+    width: 262px;
+    height: 30px;
+    font-size: 14px;
+}
+.aihao .btn,.want_city .btn{
+    position: relative;
+    width: 80px;
+    height: 30px;
+    padding-left: 35px;
+    font-size: 12px;
+    text-indent: 0;
+}
+.aihao .btn .icon,.want_city .btn .icon{
+    position: absolute;
+    top: 9px;
+    left: 18px;
+    display: block;
+    width: 12px;
+    height: 12px;
+    background: url(../images/tubiaoji.png) no-repeat -118px -509px;
+}
+.aihao .title,.want_city .title{
+    font-size: 12px;
+    color: #999;
+    margin-left: 10px;
+}
+.tj_btn .btn{
+    position: relative;
+    margin-left: 166px;
+    width: 150px;
+    height: 36px;
+    border: none;
+    background: #f60;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 10px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.tj_btn .btn:hover{
+    background: #ff9000;
+}
+.tj_btn .btn:hover .icon{
+    background: url(../images/tubiaoji.png) no-repeat -105px -267px #ffbb33;
+}
+.tj_btn .btn .icon{
+    position: absolute;
+    top: 0;
+    left: -36px;
+    display: block;
+    width: 36px;
+    height: 36px;
+    background: url(../images/tubiaoji.png) no-repeat -105px -267px #ff9000;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
 }

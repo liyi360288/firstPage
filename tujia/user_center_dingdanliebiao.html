@@ -122,13 +122,13 @@
                         <i class="hengxian"></i>
                     </div>
                     <div class="xllb">
-                        <button type="button" class="btn">
-                            <a href="#">
+                        <button type="button" class="btn" onclick="xLcd()" id="btn" onmouseout="xLcd_none()">
+                            <a href="javascript:;" id="first_dingdan">
                                 全部订单
-                                <i class="sjiao"></i>
-                                <i class="xjiao"></i>
+                                <i class="sjiao" id="sjiao"></i>
+                                <i class="xjiao" id="xjiao"></i>
                             </a>
-                            <ul class="xlcd">
+                            <ul class="xlcd" id="xlcd">
                                 <li>
                                     <a href="#">全部订单</a>
                                 </li>
@@ -140,6 +140,26 @@
                          
                         <p>您有<span>1</span>个已完成的订单尚未点评，每条点评最高可获得<span>1000</span>积分，价值<span>10</span>元</p>                                              
                     </div>
+                    <script>
+                        function xLcd()
+                        {
+                            fdd=document.getElementById("first_dingdan");
+                            fdd.style.border="1px solid #ffcd5d";
+                            sjiao=document.getElementById("sjiao");
+                            sjiao.style.display="none";
+                            xjiao=document.getElementById("xjiao");
+                            xjiao.style.display="block";
+                            xlcd=document.getElementById("xlcd");
+                            xlcd.style.display="block";
+
+                        }
+                        function xLcd_none()
+                        {
+                            xlcd.style.display="none";
+                            sjiao.style.display="block";
+                            xjiao.style.display="none";
+                        }
+                    </script>
                     <table>
                         <tr class="first-low">
                             <th class="first-th">

@@ -161,7 +161,7 @@ a:hover{
     border-style: solid;
     border-color: transparent transparent #f60; 
 }
-.btn:hover .xlcd{
+/* .btn:hover .xlcd{
     display: block;
 }
 .btn:hover>a{
@@ -172,7 +172,7 @@ a:hover{
 }
 .btn:hover .xjiao{
     display: block;
-}
+} */
 .xlcd{
     display: none;
     position: absolute;

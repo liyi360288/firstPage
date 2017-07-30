@@ -1,5 +1,6 @@
 .content{
     background: #f8f8f8;
+    padding-bottom: 50px;
 }
 .content-top{
     line-height: 43px;
@@ -92,11 +93,97 @@ a:hover{
 } 
 .right-content{
     width: 970px;
+    border: 1px solid #ddd;
 } 
 .right-content h1{
     font-size: 16px;
     color: #333;
     padding-left: 12px;
     line-height: 40px;
+    border-bottom: 1px solid #f1f1f1;
+}
+.content_container{
+    padding: 20px;
+    background: #fff;
+}
+.title1,.title2{
+    font-size: 14px;
+    color: #333;
+    border-left: 3px solid #ff9a00;
+    line-height: 1;
+    padding-left: 8px;
+}
+.title2{
+    margin: 30px 0 20px;
+}
+.table_box{
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.table_box th{
+    text-align: left;
+    font-size: 12px;
+    color: #999;
+    line-height: 37px;
+    padding-left: 12px;
+    background: #f8f8f8;
     border: 1px solid #ddd;
+}
+.table_box td{
+    font-size: 12px;
+    color: #333;
+    padding-left: 12px;
+    border-bottom: 1px solid #ddd;
+}
+.th_hyjb{
+    width: 244px;
+}
+.th_yylx{
+    width: 237px;
+}
+.second_low{
+    line-height: 38px;
+}
+.three_low{
+    line-height: 40px;
+}
+.four_low{
+    line-height: 38px;
+}
+.five_low{
+    line-height: 45px;
+}
+.table_box .bor_none{
+    border-bottom: none;
+}
+td+td,th+th{
+    border-left: 1px solid #ddd;
+}
+.right-content h2{
+    font-size: 14px;
+    color: #333;
+    line-height: 1;
+    border-left: 3px solid #ff9a00;
+    padding-left: 8px;
+}
+.list{
+    margin-top: 7px;
+    margin-bottom: 23px;
+}
+.list li{
+    position: relative;
+    line-height: 26px;
+    padding-left: 24px;
+    font-size: 12px;
+}
+.list .icon{
+    display: block;
+    position: absolute;
+    top: 11px;
+    left: 13px;
+    width: 3px;
+    height: 3px;
+    background: url(../images/tubiaoji.png) no-repeat -122px -592px;
 }

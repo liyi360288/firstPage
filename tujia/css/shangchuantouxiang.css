@@ -1,0 +1,115 @@
+.box{
+    width: 560px;
+    border: 1px solid #ddd;
+}
+.box h3{
+    position: relative;
+    font-size: 14px;
+    color: #666;
+    padding-left: 12px;
+    line-height: 36px;
+    background: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+}
+.box h3 .icon{
+    display: block;
+    position: absolute;
+    top: 11px;
+    right: 12px;
+    width: 13px;
+    height: 13px;
+    background: url(../images/tubiaoji.png) no-repeat -128px -130px;
+}
+.box_content{
+    background: #fff;
+    padding: 22px 20px 0;
+    font-size: 0;
+}
+.box_content .lside{
+    display: inline-block;
+    vertical-align: top;
+    width: 360px;
+    height: 360px;
+    background: #f8f8f8;
+}
+.box_content .lside p{
+    width: 232px;
+    font-size: 12px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 20px;
+}
+.lside .btn{
+    display: block;
+    position: relative;
+    width: 104px;
+    height: 28px;
+    border: 1px solid #ddd;
+    color: #333;
+    background: #fff;
+    padding-left: 35px;
+    font-size: 12px;
+    text-align: left;
+    border-radius: 3px;
+    margin: 139px auto 15px;
+}
+.lside .btn:hover{
+    border-color: #ff9a00;
+}
+.lside .btn .icon{
+    display: block;
+    position: absolute;
+    top: 8px;
+    left: 19px;
+    width: 12px;
+    height: 12px;
+    background: url(../images/tubiaoji.png) no-repeat -118px -509px;
+}
+.box_content .rside{
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 140px;
+    height: 360px;
+    background: #f8f8f8;
+    margin-left: 20px;
+}
+.rside span{
+    color: #999;
+    font-size: 12px;
+    line-height: 38px;
+}
+.rside span:first-child{
+    color: #333;
+    line-height: 45px;
+}
+.px_100,.px_60,.px_40{
+    border-radius: 50%;
+}
+.px_100{
+    width: 100px;
+    height: 100px;
+}
+.px_60{
+    width: 60px;
+    height: 60px;
+}
+.px_40{
+    width: 40px;
+    height: 40px;
+}
+.btn_keepchange{
+    display: block;
+    margin: 19px auto 20px;
+    width: 115px;
+    height: 30px;
+    text-align: center;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    background: #f60;
+    border-radius: 3px;
+}
+.btn_keepchange:hover{
+    background: #f90;
+}

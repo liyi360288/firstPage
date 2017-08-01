@@ -80,11 +80,13 @@ select:hover{
     position: relative;
 }
 .qx-icon{
+    position: relative;
+    top: -1px;
     display: inline-block;
-    vertical-align: top;
+    vertical-align: middle;
     width: 16px;
-    height: 18px;
-    background: url(../images/chaozhi.png) no-repeat -193px -543px;
+    height: 16px;
+    background: url(../images/tubiaoji.png) no-repeat -116px -309px;
 }
 .qx-icon:hover+.qxms{
     display: block;

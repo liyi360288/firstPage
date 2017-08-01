@@ -80,7 +80,7 @@
     margin-left: 18px;
     width: 90px;
     height: 17px;
-    background: url(../images/smallicon.png) no-repeat -437px -492px;
+    background: url(../images/tubiaoji.png) no-repeat -107px -626px;
 }
 .rside{
     width: 740px;
@@ -129,10 +129,10 @@
     display: inline-block;
     width: 74px;
     height: 43px;
-    background: url(../images/file-icon.png) no-repeat;
+    background: url(../images/tubiaoji.png) no-repeat -108px -56px;
 }                                               /* 按钮hover更改背景图 */
 .three-low .btn-file:hover+.file-icon,.six-low .btn-file:hover+.file-icon{
-    background: url(../images/file-hover.png) no-repeat;
+    background: url(../images/tubiaoji.png) no-repeat -108px 0;
 }
 .three-low i,.six-low i{
     font-style: normal;
@@ -180,7 +180,7 @@ label{
     left: -36px;
     width: 36px;
     height: 36px;
-    background: url(../images/smallicon.png) no-repeat -395px -665px #f90;
+    background: url(../images/tubiaoji.png) no-repeat -106px -269px #f90;
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
 }
@@ -189,24 +189,26 @@ label{
     color: #fff;
 }
 .a_tj:hover .icon{
-    background: url(../images/smallicon.png) no-repeat -395px -665px #fb3;
+    background: url(../images/tubiaoji.png) no-repeat -106px -269px #fb3;
 }
 .six-low .img-box{                              /* 上传图片栏的css */
     display: inline-block;
     position: relative;
     vertical-align: top;
     margin-right: 12px;
-    cursor: pointer;
 }
-.six-low .img-box:hover .x-icon{
-    background: url(../images/x-icon-hover.png) no-repeat;
-}
-.six-low .x-icon{
+.six-low .x_icon{
     display: inline-block;
     position: absolute;
     top: 0;
     right: 0;
+    box-sizing: border-box;
     width: 16px;
     height: 16px;
-    background: url(../images/x-icon.png) no-repeat;
+    border: 1px solid #ddd;
+    background: url(../images/tubiaoji.png) no-repeat -128px -129px #fff;
+}
+.six-low .x_icon:hover{
+    background: url(../images/tubiaoji.png) no-repeat -127px -128px #f60;
+    border: none;
 }

@@ -56,6 +56,7 @@
 .first-low,.second-low,.three-low,.four-low,.five-low,.six-low{
     border-bottom: 1px solid #ddd;
     padding: 26px 0;
+    font-size: 0;
 }
 .first-low,.second-low .rside{
     font-size: 0;
@@ -95,7 +96,6 @@
     font-size: 14px; 
 }
 .second-low p{
-    width: 100%;
     font-size: 14px;
     padding-top: 13px;
 }
@@ -123,6 +123,7 @@
     height: 43px;
     opacity: 0;
     z-index: 20;
+    cursor: pointer;
 }
 .three-low .file-icon,.six-low .file-icon{
     display: inline-block;
@@ -140,12 +141,16 @@
     padding-top: 11px;
     font-size: 14px;
 }
-.four-low .rside{                           /* 单选项栏 */
-    line-height: 51px;
-}
 .four-low input{
     margin-right: 10px;
     margin-left: 38px;
+    font-size: 14px;
+    position: relative;
+    top: -4px;
+}
+label{
+    font-size: 14px;
+    line-height: 51px;
 }
 .four-low input:first-child{
     margin-left: 0;
@@ -155,20 +160,20 @@
     padding: 30px 0;
     font-size: 0;
 }
-.tjbtn{
+.a_tj{
+    display: inline-block;
     position: relative;
     width: 132px;
-    height: 36px;
+    line-height: 36px;
     background: #f60;
     border: none;
     color: #fff;
     font-size: 18px;
-    vertical-align: top;
     margin-left: 36px;
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
 }
-.tjbtn .icon{
+.a_tj .icon{
     display: block;
     position: absolute;
     top: 0;
@@ -179,10 +184,11 @@
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
 }
-.tjbtn:hover{
+.a_tj:hover{
     background: #f90;
+    color: #fff;
 }
-.tjbtn:hover .icon{
+.a_tj:hover .icon{
     background: url(../images/smallicon.png) no-repeat -395px -665px #fb3;
 }
 .six-low .img-box{                              /* 上传图片栏的css */
@@ -190,6 +196,7 @@
     position: relative;
     vertical-align: top;
     margin-right: 12px;
+    cursor: pointer;
 }
 .six-low .img-box:hover .x-icon{
     background: url(../images/x-icon-hover.png) no-repeat;

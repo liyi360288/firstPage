@@ -122,68 +122,39 @@
                         <i class="hengxian"></i>
                     </div>
                     <div class="xllb">
-                        <button type="button" class="btn" onclick="xLcd()" id="btn" onmouseout="xLcd_none()">
-                            <a href="javascript:;" id="first_dingdan">
-                                全部订单
-                                <i class="sjiao" id="sjiao"></i>
-                                <i class="xjiao" id="xjiao"></i>
-                            </a>
-                            <ul class="xlcd" id="xlcd">
-                                <li>
-                                    <a href="#">全部订单</a>
-                                </li>
-                                <li>
-                                    <a href="#">未付款订单</a>
-                                </li>
-                            </ul>                            
-                        </button>
-                         
+                        <select name="" id="">
+                            <option>全部订单</option>
+                            <option>全部订单</option>
+                            <option>未付款订单</option>
+                        </select>                      
                         <p>您有<span>1</span>个已完成的订单尚未点评，每条点评最高可获得<span>1000</span>积分，价值<span>10</span>元</p>                                              
                     </div>
-                    <script>
-                        function xLcd()
-                        {
-                            fdd=document.getElementById("first_dingdan");
-                            fdd.style.border="1px solid #ffcd5d";
-                            sjiao=document.getElementById("sjiao");
-                            sjiao.style.display="none";
-                            xjiao=document.getElementById("xjiao");
-                            xjiao.style.display="block";
-                            xlcd=document.getElementById("xlcd");
-                            xlcd.style.display="block";
-
-                        }
-                        function xLcd_none()
-                        {
-                            xlcd.style.display="none";
-                            sjiao.style.display="block";
-                            xjiao.style.display="none";
-                        }
-                    </script>
                     <table>
-                        <tr class="first-low">
-                            <th class="first-th">
-                                订单号：<span class="color-blus">MN40001</span>（首晚预付订单)
-                            </th>
-                            <th>
-                                入住
-                            </th>
-                            <th>
-                                退房
-                            </th>
-                            <th>
-                                数量
-                            </th>
-                            <th>
-                                订单金额
-                            </th>
-                            <th>
-                                订单状态
-                            </th>
-                            <th>
-                                操作
-                            </th>            
-                        </tr>            
+                        <thead>
+                            <tr class="first-low">
+                                <th class="first-th">
+                                    订单号：<span class="color-blus">MN40001</span>（首晚预付订单)
+                                </th>
+                                <th>
+                                    入住
+                                </th>
+                                <th>
+                                    退房
+                                </th>
+                                <th>
+                                    数量
+                                </th>
+                                <th>
+                                    订单金额
+                                </th>
+                                <th>
+                                    订单状态
+                                </th>
+                                <th>
+                                    操作
+                                </th>            
+                            </tr>  
+                        </thead>        
                         <tr class="second-low">
                             <td class="first-td">
                                 <img src="images/fangjiantu.png" alt=""><span class="color-blus">西双版纳途家十二城豪华双床单卧套房</span>
@@ -251,29 +222,31 @@
                         </tr>
                     </table>
                     <table>
-                        <tr class="first-low">
-                            <th class="first-th">
-                                订单号：<span class="color-blus">MN40001</span>（首晚预付订单)
-                            </th>
-                            <th>
-                                入住
-                            </th>
-                            <th>
-                                退房
-                            </th>
-                            <th>
-                                数量
-                            </th>
-                            <th>
-                                订单金额
-                            </th>
-                            <th>
-                                订单状态
-                            </th>
-                            <th>
-                                操作
-                            </th>            
-                        </tr>            
+                        <thead>
+                            <tr class="first-low">
+                                <th class="first-th">
+                                    订单号：<span class="color-blus">MN40001</span>（首晚预付订单)
+                                </th>
+                                <th>
+                                    入住
+                                </th>
+                                <th>
+                                    退房
+                                </th>
+                                <th>
+                                    数量
+                                </th>
+                                <th>
+                                    订单金额
+                                </th>
+                                <th>
+                                    订单状态
+                                </th>
+                                <th>
+                                    操作
+                                </th>            
+                            </tr>  
+                        </thead>            
                         <tr class="second-low">
                             <td class="first-td">
                                 <img src="images/fangjiantu.png" alt=""><span class="color-blus">济州途家世茂国际广场高级市景大床房</span>
@@ -331,10 +304,8 @@
                                 </div>
                             </td>
                             <td>
-                                未支付<br>
-                                <button class="btn-pay">
-                                    <a href="#">立即支付</a>
-                                </button><br>
+                                未支付<br>                               
+                                <a href="#" class="a_pay">立即支付</a><br>
                                 00:40:37
                             </td>
                             <td>
@@ -347,29 +318,31 @@
                         </tr>
                     </table>
                     <table>
-                        <tr class="first-low">
-                            <th class="first-th">
-                                订单号：<span class="color-blus">MN40001</span>（首晚预付订单)
-                            </th>
-                            <th>
-                                入住
-                            </th>
-                            <th>
-                                退房
-                            </th>
-                            <th>
-                                数量
-                            </th>
-                            <th>
-                                订单金额
-                            </th>
-                            <th>
-                                订单状态
-                            </th>
-                            <th>
-                                操作
-                            </th>            
-                        </tr>            
+                        <thead>
+                            <tr class="first-low">
+                                <th class="first-th">
+                                    订单号：<span class="color-blus">MN40001</span>（首晚预付订单)
+                                </th>
+                                <th>
+                                    入住
+                                </th>
+                                <th>
+                                    退房
+                                </th>
+                                <th>
+                                    数量
+                                </th>
+                                <th>
+                                    订单金额
+                                </th>
+                                <th>
+                                    订单状态
+                                </th>
+                                <th>
+                                    操作
+                                </th>            
+                            </tr>  
+                        </thead>           
                         <tr class="second-low">
                             <td class="first-td">
                                 <img src="images/fangjiantu.png" alt=""><span class="color-blus">西双版纳途家十二城豪华双床单卧套房</span>
@@ -437,29 +410,31 @@
                         </tr>
                     </table>
                     <table>
-                        <tr class="first-low">
-                            <th class="first-th">
-                                订单号：<span class="color-blus">MN40001</span>（首晚预付订单)
-                            </th>
-                            <th>
-                                入住
-                            </th>
-                            <th>
-                                退房
-                            </th>
-                            <th>
-                                数量
-                            </th>
-                            <th>
-                                订单金额
-                            </th>
-                            <th>
-                                订单状态
-                            </th>
-                            <th>
-                                操作
-                            </th>            
-                        </tr>            
+                        <thead>
+                            <tr class="first-low">
+                                <th class="first-th">
+                                    订单号：<span class="color-blus">MN40001</span>（首晚预付订单)
+                                </th>
+                                <th>
+                                    入住
+                                </th>
+                                <th>
+                                    退房
+                                </th>
+                                <th>
+                                    数量
+                                </th>
+                                <th>
+                                    订单金额
+                                </th>
+                                <th>
+                                    订单状态
+                                </th>
+                                <th>
+                                    操作
+                                </th>            
+                            </tr>  
+                        </thead>              
                         <tr class="second-low">
                             <td class="first-td">
                                 <img src="images/fangjiantu.png" alt=""><span class="color-blus">济州途家世茂国际广场高级市景大床房</span>
@@ -518,9 +493,7 @@
                             </td>
                             <td>
                                 未支付<br>
-                                <button class="btn-pay">
-                                    <a href="#">立即支付</a>
-                                </button><br>
+                                <a href="#" class="a_pay">立即支付</a><br>
                                 00:40:37
                             </td>
                             <td>
@@ -533,29 +506,31 @@
                         </tr>
                     </table>
                     <table>
-                        <tr class="first-low">
-                            <th class="first-th">
-                                订单号：<span class="color-blus">MN40001</span>（首晚预付订单)
-                            </th>
-                            <th>
-                                入住
-                            </th>
-                            <th>
-                                退房
-                            </th>
-                            <th>
-                                数量
-                            </th>
-                            <th>
-                                订单金额
-                            </th>
-                            <th>
-                                订单状态
-                            </th>
-                            <th>
-                                操作
-                            </th>            
-                        </tr>            
+                        <thead>
+                            <tr class="first-low">
+                                <th class="first-th">
+                                    订单号：<span class="color-blus">MN40001</span>（首晚预付订单)
+                                </th>
+                                <th>
+                                    入住
+                                </th>
+                                <th>
+                                    退房
+                                </th>
+                                <th>
+                                    数量
+                                </th>
+                                <th>
+                                    订单金额
+                                </th>
+                                <th>
+                                    订单状态
+                                </th>
+                                <th>
+                                    操作
+                                </th>            
+                            </tr>  
+                        </thead>              
                         <tr class="second-low">
                             <td class="first-td">
                                 <img src="images/fangjiantu.png" alt=""><span class="color-blus">西双版纳途家十二城豪华双床单卧套房</span>

@@ -167,10 +167,56 @@ a:hover{
     background: #fff;
     color: #f60;
     margin: 0 8px;
+}                                   /* 选页end */
+.star_four,.star_five,.star_none{                      /* 评价的星星 */
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    top: 2px;
+    margin-left: 18px;
+    width: 90px;
+    height: 17px;
 }
-
-
-
+.star_none{
+    background: url(../images/tubiaoji.png) no-repeat -107px -626px;
+}
+.star_five{
+    background: url(../images/tubiaoji.png) no-repeat -107px -662px;
+}
+.star_four{
+    background: url(../images/tubiaoji.png) no-repeat -107px -698px;
+}                                           /* 评价的星星end */
+.a_tj{                              /* 发表点评的按钮 */
+    display: inline-block;
+    position: relative;
+    width: 132px;
+    line-height: 36px;
+    background: #f60;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    margin-left: 36px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.a_tj .icon{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -36px;
+    width: 36px;
+    height: 36px;
+    background: url(../images/tubiaoji.png) no-repeat -106px -269px #f90;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.a_tj:hover{
+    background: #f90;
+    color: #fff;
+}
+.a_tj:hover .icon{
+    background: url(../images/tubiaoji.png) no-repeat -106px -269px #fb3;
+}                           /* 发表点评的按钮end */
 
 footer{                         /* 脚部 */
     background-color: #f8f8f8;

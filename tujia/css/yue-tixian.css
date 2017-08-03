@@ -59,6 +59,7 @@
     color: #2e7dcd;
     border: 1px solid #dbeaf9;
     background: #ecf5fe;
+    cursor: pointer;
 }
 .second-low .yzm,.four-low .txje{               /* 文本输入框 */
     vertical-align: top;
@@ -81,14 +82,15 @@
 }
 .three-low .tx-btn{                         /* 支付宝、银行卡提现按钮 */
     position: relative;
+    display: inline-block;
     width: 360px;
-    height: 48px;
     font-size: 14px;
     line-height: 44px;
     border: 2px solid #ddd;
     background: #fff;
     text-align: left;
     margin-right: 20px;
+    cursor: pointer;
 }
 .three-low .tx-btn:hover{
     border-color: #ffcd5d;
@@ -128,11 +130,13 @@
     font-size: 14px;
     line-height: 1;
 }
-.six-low{                           /* 最后一行的提交按钮 */
+.six-low{                           /* 最后一行的提现按钮 */
     font-size: 0;
     margin-top: 30px;
+    padding-left: 210px;
 }
-.six-low .btn-last{
+.six-low .a_tx{                 
+    display: block;
     position: relative;
     width: 96px;
     height: 36px;
@@ -157,9 +161,9 @@
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
 }
-.six-low .btn-last:hover{
+.six-low .a_tx:hover{
     background: #ff9000;
 }
-.six-low .btn-last:hover .icon{
+.six-low .a_tx:hover .icon{
     background: url(../images/tubiaoji.png) no-repeat #fb3 -106px -269px;
 }

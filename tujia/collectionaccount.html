@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/public.css">
     <link rel="stylesheet" href="css/global-2015.css">
-    <link rel="stylesheet" href="css/zhanghuyue.css">
-    <title>2.1个人中心-账户余额</title>
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/shoukuanzhanghao.css">
+    <title>2.2个人中心-收款账号</title>
 </head>
 <body>
     <div>
@@ -48,7 +48,7 @@
                     <span>&gt;</span>
                     <a href="#">我的途家</a>
                     <span>&gt;</span>
-                    <a href="#">账户余额</a>    
+                    <a href="#">收款账号</a>    
                 </div>
                 <!-- end-content-top -->
                 <div class="left-content fl">
@@ -74,8 +74,8 @@
                             我的资产
                         </li>
                         <li class="content-menu">
-                            <a href="#" class="color-f60">帐户余额</a><br>
-                            <a href="#">收款帐户</a><br>
+                            <a href="#">帐户余额</a><br>
+                            <a href="#" class="color-f60">收款帐户</a><br>
                             <a href="#">我的途游卡</a><br>
                             <a href="#">我的惠住卡</a><br>
                             <a href="#">我的礼品卡／红包</a><br>
@@ -113,69 +113,96 @@
                 </div>
                 <!-- end-左边content --> 
                 <div class="right-content fr">
-                    <h1>
-                        账户余额
-                    </h1>
-                    <div class="zhye-title">
-                        <div class="fl">
-                            账户余额：<span class="color-f30">100.00</span>元
-                        </div>
-                        <div class="mid">
-                            账户状态：<span class="color-333">正常</span>
-                        </div>
-                        <button class="fr btn">提现</button>
+                    <div class="dingdan-menu">
+                        <a href="#" class="color-f60">支付宝</a>
+                        <span>|</span>
+                        <a href="#">银行账号</a>
+                        <i class="hengxian"></i>
                     </div>
-                    <div class="btn-box">
-                        <button class="dropdown">
-                            <a href="#">
-                                全部类型
-                                <i class="ssj"></i>
-                                <i class="xsj"></i>
-                            </a>
-                            <ul>
-                                <li>
-                                    <a href="#">全部类型</a>
-                                </li>
-                                <li>
-                                    <a href="#">返现</a>
-                                </li>
-                                <li>
-                                    <a href="#">消费</a>
-                                </li>
-                                <li>
-                                    <a href="#">提现</a>
-                                </li>
-                                <li>
-                                    <a href="#">退款</a>
-                                </li>
-                            </ul>
-                        </button>
-                        <span>日期</span>
-                        <input type="date">至<input type="date">
-                        <button class="btn-cx">查询</button>
-                    </div>
-                    <div class="table-box">
-                        <table>
-                            <tr>    
-                                <th>类型</th>
-                                <th>金额</th>
-                                <th>日期</th>
-                                <th>备注</th>
-                            </tr>
-                            <tr>
-                                <td>返现</td>
-                                <td><span>￥1280.00</span></td>
-                                <td>2012-03-20</td>
-                                <td>备注备注</td>
-                            </tr>
-                            <tr>
-                                <td>消费</td>
-                                <td><span>￥1280.00</span></td>
-                                <td>2012-03-20</td>
-                                <td>备注备注</td>
-                            </tr>
-                        </table>
-                    </div>
+                    <ul class="zhifubao-box">
+                        <li>
+                            <div class="lside">手机号：</div>
+                            <div class="rside">
+                                186****0414
+                                <button class="btn-yzm fr">获取手机验证码</button>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="lside"><span>*</span>验证码：</div>
+                            <div class="rside">
+                                <input type="text">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="lside"><span>*</span>真实姓名：</div>
+                            <div class="rside">
+                                <input type="text">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="lside"><span>*</span>支付宝账号：</div>
+                            <div class="rside">
+                                <input type="text" placeholder="邮箱地址/手机号码">
+                                <i class="icon"></i>用户不存在，请确认信息无误。
+                            </div>
+                        </li>
+                        <li class="btn-box">
+                            <button class="btn-bc">
+                                保存
+                            </button>
+                        </li>
+
+                    </ul>
+                    <ul class="yinhang-box"> 
+                        <li>
+                            请您使用储蓄卡提现，抱歉不支持信用卡
+                        </li>
+                        <li class="yhk">
+                            <div class="lside"><span>*</span>开户银行名称：</div>
+                            <select name="" id="" class="rside">
+                                <option value="">请选择</option>
+                            </select>
+                        </li>
+                        <li class="yhk">
+                            <div class="lside"><span>*</span>开户银行省份：</div>
+                            <select name="" id="" class="rside">
+                                <option value="">请选择</option>
+                            </select>
+                        </li>
+                        <li class="yhk">
+                            <div class="lside"><span>*</span>开户银行城市：</div>
+                            <select name="" id="" class="rside">
+                                <option value="">请选择</option>
+                            </select>
+                        </li>
+                        <li>
+                            <div class="lside"><span>*</span>开户银行支行：</div>
+                            <div class="rside">
+                                <input type="text">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="lside"><span>*</span>开户银行账号：</div>
+                            <div class="rside">
+                                <input type="text">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="lside"><span>*</span>再次确认账号：</div>
+                            <div class="rside">
+                                <input type="text">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="lside"><span>*</span>银行开户姓名：</div>
+                            <div class="rside">
+                                <input type="text">
+                            </div>
+                        </li>
+                        <li>    
+                            <button class="btn-bc">保存</button>
+                        </li>
+                    </ul>
                 </div>                 
             </div>           
         </div>

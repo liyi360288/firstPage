@@ -71,22 +71,8 @@
 .first-low>li:last-child{
     width: 200px;
 }
-.first-low [class^=icon]{
-    display: inline-block;
-    vertical-align: top;
-    position: relative;
-    top: 2px;
-    margin-left: 18px;
-    width: 90px;
-    height: 17px;
-    background: url(../images/smallicon.png) no-repeat -683px -432px;
-}
-.first-low .icon-fourxing{
-    background: url(../images/smallicon.png) no-repeat -437px -432px;
-}
 .second-low .rside{
     width: 940px;
-    
 }
 .second-low .rside .dp-text{
     font-size: 14px;
@@ -107,7 +93,7 @@
     margin-bottom: 4px;
 }
 .tx{
-    background: url(../images/wsdtx.png) no-repeat;
+    background: url(../images/tubiaoji.png) no-repeat -196px -24px;
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -139,188 +125,19 @@
 .color999{
     color: #999;
 }
-.syhs,.syhx{
-    width: 20px;
-    height: 24px;
-    background: url(../images/smallicon.png) no-repeat -466px -739px;
-}
-.syhx{
-    background-position: -762px -762px;
-    margin-left: 15px;
-}
-
 .syhs,.syhx{
     display: inline-block;
     vertical-align: middle;
-    width: 20px;
+    width: 23px;
     height: 24px;
-    background: url(../images/smallicon.png) no-repeat -466px -739px;
+    background: url(../images/tubiaoji.png) no-repeat;
+}
+.syhs{
+    background-position: -200px -77px;
 }
 .syhx{
-    background-position: -762px -762px;
-    margin-left: 15px;
+    background-position: -198px -112px;
 }
 .three-low{
     border-bottom: none;
 }
-
-
-
-
-/* 
-.content{
-    background: #f8f8f8;
-    padding-bottom: 79px;
-}
-.orderlist{
-    background-color: #f8f8f8;
-    line-height: 43px;
-}
-.orderlist span{
-    margin: 0 8px;
-    color: #ccc;
-}
-.orderlist a{
-    font-size: 12px;
-    color: #000;
-}
-.top-content{
-    border: 1px solid #ddd;
-    padding: 20px;
-    background: #fff;
-}
-.limg{
-    font-size: 0;
-}
-.limg img{
-    width: 278px;
-    height: 164px;
-    padding-right: 20px;
-}
-.limg,.text{
-    display: inline-block;
-    vertical-align: top;
-    color: #333;
-    font-size: 12px;
-}
-.top-content h3{
-    font-size: 18px;
-    line-height: 1;
-    margin-bottom: 15px;
-}
-.blue{
-    color: #3b83cb;
-}
-.text{
-    line-height: 25px;
-}
-.sls{
-    letter-spacing: 24px;
-}
-.fls{
-    letter-spacing: 6px;
-}
-.bot-content{
-    padding: 0 30px;
-    margin-top: 20px;
-    border: 1px solid #ddd;
-    background: #fff;
-    color: #333;
-    font-size: 14px;
-}
-.first-low li,.lside,.rside,.syhs,.syhx{
-    display: inline-block;
-    vertical-align: top;
-}
-.first-low,.second-low,.three-low{
-    border-bottom: 1px solid #ddd;
-    padding: 26px 0;
-}
-.first-low,.second-low,.three-low{
-    font-size: 0;
-}
-.first-low li{
-    width: 245px;
-    font-size: 14px;
-}
-.first-low>li:first-child,.lside{
-    font-size: 16px;
-    width: 180px;
-}
-.first-low>li:last-child{
-    width: 200px;
-}
-.first-low [class^=icon]{
-    display: inline-block;
-    vertical-align: top;
-    position: relative;
-    top: 2px;
-    margin-left: 18px;
-    width: 90px;
-    height: 17px;
-    background: url(../images/smallicon.png) no-repeat -683px -432px;
-}
-.first-low .icon-fourxing{
-    background: url(../images/smallicon.png) no-repeat -437px -432px;
-}
-.rside{
-    width: 948px;
-    font-size: 14px;
-}
-.rside p{
-    line-height: 24px;
-}
-.rside img{
-    margin: 15px 12px 28px 0;
-}
-.hf{
-    position: relative;
-    border: 1px solid #ddd;
-    padding: 20px 25px 20px 75px;
-    background: #f8f8f8;
-}
-.tx{
-    background: url(../images/wsdtx.png) no-repeat;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    position: absolute;
-    top: 20px;
-    left: 20px;
-}
-.sj{
-    width: 0;
-    height: 0;
-    border-width: 8px;
-    border-style: solid;
-    border-color: transparent transparent #f8f8f8;
-    position: absolute;
-    top: -16px;
-    left: 37px;
-    z-index: 99;
-}
-.bk{
-    width: 0;
-    height: 0;
-    border-width: 9px;
-    border-style: solid;
-    border-color: transparent transparent #ddd;
-    position: absolute;
-    top: -18px;
-    left: 36px;
-}
-.color999{
-    color: #999;
-}
-.syhs,.syhx{
-    width: 20px;
-    height: 24px;
-    background: url(../images/smallicon.png) no-repeat -466px -739px;
-}
-.syhx{
-    background-position: -762px -762px;
-    margin-left: 15px;
-}
-.three-low{
-    border-bottom: none;
-}  */

@@ -71,16 +71,6 @@
 .first-low>li:last-child{
     width: 200px;
 }
-.first-low [class^=icon]{
-    display: inline-block;
-    vertical-align: top;
-    position: relative;
-    top: 2px;
-    margin-left: 18px;
-    width: 90px;
-    height: 17px;
-    background: url(../images/smallicon.png) no-repeat -437px -492px;
-}
 .rside{
     width: 740px;
 }
@@ -128,10 +118,10 @@
     display: inline-block;
     width: 74px;
     height: 43px;
-    background: url(../images/file-icon.png) no-repeat;
+    background: url(../images/tubiaoji.png) no-repeat -108px -56px;
 }                                               /* 按钮hover更改背景图 */
-.three-low .btn-file:hover+.file-icon,.six-low .btn-file:hover+.file-icon{
-    background: url(../images/file-hover.png) no-repeat;
+.three-low .btn-file:hover+.file-icon{
+    background: url(../images/tubiaoji.png) no-repeat -108px 0;
 }
 .three-low i{
     font-style: normal;
@@ -155,186 +145,3 @@
     padding: 30px 0;
     font-size: 0;
 }
-.tjbtn{
-    position: relative;
-    width: 132px;
-    height: 36px;
-    background: #f60;
-    border: none;
-    color: #fff;
-    font-size: 18px;
-    vertical-align: top;
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
-}
-.tjbtn .icon{
-    display: block;
-    position: absolute;
-    top: 0;
-    left: -36px;
-    width: 36px;
-    height: 36px;
-    background: url(../images/smallicon.png) no-repeat -395px -665px #f90;
-    border-top-left-radius: 3px;
-    border-bottom-left-radius: 3px;
-}
-.tjbtn:hover{
-    background: #f90;
-}
-.tjbtn:hover .icon{
-    background: url(../images/smallicon.png) no-repeat -395px -665px #fb3;
-}
-
-
-
-/* 
-.top-content{
-    border: 1px solid #ddd;
-    padding: 20px;
-    background: #fff;
-}
-.limg{
-    font-size: 0;
-}
-.limg img{
-    width: 278px;
-    height: 164px;
-    padding-right: 20px;
-}
-.limg,.text{
-    display: inline-block;
-    vertical-align: top;
-    color: #333;
-    font-size: 12px;
-}
-.top-content h3{
-    font-size: 18px;
-    line-height: 1;
-    margin-bottom: 15px;
-}
-.blue{
-    color: #3b83cb;
-}
-.text{
-    line-height: 25px;
-}
-.sls{
-    letter-spacing: 24px;
-}
-.fls{
-    letter-spacing: 6px;
-}
-.bot-content{
-    padding: 0 30px;
-    margin-top: 20px;
-    border: 1px solid #ddd;
-    background: #fff;
-    color: #333;
-    font-size: 14px;
-}
-.first-low li,.lside,.rside{
-    display: inline-block;
-    vertical-align: top;
-}
-.first-low,.second-low,.three-low,.four-low{
-    border-bottom: 1px solid #ddd;
-    padding: 26px 0;
-}
-.first-low{
-    font-size: 0;
-}
-.first-low li{
-    width: 245px;
-    font-size: 14px;
-}
-.first-low>li:first-child,.lside{
-    font-size: 16px;
-    width: 180px;
-}
-.first-low>li:last-child{
-    width: 200px;
-}
-.first-low [class^=icon]{
-    display: inline-block;
-    vertical-align: top;
-    position: relative;
-    top: 2px;
-    margin-left: 18px;
-    width: 90px;
-    height: 17px;
-    background: url(../images/smallicon.png) no-repeat -437px -492px;
-}
-.rside{
-    width: 740px;
-}
-#pinglun{
-    color: #999;
-    width: 740px;
-    height: 140px;
-    box-sizing: border-box;
-    line-height: 22px;
-    resize: none;
-    padding:6px 13px;  
-}
-.second-low p{
-    display: inline-block;
-    padding-top: 13px;
-}
-.second-low span,.three-low span{
-    color: #f60;
-}
-.lside span{
-    color: #999;
-}
-.btn{
-    width: 72px;
-    height: 41px;
-    line-height: 41px;
-    color: #3b83cb;
-    border: 1px dotted #39c;
-    background: #e0f5ff;
-    padding-left: 25px;
-    position: relative;
-}
-.jh{
-    width: 17px;
-    height: 16px;
-    background: url(../images/smallicon.png) no-repeat -405px -752px;
-    position: absolute;
-    top: 13px;
-    left: 12px;
-}
-.sctp p{
-    display: inline-block;
-    padding-top: 7px;
-}
-.four-low .rside{
-    line-height: 51px;
-}
-input{
-    margin-right: 10px;
-    margin-left: 38px;
-}
-input:first-child{
-    margin-left: 0;
-}
-.five-low{
-    text-align: center;
-    padding: 30px 0;
-    font-size: 0;
-}
-.tjbtn{
-    width: 138px;
-    height: 36px;
-    background: #f60;
-    border: none;
-    color: #fff;
-    font-size: 18px;
-    vertical-align: top;
-}
-.dagou{
-    width: 36px;
-    height: 36px;
-    background: url(../images/smallicon.png) no-repeat -395px -663px #ff9000;
-    display: inline-block;
-} */

@@ -11,6 +11,9 @@
     font-size: 16px;  
     color: #333;
 }
+.dingdan-menu a:hover{
+    color: #f60;
+}
 .dingdan-menu .color-f60{
     color: #f60;
 }

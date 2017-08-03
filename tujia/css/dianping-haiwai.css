@@ -71,19 +71,6 @@
 .first-low>li:last-child{
     width: 200px;
 }
-.first-low [class^=icon]{
-    display: inline-block;
-    vertical-align: top;
-    position: relative;
-    top: 2px;
-    margin-left: 18px;
-    width: 90px;
-    height: 17px;
-    background: url(../images/smallicon.png) no-repeat -683px -432px;
-}
-.first-low .icon-fourxing{
-    background: url(../images/smallicon.png) no-repeat -437px -432px;
-}
 .second-low .rside p{
     font-size: 14px;
     line-height: 24px;

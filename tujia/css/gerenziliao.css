@@ -1,96 +1,3 @@
-.content{
-    background: #f8f8f8;
-}
-.content-top{
-    line-height: 43px;
-    font-size: 12px;
-}
-.content-top span{
-    margin: 0 7px;
-    color: #ccc;
-}
-.content-top a{
-    color: #000;
-} 
-.left-content{
-    width: 200px;
-    border-top: 2px solid #f60;
-    border-left: 1px solid #f1f1f1;
-    border-right: 1px solid #f1f1f1;
-    margin-bottom: 50px;
-}
-.one-list{                  /* 左边用户资料开始 */
-    position: relative;
-    padding: 15px 0 15px 85px;
-    line-height: 20px;
-    color: #333;
-    font-size: 12px;
-}
-.userimg{
-    width: 60px;
-    height: 60px;
-    position: absolute;
-    top: 15px;
-    left: 12px;
-}
-.userimg img{
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-}
-.xm{
-    font-size: 14px;
-}
-.one-list a{
-    color: #2e7dcd;
-}
-.one-list{
-    border-bottom: 1px solid #f1f1f1;
-    background: #fff;
-}
-.content-title{                     
-    line-height: 40px;
-    padding-left: 12px;
-    border-bottom: 1px solid #f1f1f1;
-    font-size: 14px;
-    color: #333;;
-}
-.content-menu{
-    line-height: 30px;
-    padding: 6px 0 5px 43px;
-    border-bottom: 1px solid #f1f1f1;
-    background: #fff;
-    font-size: 12px;
-}
-.content-menu a{
-    color: #666;
-}
-.content-menu .color-f60{           /* 订单管理的颜色 */
-    color: #f60;
-}
-.list-icon{                         /* 左边列表的小图标 */
-    display: inline-block;
-    vertical-align: middle;
-    padding-right: 10px;
-    width: 17px;
-    height: 19px;
-    background: url(../images/chaozhi.png) no-repeat -193px -280px;
-}
-.wdzc{
-    background: url(../images/chaozhi.png) no-repeat -193px -393px;
-}
-.grzx{
-    background: url(../images/chaozhi.png) no-repeat -193px -656px;
-}
-.yqytc{
-    background: url(../images/chaozhi.png) no-repeat -193px -889px;
-}
-.ywyh{
-    background: url(../images/chaozhi.png) no-repeat -193px -973px;
-}
-a:hover{
-    color: #f60;
-}                                 /* 左边content结束 */
 .right-content{
     width: 970px;
     border: 1px solid #ddd;
@@ -186,6 +93,7 @@ a:hover{
 .grzl_box_top .rside ul{
     display: inline-block;
     vertical-align: top;
+    margin-left: 20px;
 }
 .grzl_box_bot{
     padding: 30px 0 10px;
@@ -194,7 +102,7 @@ a:hover{
     font-size: 0;
 }
 .grzl_box_bot li{
-    margin-bottom: 21px;
+    margin-bottom: 22px;
 }
 .grzl_box_bot .lside{
     display: inline-block;
@@ -216,6 +124,8 @@ a:hover{
     width: 260px;
     height: 28px;
     border: 1px solid #ddd;
+    font-size: 14px;
+    text-indent: 1em;
 }
 .xingming .icon{
     display: inline-block;
@@ -230,12 +140,18 @@ a:hover{
     color: #3b83cb;
     vertical-align: middle;
 }
-.jiaxiang .btn{
+.jiaxiang .lside,.jiaoyu .lside,.hangye .lside,.city .lside{
     position: relative;
+    top: 5px;
+}
+.jiaxiang .dropmenu{
     width: 125px;
     height: 30px;
     font-size: 14px;
     margin-right: 10px;
+    border-radius: 0;
+    background: #fff;
+    border: 1px solid #ddd;
 }
 .grzl_box_bot .xsjiao{
     display: block;
@@ -267,41 +183,48 @@ a:hover{
 .birthday{
     font-size: 0;
 }
-.birthday .btn{
-    position: relative;
-    vertical-align: middle;
+.birthday select{
     width: 67px;
     height: 30px;
     font-size: 12px;
-    text-indent: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
 }
 .birthday .date{
     font-size: 14px;
     vertical-align: middle;
     margin: 0 8px;
 }
-.city .btn,.jiaoyu .btn{
-    position: relative;
+.city select,.jiaoyu select{
     width: 125px;
     height: 30px;
     font-size: 14px;
     margin-right: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
 }
-.hangye .btn{
-    position: relative;
+.hangye select{
     width: 262px;
     height: 30px;
     font-size: 14px;
+    background: #fff;
+    border: 1px solid #ddd;
 }
-.aihao .btn,.want_city .btn{
+.a_tj_box{
+    display: inline-block;
     position: relative;
-    width: 80px;
-    height: 30px;
+    width: 43px;
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #ddd;
     padding-left: 35px;
     font-size: 12px;
     text-indent: 0;
 }
-.aihao .btn .icon,.want_city .btn .icon{
+.a_tj_box:hover{
+    border-color: #ff9000;
+}
+.a_tj_box .icon{
     position: absolute;
     top: 9px;
     left: 18px;
@@ -315,11 +238,12 @@ a:hover{
     color: #999;
     margin-left: 10px;
 }
-.tj_btn .btn{
+.btn_tj{                    /* 修改并提交按钮 */
+    display: block;
     position: relative;
     margin-left: 166px;
     width: 150px;
-    height: 36px;
+    line-height: 36px;
     border: none;
     background: #f60;
     text-align: center;
@@ -329,13 +253,14 @@ a:hover{
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
 }
-.tj_btn .btn:hover{
+.btn_tj:hover{
     background: #ff9000;
+    color: #fff;
 }
-.tj_btn .btn:hover .icon{
+.btn_tj:hover .icon{
     background: url(../images/tubiaoji.png) no-repeat -105px -267px #ffbb33;
 }
-.tj_btn .btn .icon{
+.btn_tj .icon{
     position: absolute;
     top: 0;
     left: -36px;
@@ -345,12 +270,12 @@ a:hover{
     background: url(../images/tubiaoji.png) no-repeat -105px -267px #ff9000;
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
-}
+}                       /* 修改并提交按钮 end */
 .xg_name{
     width: 408px;
     border: 1px solid #ddd;
 }
-.xg_name h3{
+.xg_name .title{
     position: relative;
     font-size: 14px;
     color: #666;
@@ -359,7 +284,7 @@ a:hover{
     background: #f8f8f8;
     border-bottom: 1px solid #ddd;
 }
-.xg_name h3 .icon{
+.xg_name .title .icon{              /* 弹窗关闭按钮 */
     display: block;
     position: absolute;
     top: 11px;
@@ -396,6 +321,7 @@ a:hover{
     width: 260px;
     height: 28px;
     border: 1px solid #ddd;
+    font-size: 14px;
 }
 .xg_name_content .btn{
     margin-left: 117px;
@@ -405,4 +331,8 @@ a:hover{
     background: #f60;
     border-radius: 3px;
     border: none;
+    cursor: pointer;
+}
+.xg_name_content .btn:hover{
+    background: #ff9000;
 }

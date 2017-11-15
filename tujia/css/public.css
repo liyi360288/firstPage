@@ -168,23 +168,28 @@ a:hover{
     color: #f60;
     margin: 0 8px;
 }                                   /* 选页end */
-.star_four,.star_five,.star_none{                      /* 评价的星星 */
+.star_four,.star_five,.star_none,.yellowstar,.graystar{                      /* 评价的星星 */
     display: inline-block;
     vertical-align: top;
     position: relative;
-    top: 2px;
-    margin-left: 18px;
-    width: 90px;
-    height: 17px;
+    top: 3px;
+    width: 15px;
+    height: 15px;
 }
 .star_none{
-    background: url(../images/tubiaoji.png) no-repeat -107px -626px;
+    background: url(../images/graystar.png) no-repeat;
 }
 .star_five{
-    background: url(../images/tubiaoji.png) no-repeat -107px -662px;
+    background: url(../images/yellowstar.png) no-repeat;
+}
+.yellowstar{
+    background: url(../images/yellowstar.png) no-repeat;    
+}
+.graystar{
+    background: url(../images/yellowstar.png) no-repeat;    
 }
 .star_four{
-    background: url(../images/tubiaoji.png) no-repeat -107px -698px;
+    background: url(../images/graystar.png) no-repeat;
 }                                           /* 评价的星星end */
 .a_tj{                              /* 发表点评的按钮 */
     display: inline-block;

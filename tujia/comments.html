@@ -8,6 +8,14 @@
     <link rel="stylesheet" href="css/global-2015.css">
     <link rel="stylesheet" href="css/fabiaodianping.css">
     <title>1.2个人中心-发表点评</title>
+    <style>
+        #txt{
+            width: 100px;
+            height: 20px;
+            font-size: 14px;
+        }
+
+    </style>
 </head>
 <body>
     <div>   
@@ -73,60 +81,78 @@
                     </ul>            
                 </div>
                 <div class="bot-content">
-                    <ul class="first-low">
-                        <li>总体评价</li>
-                        <li>
-                            整洁卫生<i class="star_none"></i>
-                        </li>
-                        <li>
-                            管理服务<i class="star_none"></i>
-                        </li>
-                        <li>
-                            交通位置<i class="star_none"></i>
-                        </li>
-                        <li>
-                            设施装修<i class="star_none"></i>
-                        </li>
-                    </ul>
-                    <div class="second-low">
-                        <div class="lside">入住感受</div>
-                        <div class="rside">
-                            <textarea name="" id="pinglun" cols="30" rows="10" placeholder="您觉得房屋宽敞舒适吗？服务设施还贴心吧&#10;分享您入住途家公寓的感受，帮助其他游客了解这个公寓。"></textarea>
-                            <p>点评超过<span>20个字</span>，赠送<span>500积分</span>，可抵扣<span>5元订金</span><span class="fr color-666">您已输入了0个字</span></p>
-                        </div>
-                    </div>
-                    <div class="three-low">
-                        <div class="lside">
-                            上传照片<br><span>（选填）</span>
-                        </div>
-                        <div class="rside">
-                            <div class="btn">
-                                <input type="file" class="btn-file">
-                                <i class="file-icon"></i>                                
+                    <form action="">
+                        <ul class="first-low">
+                            <li>总体评价</li>
+                            <li id="sanitation">
+                                整洁卫生<i class="star_none"></i>
+                                <i class="star_none"></i>
+                                <i class="star_none"></i>
+                                <i class="star_none"></i>
+                                <i class="star_none"></i>
+                            </li>
+                            <li id="manage">
+                                管理服务<i class="star_none"></i>
+                                <i class="star_none"></i>
+                                <i class="star_none"></i>
+                                <i class="star_none"></i>
+                                <i class="star_none"></i>
+                            </li>
+                            <li id="traffic">
+                                交通位置<i class="star_none"></i>
+                                <i class="star_none"></i>
+                                <i class="star_none"></i>
+                                <i class="star_none"></i>
+                                <i class="star_none"></i>
+                            </li>
+                            <li id="fitment">
+                                设施装修<i class="star_none"></i>
+                                <i class="star_none"></i>
+                                <i class="star_none"></i>
+                                <i class="star_none"></i>
+                                <i class="star_none"></i>
+                            </li>
+                        </ul>
+                        <div class="second-low">
+                            <div class="lside">入住感受</div>
+                            <div class="rside">
+                                <textarea name="" id="pinglun" cols="30" rows="10" placeholder="您觉得房屋宽敞舒适吗？服务设施还贴心吧&#10;分享您入住途家公寓的感受，帮助其他游客了解这个公寓。"></textarea>
+                                <p>点评超过<span>20个字</span>，赠送<span>500积分</span>，可抵扣<span>5元订金</span><span class="fr color-666">您已输入了0个字</span></p>
                             </div>
-                            <p>
-                                每上传一张实拍照片，赠送<span>50积分</span>，最多上传10张<i class="fr">还可以插入10张图片</i>
-                            </p>
                         </div>
-                    </div>
-                    <div class="four-low">
-                        <div class="lside">出行目的
-                            <br><span>（选填）</span>
+                        <div class="three-low">
+                            <div class="lside">
+                                上传照片<br><span>（选填）</span>
+                            </div>
+                            <div class="rside">
+                                <div class="btn">
+                                    <input type="file" class="btn-file" id="update">
+                                    <i class="file-icon"></i>    
+                                </div>
+                                <p>
+                                    每上传一张实拍照片，赠送<span>50积分</span>，最多上传10张<i class="fr">还可以插入10张图片</i>
+                                </p>
+                            </div>
                         </div>
-                        <div class="rside">
-                            <input type="radio" name="mudi" id="jtcy"><label for="jtcy">家庭出游</label>
-                            <input type="radio" name="mudi" id="qldj"><label for="qldj">情侣度假</label>
-                            <input type="radio" name="mudi" id="pyjh"><label for="pyjh">朋友聚会</label>
-                            <input type="radio" name="mudi" id="xxyl"><label for="xxyl">休闲养老</label>
-                            <input type="radio" name="mudi" id="sw"><label for="sw">商务</label>
-                            <input type="radio" name="mudi" id="qt"><label for="qt">其他</label>
+                        <div class="four-low">
+                            <div class="lside">出行目的
+                                <br><span>（选填）</span>
+                            </div>
+                            <div class="rside">
+                                <input type="radio" name="mudi" id="jtcy"><label for="jtcy">家庭出游</label>
+                                <input type="radio" name="mudi" id="qldj"><label for="qldj">情侣度假</label>
+                                <input type="radio" name="mudi" id="pyjh"><label for="pyjh">朋友聚会</label>
+                                <input type="radio" name="mudi" id="xxyl"><label for="xxyl">休闲养老</label>
+                                <input type="radio" name="mudi" id="sw"><label for="sw">商务</label>
+                                <input type="radio" name="mudi" id="qt"><label for="qt">其他</label>
+                            </div>
                         </div>
-                    </div>
-                    <div class="five-low">  
-                        <a href="#" class="a_tj">
-                            发表点评<i class="icon"></i>
-                        </a>                                         
-                    </div>                  
+                        <div class="five-low">  
+                            <a href="javascript:" class="a_tj" id="btn">
+                                发表点评<i class="icon"></i>
+                            </a>                                         
+                        </div> 
+                    </form>                 
                 </div>
             </div>
         </div>
@@ -149,5 +175,31 @@
 
 
     </div>
+    <script>
+        window.onload = function (){
+            function star(name){
+                var liId = document.getElementById(name);
+                var star = liId.getElementsByClassName('star_none');
+                for(var i=0;i<star.length;i++){
+                    star[i].setAttribute('index',i+1);
+                    star[i].onclick = function (){
+                        var num = this.getAttribute('index');
+                        for(var j = 0;j<star.length;j++){
+                            if(j<num){
+                                star[j].style.background = 'url(images/yellowstar.png)';       
+                            }else{
+                                star[j].style.background = 'url(images/graystar.png)';             
+                            }
+                        }
+                    }
+                }
+            }
+            star('sanitation');
+            star('manage');
+            star('traffic');
+            star('fitment');
+        }
+    </script>
+        
 </body>
 </html>

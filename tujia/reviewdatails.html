@@ -75,18 +75,34 @@
                 <div class="bot-content">
                     <ul class="first-low">
                         <li>总体评价</li>
-                        <li>
-                            整洁卫生<i class="star_four"></i>
-                        </li>
-                        <li>
-                            管理服务<i class="star_five"></i>
-                        </li>
-                        <li>
-                            交通位置<i class="star_five"></i>
-                        </li>
-                        <li>
-                            设施装修<i class="star_five"></i>
-                        </li>
+                            <li id="sanitation">
+                                整洁卫生<i class="star_none"></i>
+                                <i class="star_none"></i>
+                                <i class="star_none"></i>
+                                <i class="star_none"></i>
+                                <i class="star_none"></i>
+                            </li>
+                            <li id="manage">
+                                管理服务<i class="star_none"></i>
+                                <i class="star_none"></i>
+                                <i class="star_none"></i>
+                                <i class="star_none"></i>
+                                <i class="star_none"></i>
+                            </li>
+                            <li id="traffic">
+                                交通位置<i class="star_none"></i>
+                                <i class="star_none"></i>
+                                <i class="star_none"></i>
+                                <i class="star_none"></i>
+                                <i class="star_none"></i>
+                            </li>
+                            <li id="fitment">
+                                设施装修<i class="star_none"></i>
+                                <i class="star_none"></i>
+                                <i class="star_none"></i>
+                                <i class="star_none"></i>
+                                <i class="star_none"></i>
+                            </li>
                     </ul>
                     <div class="second-low">
                         <div class="lside">入住感受</div>
@@ -136,5 +152,30 @@
             </div>
         </footer>
     </div>
+    <script>
+        window.onload = function (){
+            function star(name){
+                var liId = document.getElementById(name);
+                var star = liId.getElementsByClassName('star_none');
+                for(var i=0;i<star.length;i++){
+                    star[i].setAttribute('index',i+1);
+                    star[i].onclick = function (){
+                        var num = this.getAttribute('index');
+                        for(var j = 0;j<star.length;j++){
+                            if(j<num){
+                                star[j].style.background = 'url(images/yellowstar.png)';       
+                            }else{
+                                star[j].style.background = 'url(images/graystar.png)';             
+                            }
+                        }
+                    }
+                }
+            }
+            star('sanitation');
+            star('manage');
+            star('traffic');
+            star('fitment');
+        }
+    </script>
 </body>
 </html>

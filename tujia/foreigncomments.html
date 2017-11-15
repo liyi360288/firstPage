@@ -72,17 +72,33 @@
                 <div class="bot-content">
                     <ul class="first-low">
                         <li>总体评价</li>
-                        <li>
+                        <li id="position">
                             位置<i class="star_none"></i>
+                            <i class="star_none"></i>
+                            <i class="star_none"></i>
+                            <i class="star_none"></i>
+                            <i class="star_none"></i>
                         </li>
-                        <li>
+                        <li id="clear">
                             清洁<i class="star_none"></i>
+                            <i class="star_none"></i>
+                            <i class="star_none"></i>
+                            <i class="star_none"></i>
+                            <i class="star_none"></i>
                         </li>
-                        <li>
+                        <li id="facility">
                             设施<i class="star_none"></i>
+                            <i class="star_none"></i>
+                            <i class="star_none"></i>
+                            <i class="star_none"></i>
+                            <i class="star_none"></i>
                         </li>
-                        <li>
+                        <li id="serve">
                             服务<i class="star_none"></i>
+                            <i class="star_none"></i>
+                            <i class="star_none"></i>
+                            <i class="star_none"></i>
+                            <i class="star_none"></i>
                         </li>
                     </ul>
                     <div class="second-low">
@@ -129,7 +145,7 @@
                         <p class="lside">
                             上传照片<br><span>（选填）</span>
                         </p>
-                        <div class="rside">
+                        <div class="rside" id="rside">
                             <div class="img-box">
                                 <img src="images/dpxiaotu.png" alt="">
                                 <a href="#" class="x_icon"></a>
@@ -169,7 +185,41 @@
                 <a href="#">城市地图</a>
             </div>
         </footer>
-
     </div>
+    <script>
+        window.onload = function (){
+            function star(name){
+                var liId = document.getElementById(name);
+                var star = liId.getElementsByClassName('star_none');
+                for(var i=0;i<star.length;i++){
+                    star[i].setAttribute('index',i+1);
+                    star[i].onclick = function (){
+                        var num = this.getAttribute('index');
+                        for(var j = 0;j<star.length;j++){
+                            if(j<num){
+                                star[j].style.background = 'url(images/yellowstar.png)';       
+                            }else{
+                                star[j].style.background = 'url(images/graystar.png)';             
+                            }
+                        }
+                        
+                    }
+                }
+            }
+            star('position');
+            star('clear');
+            star('facility');
+            star('serve');
+            var rside = document.getElementById('rside');
+            var xicon = rside.getElementsByTagName('a');
+            for(var i=0;i<xicon.length;i++){
+                xicon[i].onclick = function (){
+                    this.parentNode.style.display = 'none';
+                    return false;
+                }
+            }
+            
+        }
+    </script>
 </body>
 </html>

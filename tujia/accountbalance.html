@@ -6,16 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/public.css">
     <link rel="stylesheet" href="css/global-2015.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/zhanghuyue.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
     <title>2.1个人中心-账户余额</title>
 </head>
 <body>
-    <div>
+    <div class="container-fluid">
+        <!-- 头部 -->
         <header>
             <div class="top">
                 <img src="images/top.png" alt="">
             </div>
-            <div class="top-menu">
+            <div class="top-menu row">
                 <div class="main">
                     <a href="#">我的途家</a>
                     <a href="#">[退出]</a>
@@ -23,8 +26,10 @@
                     <a href="#">申请开店</a>                          
                 </div>
             </div>
-            <div class="nav-war">
+            <div class="nav-war row">
                 <nav class="nav main">
+                    <img src="images/top_left_logo.png" alt="" class="top_img_left">     
+                    <img src="images/top_right_logo.png" alt="" class="top_img_right">    
                     <a href="#">首页</a>
                     <span>|</span>
                     <a href="#">国内公寓</a>
@@ -40,147 +45,167 @@
                     <a href="#">特色房</a>
                 </nav> 
             </div>
-        </header><!-- end-头部 -->
-        <div class="content">
-            <div class="clearfix main">
-                <div class="content-top">
+        </header>
+        <!-- end-头部 -->
+        <div class="content clearfix">
+            <div class="main">
+                <div class="content-top row">
                     <a href="#">途家网</a>
                     <span>&gt;</span>
                     <a href="#">我的途家</a>
                     <span>&gt;</span>
                     <a href="#">账户余额</a>    
                 </div>
-                <!-- end-content-top -->
-                <div class="left-content fl">
-                    <ul class="left-content-list">
-                        <li class="one-list">
-                            <a href="#" class="userimg">
-                                <img src="images/touxiang.png" alt="">
-                            </a>                                
-                            <span class="xm">阿布GUU</span><br>
-                            积分：200<br>
-                            <a href="#">修改个人资料</a>
-                        </li>
-                        <li class="content-title">
-                            <i class="list-icon"></i>                            
-                            我的订单
-                        </li>
-                        <li class="content-menu">
-                            <a href="orderlist.html">订单管理</a><br>
-                            <a href="ordermanagement.html">点评管理</a>
-                        </li>
-                        <li class="content-title">
-                            <i class="list-icon wdzc"></i>                            
-                            我的资产
-                        </li>
-                        <li class="content-menu">
-                            <a href="accountbalance.html" class="color-f60">帐户余额</a><br>
-                            <a href="collectionaccount.html">收款帐户</a><br>
-                            <a href="#">我的途游卡</a><br>
-                            <a href="#">我的惠住卡</a><br>
-                            <a href="mygiftcard.html">我的礼品卡／红包</a><br>
-                            <a href="#">我的积分</a><br>
-                            <a href="#">我的体验劵</a>
-                        </li>
-                        <li class="content-title">
-                            <i class="list-icon grzx"></i>                           
-                            个人中心
-                        </li>
-                        <li class="content-menu">
-                            <a href="userinfo.html">个人资料</a><br>
-                            <a href="">修改密码</a><br>
-                            <a href="collection.html">我的收藏</a><br>
-                            <a href="myinvoice.html">我的发票</a><br>
-                            <a href="#">会员俱乐部</a><br>
-                            <a href="notice.html">通知</a><br>
-                            <a href="#">消息</a><br>
-                        </li>
-                        <li class="content-title">
-                            <i class="list-icon yqytc"></i>                            
-                            邀请与提成
-                        </li>
-                        <li class="content-menu">
-                            <a href="#">好友返利</a>
-                        </li>
-                        <li class="content-title">
-                            <i class="list-icon ewyh"></i>                            
-                            额外优惠
-                        </li>
-                        <li class="content-menu">
-                            <a href="extradiscount.html">预定额外优惠</a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- end-左边content --> 
-                <div class="right-content fr">
-                    <h1>
-                        账户余额
-                    </h1>
-                    <div class="zhye-title">
-                        <div class="fl">
-                            账户余额：<span class="color-f30">100.00</span>元
-                        </div>
-                        <div class="mid">
-                            账户状态：<span class="color-333">正常</span>
-                        </div>
-                        <a class="fr btn" href="balance withdrawal.html">提现</a>
+                <!-- end-content-top -->                
+                <div class="row">
+                    <div class="left-content col-md-2 visible-md-block visible-lg-block">
+                        <ul class="left-content-list">
+                            <li class="one-list">
+                                <a href="#" class="userimg">
+                                    <img src="images/touxiang.png" alt="">
+                                </a>                                
+                                <span class="xm">阿布GUU</span><br>
+                                积分：200<br>
+                                <a href="#">修改个人资料</a>
+                            </li>
+                            <li class="content-title">
+                                <i class="list-icon"></i>                            
+                                我的订单
+                            </li>
+                            <li class="content-menu">
+                                <a href="orderlist.html" class="color-f60">订单管理</a><br>
+                                <a href="ordermanagement.html">点评管理</a>
+                            </li>
+                            <li class="content-title">
+                                <i class="list-icon wdzc"></i>                            
+                                我的资产
+                            </li>
+                            <li class="content-menu">
+                                <a href="accountbalance.html">帐户余额</a><br>
+                                <a href="collectionaccount.html">收款帐户</a><br>
+                                <a href="#">我的途游卡</a><br>
+                                <a href="#">我的惠住卡</a><br>
+                                <a href="mygiftcard.html">我的礼品卡／红包</a><br>
+                                <a href="#">我的积分</a><br>
+                                <a href="#">我的体验劵</a>
+                            </li>
+                            <li class="content-title">
+                                <i class="list-icon grzx"></i>                           
+                                个人中心
+                            </li>
+                            <li class="content-menu">
+                                <a href="userinfo.html">个人资料</a><br>
+                                <a href="">修改密码</a><br>
+                                <a href="collection.html">我的收藏</a><br>
+                                <a href="myinvoice.html">我的发票</a><br>
+                                <a href="#">会员俱乐部</a><br>
+                                <a href="notice.html">通知</a><br>
+                                <a href="#">消息</a><br>
+                            </li>
+                            <li class="content-title">
+                                <i class="list-icon yqytc"></i>                            
+                                邀请与提成
+                            </li>
+                            <li class="content-menu">
+                                <a href="#">好友返利</a>
+                            </li>
+                            <li class="content-title">
+                                <i class="list-icon ewyh"></i>                            
+                                额外优惠
+                            </li>
+                            <li class="content-menu">
+                                <a href="extradiscount.html">预定额外优惠</a>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="btn-box">
-                        <div class="dropdown">
-                            <a href="#">
-                                全部类型
-                                <i class="ssj"></i>
-                                <i class="xsj"></i>
-                            </a>
+                    <!-- end-左边content -->
+                    <div class="right-content col-md-10 col-xs-10">
+                        <h1>
+                            账户余额
+                        </h1>
+                        <div class="zhye-title">
+                            <div class="fl">
+                                账户余额：<span class="color-f30">100.00</span>元
+                            </div>
+                            <div class="mid">
+                                账户状态：<span class="color-333">正常</span>
+                            </div>
+                            <a class="fr btn" href="balance withdrawal.html">提现</a>
+                        </div>
+                        <div class="btn-box">
+                            <div class="dropdown">
+                                <a href="#">
+                                    全部类型
+                                    <i class="ssj"></i>
+                                    <i class="xsj"></i>
+                                </a>
+                                <ul>
+                                    <li>
+                                        <a href="#">全部类型</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">返现</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">消费</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">提现</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">退款</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <span>日期</span>
+                            <input type="date">至<input type="date">
+                            <button class="btn-cx">查询</button>
+                        </div>
+                        <div class="table-box table-responsive">
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>    
+                                        <th>类型</th>
+                                        <th>金额</th>
+                                        <th>日期</th>
+                                        <th>备注</th>
+                                    </tr>
+                                </thead>                           
+                                <tr class="tr">
+                                    <td>返现</td>
+                                    <td><span>￥1280.00</span></td>
+                                    <td>2012-03-20</td>
+                                    <td>备注备注</td>
+                                </tr>
+                                <tr>
+                                    <td>消费</td>
+                                    <td><span>￥1280.00</span></td>
+                                    <td>2012-03-20</td>
+                                    <td>备注备注</td>
+                                </tr>
+                            </table>
+                        </div>    
+                        
+                        <!--  -->
+                        <div class="page">
                             <ul>
                                 <li>
-                                    <a href="#">全部类型</a>
+                                    <a href="#">上一页</a>
                                 </li>
+                                <li class="page-no">1</li>
                                 <li>
-                                    <a href="#">返现</a>
-                                </li>
-                                <li>
-                                    <a href="#">消费</a>
-                                </li>
-                                <li>
-                                    <a href="#">提现</a>
-                                </li>
-                                <li>
-                                    <a href="#">退款</a>
+                                    <a href="#">下一页</a>
                                 </li>
                             </ul>
                         </div>
-                        <span>日期</span>
-                        <input type="date">至<input type="date">
-                        <button class="btn-cx">查询</button>
+
                     </div>
-                    <div class="table-box">
-                        <table>
-                            <thead>
-                                <tr>    
-                                    <th>类型</th>
-                                    <th>金额</th>
-                                    <th>日期</th>
-                                    <th>备注</th>
-                                </tr>
-                            </thead>                           
-                            <tr class="tr">
-                                <td>返现</td>
-                                <td><span>￥1280.00</span></td>
-                                <td>2012-03-20</td>
-                                <td>备注备注</td>
-                            </tr>
-                            <tr>
-                                <td>消费</td>
-                                <td><span>￥1280.00</span></td>
-                                <td>2012-03-20</td>
-                                <td>备注备注</td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>                 
-            </div>           
-        </div>
+                    <!-- end-右边content -->
+                </div>
+                
+            </div>
+        </div>       
+        
         <footer>
             <div class="main footer_link">
                 <a href="#">关于我们</a>

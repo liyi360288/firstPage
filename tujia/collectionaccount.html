@@ -7,15 +7,17 @@
     <link rel="stylesheet" href="css/global-2015.css">
     <link rel="stylesheet" href="css/public.css">
     <link rel="stylesheet" href="css/shoukuanzhanghao.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <title>2.2个人中心-收款账号</title>
 </head>
 <body>
-    <div>
+    <div class="container-fluid">
+        <!-- 头部 -->
         <header>
             <div class="top">
                 <img src="images/top.png" alt="">
             </div>
-            <div class="top-menu">
+            <div class="top-menu row">
                 <div class="main">
                     <a href="#">我的途家</a>
                     <a href="#">[退出]</a>
@@ -23,8 +25,10 @@
                     <a href="#">申请开店</a>                          
                 </div>
             </div>
-            <div class="nav-war">
+            <div class="nav-war row">
                 <nav class="nav main">
+                    <img src="images/top_left_logo.png" alt="" class="top_img_left">     
+                    <img src="images/top_right_logo.png" alt="" class="top_img_right">    
                     <a href="#">首页</a>
                     <span>|</span>
                     <a href="#">国内公寓</a>
@@ -40,10 +44,11 @@
                     <a href="#">特色房</a>
                 </nav> 
             </div>
-        </header><!-- end-头部 -->
+        </header>
+        <!-- end-头部 -->
         <div class="content">
             <div class="clearfix main">
-                <div class="content-top">
+                <div class="content-top row">
                     <a href="#">途家网</a>
                     <span>&gt;</span>
                     <a href="#">我的途家</a>
@@ -51,172 +56,181 @@
                     <a href="#">收款账号</a>    
                 </div>
                 <!-- end-content-top -->
-                <div class="left-content fl">
-                    <ul class="left-content-list">
-                        <li class="one-list">
-                            <a href="#" class="userimg">
-                                <img src="images/touxiang.png" alt="">
-                            </a>                                
-                            <span class="xm">阿布GUU</span><br>
-                            积分：200<br>
-                            <a href="#">修改个人资料</a>
-                        </li>
-                        <li class="content-title">
-                            <i class="list-icon"></i>                            
-                            我的订单
-                        </li>
-                        <li class="content-menu">
-                            <a href="orderlist.html">订单管理</a><br>
-                            <a href="ordermanagement.html">点评管理</a>
-                        </li>
-                        <li class="content-title">
-                            <i class="list-icon wdzc"></i>                            
-                            我的资产
-                        </li>
-                        <li class="content-menu">
-                            <a href="accountbalance.html">帐户余额</a><br>
-                            <a href="collectionaccount.html" class="color-f60">收款帐户</a><br>
-                            <a href="#">我的途游卡</a><br>
-                            <a href="#">我的惠住卡</a><br>
-                            <a href="mygiftcard.html">我的礼品卡／红包</a><br>
-                            <a href="#">我的积分</a><br>
-                            <a href="#">我的体验劵</a>
-                        </li>
-                        <li class="content-title">
-                            <i class="list-icon grzx"></i>                           
-                            个人中心
-                        </li>
-                        <li class="content-menu">
-                            <a href="userinfo.html">个人资料</a><br>
-                            <a href="">修改密码</a><br>
-                            <a href="collection.html">我的收藏</a><br>
-                            <a href="myinvoice.html">我的发票</a><br>
-                            <a href="#">会员俱乐部</a><br>
-                            <a href="notice.html">通知</a><br>
-                            <a href="#">消息</a><br>
-                        </li>
-                        <li class="content-title">
-                            <i class="list-icon yqytc"></i>                            
-                            邀请与提成
-                        </li>
-                        <li class="content-menu">
-                            <a href="#">好友返利</a>
-                        </li>
-                        <li class="content-title">
-                            <i class="list-icon ewyh"></i>                            
-                            额外优惠
-                        </li>
-                        <li class="content-menu">
-                            <a href="extradiscount.html">预定额外优惠</a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- end-左边content --> 
-                <div class="right-content fr">
-                    <ul class="dingdan-menu">
-                        <li>
-                            <a href="#" class="color-f60">支付宝</a>
-                            <i class="hengxian zfb_line"></i>
-                        </li>
-                        <li>
-                            <a href="#">银行账号</a>
-                            <i class="hengxian yh_line"></i>
-                        </li>
-                        <!-- <span>
-                            <a href="#" class="color-f60">支付宝</a>
-                            <i class="hengxian zfb_line"></i>
-                        </span>
-                        <span>|</span>
-                        <span>
-                            <a href="#">银行账号</a>
-                            <i class="hengxian yh_line"></i>
-                        </span> -->
-                    </ul>
-                    <ul class="zhifubao-box">
-                        <li>
-                            <div class="lside">手机号：</div>
-                            <div class="rside">
-                                186****0414
-                                <button class="btn-yzm fr">获取手机验证码</button>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="lside"><span>*</span>验证码：</div>
-                            <div class="rside">
-                                <input type="text">
-                            </div>
-                        </li>
-                        <li>
-                            <div class="lside"><span>*</span>真实姓名：</div>
-                            <div class="rside">
-                                <input type="text">
-                            </div>
-                        </li>
-                        <li>
-                            <div class="lside"><span>*</span>支付宝账号：</div>
-                            <div class="rside">
-                                <input type="text" placeholder="邮箱地址/手机号码">
-                                <i class="icon"></i>用户不存在，请确认信息无误。
-                            </div>
-                        </li>
-                        <li class="btn-box">
-                            <button class="btn-bc">
-                                保存
-                            </button>
-                        </li>
+                <div class="row">
+                    <div class="left-content col-md-2">
+                        <ul class="left-content-list">
+                            <li class="one-list">
+                                <a href="#" class="userimg">
+                                    <img src="images/touxiang.png" alt="">
+                                </a>                                
+                                <span class="xm">阿布GUU</span><br>
+                                积分：200<br>
+                                <a href="#">修改个人资料</a>
+                            </li>
+                            <li class="content-title">
+                                <i class="list-icon"></i>                            
+                                我的订单
+                            </li>
+                            <li class="content-menu">
+                                <a href="orderlist.html" class="color-f60">订单管理</a><br>
+                                <a href="ordermanagement.html">点评管理</a>
+                            </li>
+                            <li class="content-title">
+                                <i class="list-icon wdzc"></i>                            
+                                我的资产
+                            </li>
+                            <li class="content-menu">
+                                <a href="accountbalance.html">帐户余额</a><br>
+                                <a href="collectionaccount.html">收款帐户</a><br>
+                                <a href="#">我的途游卡</a><br>
+                                <a href="#">我的惠住卡</a><br>
+                                <a href="mygiftcard.html">我的礼品卡／红包</a><br>
+                                <a href="#">我的积分</a><br>
+                                <a href="#">我的体验劵</a>
+                            </li>
+                            <li class="content-title">
+                                <i class="list-icon grzx"></i>                           
+                                个人中心
+                            </li>
+                            <li class="content-menu">
+                                <a href="userinfo.html">个人资料</a><br>
+                                <a href="">修改密码</a><br>
+                                <a href="collection.html">我的收藏</a><br>
+                                <a href="myinvoice.html">我的发票</a><br>
+                                <a href="#">会员俱乐部</a><br>
+                                <a href="notice.html">通知</a><br>
+                                <a href="#">消息</a><br>
+                            </li>
+                            <li class="content-title">
+                                <i class="list-icon yqytc"></i>                            
+                                邀请与提成
+                            </li>
+                            <li class="content-menu">
+                                <a href="#">好友返利</a>
+                            </li>
+                            <li class="content-title">
+                                <i class="list-icon ewyh"></i>                            
+                                额外优惠
+                            </li>
+                            <li class="content-menu">
+                                <a href="extradiscount.html">预定额外优惠</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- end-左边content -->
+                    <div class="right-content col-md-10">
+                        <ul class="dingdan-menu">
+                            <li>
+                                <a href="#" class="color-f60">支付宝</a>
+                            </li>
+                            |
+                            <li>
+                                <a href="#">银行账号</a>
+                            </li>
+                        </ul>
+                        <ul class="zhifubao-box">
+                            <li>
+                                <div class="lside">手机号：</div>
+                                <div class="rside">
+                                    186****0414
+                                    <button class="btn-yzm fr">获取手机验证码</button>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="lside"><span>*</span>验证码：</div>
+                                <div class="rside">
+                                    <input type="text">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="lside"><span>*</span>真实姓名：</div>
+                                <div class="rside">
+                                    <input type="text">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="lside"><span>*</span>支付宝账号：</div>
+                                <div class="rside">
+                                    <input type="text" placeholder="邮箱地址/手机号码">
+                                    <i class="icon"></i>用户不存在，请确认信息无误。
+                                </div>
+                            </li>
+                            <li class="btn-box">
+                                <button class="btn-bc">
+                                    保存
+                                </button>
+                            </li>
 
-                    </ul>
-                    <ul class="yinhang-box"> 
-                        <li>
-                            请您使用储蓄卡提现，抱歉不支持信用卡
-                        </li>
-                        <li class="yhk">
-                            <div class="lside"><span>*</span>开户银行名称：</div>
-                            <select name="" id="" class="rside">
-                                <option value="">请选择</option>
-                            </select>
-                        </li>
-                        <li class="yhk">
-                            <div class="lside"><span>*</span>开户银行省份：</div>
-                            <select name="" id="" class="rside">
-                                <option value="">请选择</option>
-                            </select>
-                        </li>
-                        <li class="yhk">
-                            <div class="lside"><span>*</span>开户银行城市：</div>
-                            <select name="" id="" class="rside">
-                                <option value="">请选择</option>
-                            </select>
-                        </li>
-                        <li>
-                            <div class="lside"><span>*</span>开户银行支行：</div>
-                            <div class="rside">
-                                <input type="text">
-                            </div>
-                        </li>
-                        <li>
-                            <div class="lside"><span>*</span>开户银行账号：</div>
-                            <div class="rside">
-                                <input type="text">
-                            </div>
-                        </li>
-                        <li>
-                            <div class="lside"><span>*</span>再次确认账号：</div>
-                            <div class="rside">
-                                <input type="text">
-                            </div>
-                        </li>
-                        <li>
-                            <div class="lside"><span>*</span>银行开户姓名：</div>
-                            <div class="rside">
-                                <input type="text">
-                            </div>
-                        </li>
-                        <li>    
-                            <button class="btn-bc">保存</button>
-                        </li>
-                    </ul>
-                </div>                 
+                        </ul>
+                        <ul class="yinhang-box"> 
+                            <li>
+                                请您使用储蓄卡提现，抱歉不支持信用卡
+                            </li>
+                            <li class="yhk">
+                                <div class="lside"><span>*</span>开户银行名称：</div>
+                                <select name="" id="" class="rside">
+                                    <option value="">请选择</option>
+                                </select>
+                            </li>
+                            <li class="yhk">
+                                <div class="lside"><span>*</span>开户银行省份：</div>
+                                <select name="" id="" class="rside">
+                                    <option value="">请选择</option>
+                                </select>
+                            </li>
+                            <li class="yhk">
+                                <div class="lside"><span>*</span>开户银行城市：</div>
+                                <select name="" id="" class="rside">
+                                    <option value="">请选择</option>
+                                </select>
+                            </li>
+                            <li>
+                                <div class="lside"><span>*</span>开户银行支行：</div>
+                                <div class="rside">
+                                    <input type="text">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="lside"><span>*</span>开户银行账号：</div>
+                                <div class="rside">
+                                    <input type="text">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="lside"><span>*</span>再次确认账号：</div>
+                                <div class="rside">
+                                    <input type="text">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="lside"><span>*</span>银行开户姓名：</div>
+                                <div class="rside">
+                                    <input type="text">
+                                </div>
+                            </li>
+                            <li>    
+                                <button class="btn-bc">保存</button>
+                            </li>
+                        </ul>
+                        
+                        
+                        <!--  -->
+                        <div class="page">
+                            <ul>
+                                <li>
+                                    <a href="#">上一页</a>
+                                </li>
+                                <li class="page-no">1</li>
+                                <li>
+                                    <a href="#">下一页</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <!-- end-右边content -->
+                </div>
+                
             </div>           
         </div>
         <footer>
@@ -237,12 +251,18 @@
     </div>
     <script src="jquery-3.2.1.min.js"></script>
     <script>
-        $('.dingdan-menu li').click(function(){
-            $(this).addClass('color-f60').children('.hengxian').show();
-            $(this).siblings().children('.hengxian').hide();
-            $(this).siblings().children('a').removeClass('color-f60');            
-            return false;
-        });
-    </script>
+        $('.dingdan-menu a:eq(0)').click(function(){
+            $(this).addClass('color-f60');
+            $('.dingdan-menu a').not(this).removeClass('color-f60');
+            $('.zhifubao-box').show();
+            $('.yinhang-box').hide()
+        })
+        $('.dingdan-menu a:eq(1)').click(function(){
+            $(this).addClass('color-f60');
+            $('.dingdan-menu a').not(this).removeClass('color-f60');            
+            $('.zhifubao-box').hide();
+            $('.yinhang-box').show()
+        })
+    </script>   
 </body>
 </html>

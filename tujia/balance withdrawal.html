@@ -7,15 +7,17 @@
     <link rel="stylesheet" href="css/public.css">
     <link rel="stylesheet" href="css/global-2015.css">
     <link rel="stylesheet" href="css/yue-tixian.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <title>2.1个人中心-账户余额-提现</title>
 </head>
 <body>
-    <div>
+    <div class="container-fluid">
+        <!-- 头部 -->
         <header>
             <div class="top">
                 <img src="images/top.png" alt="">
             </div>
-            <div class="top-menu">
+            <div class="top-menu row">
                 <div class="main">
                     <a href="#">我的途家</a>
                     <a href="#">[退出]</a>
@@ -23,8 +25,10 @@
                     <a href="#">申请开店</a>                          
                 </div>
             </div>
-            <div class="nav-war">
+            <div class="nav-war row">
                 <nav class="nav main">
+                    <img src="images/top_left_logo.png" alt="" class="top_img_left">     
+                    <img src="images/top_right_logo.png" alt="" class="top_img_right">    
                     <a href="#">首页</a>
                     <span>|</span>
                     <a href="#">国内公寓</a>
@@ -40,10 +44,11 @@
                     <a href="#">特色房</a>
                 </nav> 
             </div>
-        </header><!-- end-头部 -->
+        </header>
+        <!-- end-头部 -->
         <div class="content">
-            <div class="clearfix main">
-                <div class="content-top">
+            <div class="main">
+                <div class="content-top row">
                     <a href="#">途家网</a>
                     <span>&gt;</span>
                     <a href="#">我的途家</a>
@@ -52,50 +57,69 @@
                     <span>&gt;</span>
                     <a href="#">账户提现</a>    
                 </div>
-                <div class="tx-title">
+                <div class="tx-title row">
                     <strong>账户提现</strong>余额：<span>100.00</span> 元
                 </div>
-                <div class="tx-content">
-                    <ul>
-                        <li class="first-low">
-                            <span class="lside">手机号：</span>
-                            <span class="rside">186****0414<button class="btn">获取手机验证码</button></span>
-                        </li>
-                        <li class="second-low">
-                            <span class="lside">验证码：</span>
-                            <span class="rside">
-                                <input type="text" class="yzm">                            
-                                <i class="icon"></i> 验证码不正确     
-                            </span>                                                                       
-                        </li>
-                        <li class="three-low">
-                            <span class="lside">提现到：</span>
-                            <div class="tx-btn" id="btn-yh">
-                                <span class="tx-btn-title">银行账户</span>
-                                刘阿布 招商银行 尾号：2222
-                                <i class="icon"></i>
+                <div class="row">
+                    <form action="" class="form-horizontal" id="form">
+                        <div class="form-group">
+                            <label for="" class="col-md-3 control-label col-xs-5">
+                                手机号：
+                            </label>
+                            <div class="col-md-9 col-xs-7">
+                                <span class="telphone">186****0414</span>
+                                <button class="btn btn-info">
+                                    获取手机验证码
+                                </button>
                             </div>
-                            <div class="tx-btn" id="btn-zfb">
-                                <span class="tx-btn-title">支付宝</span>
-                                刘阿布  zhangzha***@126.com
-                                <i class="icon"></i>
+                        </div>
+                        <div class="form-group">
+                            <label for="" class="control-label col-md-3 col-xs-5">
+                                验证码：
+                            </label>
+                            <div class="col-md-4 col-xs-5">
+                                <input type="text" class="form-control">
                             </div>
-                        </li>
-                        <li class="four-low">
-                            <span class="lside">提现金额：</span><input type="text" class="txje">
-                        </li>
-                        <li class="five-low">
-                            <span class="lside"></span>
-                            <span class="rside">可提现金额：<span class="color-f30">0.00</span>元</span>
-                        </li>
-                        <li class="six-low">
-                            <span class="lside"></span>
-                            <a href="#" class="a_tx">
-                                <i class="icon"></i>
-                                提现
-                            </a>
-                        </li>
-                    </ul>
+                        </div>
+                        <div class="form-group">
+                            <label for="" class="control-label col-md-3 pt14 col-xs-5">
+                                提现到：
+                            </label>
+                            <div class="col-md-9">
+                                <div class="tx-btn col-md-5 col-xs-5" id="btn-yh">
+                                    <span class="tx-btn-title">银行账户</span>
+                                    刘阿布 招商银行 尾号：2222
+                                    <i class="icon"></i>
+                                </div>
+                                <div class="tx-btn col-md-5 col-xs-5" id="btn-zfb">
+                                    <span class="tx-btn-title">支付宝</span>
+                                    刘阿布  zhangzha***@126.com
+                                    <i class="icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="" class="control-label col-md-3">
+                                提现金额：
+                            </label>
+                            <div class="col-md-4">
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-9 col-md-offset-3">
+                                可提现金额：<span class="color-f30">0.00</span>元
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-9 col-md-offset-3">
+                                <a href="#" class="a_tx">
+                                    <i class="icon"></i>
+                                    提现
+                                </a>
+                            </div>
+                        </div>
+                    </form>
                 </div>
                 <script src="jquery-3.2.1.min.js"></script>
                 <script>

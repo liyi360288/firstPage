@@ -7,15 +7,18 @@
     <link rel="stylesheet" href="css/global-2015.css">
     <link rel="stylesheet" href="css/public.css">
     <link rel="stylesheet" href="css/wodeshoucang.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
     <title>3.3个人中心-我的收藏</title>
 </head>
 <body>
-    <div>
+    <div class="container-fluid">
+        <!-- 头部 -->
         <header>
             <div class="top">
                 <img src="images/top.png" alt="">
             </div>
-            <div class="top-menu">
+            <div class="top-menu row">
                 <div class="main">
                     <a href="#">我的途家</a>
                     <a href="#">[退出]</a>
@@ -23,8 +26,10 @@
                     <a href="#">申请开店</a>                          
                 </div>
             </div>
-            <div class="nav-war">
+            <div class="nav-war row">
                 <nav class="nav main">
+                    <img src="images/top_left_logo.png" alt="" class="top_img_left">     
+                    <img src="images/top_right_logo.png" alt="" class="top_img_right">    
                     <a href="#">首页</a>
                     <span>|</span>
                     <a href="#">国内公寓</a>
@@ -40,191 +45,199 @@
                     <a href="#">特色房</a>
                 </nav> 
             </div>
-        </header><!-- end-头部 -->
-        <div class="content">
-            <div class="clearfix main">
-                <div class="content-top">
+        </header>
+        <!-- end-头部 -->
+        <div class="content clearfix">
+            <div class="main">
+                <div class="content-top row">
                     <a href="#">途家网</a>
                     <span>&gt;</span>
                     <a href="#">我的途家</a>
                     <span>&gt;</span>
                     <a href="#">个人资料</a>    
                 </div>
-                <!-- end-content-top -->
-                <div class="left-content fl">
-                    <ul class="left-content-list">
-                        <li class="one-list">
-                            <a href="#" class="userimg">
-                                <img src="images/touxiang.png" alt="">
-                            </a>                                
-                            <span class="xm">阿布GUU</span><br>
-                            积分：200<br>
-                            <a href="#">修改个人资料</a>
-                        </li>
-                        <li class="content-title">
-                            <i class="list-icon"></i>                            
-                            我的订单
-                        </li>
-                        <li class="content-menu">
-                            <a href="orderlist.html">订单管理</a><br>
-                            <a href="ordermanagement.html">点评管理</a>
-                        </li>
-                        <li class="content-title">
-                            <i class="list-icon wdzc"></i>                            
-                            我的资产
-                        </li>
-                        <li class="content-menu">
-                            <a href="accountbalance.html">帐户余额</a><br>
-                            <a href="collectionaccount.html">收款帐户</a><br>
-                            <a href="#">我的途游卡</a><br>
-                            <a href="#">我的惠住卡</a><br>
-                            <a href="mygiftcard.html">我的礼品卡／红包</a><br>
-                            <a href="#">我的积分</a><br>
-                            <a href="#">我的体验劵</a>
-                        </li>
-                        <li class="content-title">
-                            <i class="list-icon grzx"></i>                           
-                            个人中心
-                        </li>
-                        <li class="content-menu">
-                            <a href="userinfo.html">个人资料</a><br>
-                            <a href="">修改密码</a><br>
-                            <a href="collection.html" class="color-f60">我的收藏</a><br>
-                            <a href="myinvoice.html">我的发票</a><br>
-                            <a href="#">会员俱乐部</a><br>
-                            <a href="notice.html">通知</a><br>
-                            <a href="#">消息</a><br>
-                        </li>
-                        <li class="content-title">
-                            <i class="list-icon yqytc"></i>                            
-                            邀请与提成
-                        </li>
-                        <li class="content-menu">
-                            <a href="#">好友返利</a>
-                        </li>
-                        <li class="content-title">
-                            <i class="list-icon ewyh"></i>                            
-                            额外优惠
-                        </li>
-                        <li class="content-menu">
-                            <a href="extradiscount.html">预定额外优惠</a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- end-左边content --> 
-                <div class="right-content fr">
-                    <h1>我的收藏</h1>
-                    <div class="wdsc_container">
-                        <div class="wdsc_box">
-                            <div class="img_box">
-                                <img src="images/dianpingtu1.png" alt="">
-                                <a href="#" class="icon">立即预定</a>
-                            </div>
-                            <div class="content_box">
-                                <a href="#">济南途家世茂国际广场高级市景大床房</a><br>
-                                <p>豪华联排别墅<span>|</span>3室1厅4卫<span>|</span>宜住6人<span>|</span>14套</p>
-                                <div class="piece">
-                                    <span class="color-f30">￥</span><span class="color-f30 fs-18">470</span>起
-                                    <a href="#"class="fr qxsc">
-                                        <i class="icon"></i>取消收藏
-                                    </a>
-                                </div>
-                            </div>                       
-                        </div>  
-                        <div class="wdsc_box">
-                            <div class="img_box">
-                                <img src="images/shoucangtu_2.png" alt="">
-                                <a href="#" class="icon">立即预定</a>
-                            </div>
-                            <div class="content_box">
-                                <a href="#">济南途家世茂国际广场高级市景大床房</a><br>
-                                <p>豪华联排别墅<span>|</span>3室1厅4卫<span>|</span>宜住6人<span>|</span>14套</p>
-                                <div class="piece">
-                                    <span class="color-f30">￥</span><span class="color-f30 fs-18">470</span>起
-                                    <a href="#"class="fr qxsc">
-                                        <i class="icon"></i>取消收藏
-                                    </a>
-                                </div>
-                            </div>                       
-                        </div>
-                        <div class="wdsc_box">
-                            <div class="img_box">
-                                <img src="images/shoucangtu_3.png" alt="">
-                                <a href="#" class="icon">立即预定</a>
-                            </div>
-                            <div class="content_box">
-                                <a href="#">济南途家世茂国际广场高级市景大床房</a><br>
-                                <p>豪华联排别墅<span>|</span>3室1厅4卫<span>|</span>宜住6人<span>|</span>14套</p>
-                                <div class="piece">
-                                    <span class="color-f30">￥</span><span class="color-f30 fs-18">470</span>起
-                                    <a href="#"class="fr qxsc">
-                                        <i class="icon"></i>取消收藏
-                                    </a>
-                                </div>
-                            </div>                       
-                        </div>
-                        <div class="wdsc_box">
-                            <div class="img_box">
-                                <img src="images/dianpingtu1.png" alt="">
-                                <a href="#" class="icon">立即预定</a>
-                            </div>
-                            <div class="content_box">
-                                <a href="#">济南途家世茂国际广场高级市景大床房</a><br>
-                                <p>豪华联排别墅<span>|</span>3室1厅4卫<span>|</span>宜住6人<span>|</span>14套</p>
-                                <div class="piece">
-                                    <span class="color-f30">￥</span><span class="color-f30 fs-18">470</span>起
-                                    <a href="#"class="fr qxsc">
-                                        <i class="icon"></i>取消收藏
-                                    </a>
-                                </div>
-                            </div>                       
-                        </div>
-                        <div class="wdsc_box">
-                            <div class="img_box">
-                                <img src="images/shoucangtu_2.png" alt="">
-                                <a href="#" class="icon">立即预定</a>
-                            </div>
-                            <div class="content_box">
-                                <a href="#">济南途家世茂国际广场高级市景大床房</a><br>
-                                <p>豪华联排别墅<span>|</span>3室1厅4卫<span>|</span>宜住6人<span>|</span>14套</p>
-                                <div class="piece">
-                                    <span class="color-f30">￥</span><span class="color-f30 fs-18">470</span>起
-                                    <a href="#"class="fr qxsc">
-                                        <i class="icon"></i>取消收藏
-                                    </a>
-                                </div>
-                            </div>                       
-                        </div>
-                        <div class="wdsc_box">
-                            <div class="img_box">
-                                <img src="images/shoucangtu_3.png" alt="">
-                                <a href="#" class="icon">立即预定</a>
-                            </div>
-                            <div class="content_box">
-                                <a href="#">济南途家世茂国际广场高级市景大床房</a><br>
-                                <p>豪华联排别墅<span>|</span>3室1厅4卫<span>|</span>宜住6人<span>|</span>14套</p>
-                                <div class="piece">
-                                    <span class="color-f30">￥</span><span class="color-f30 fs-18">470</span>起
-                                    <a href="#"class="fr qxsc">
-                                        <i class="icon"></i>取消收藏
-                                    </a>
-                                </div>
-                            </div>                       
-                        </div>
-                    </div> 
-                    <div class="page">
-                        <ul>
-                            <li class="first_page">
-                                <a href="#" disable="ture">上一页</a>
+                <!-- end-content-top -->                
+                <div class="row">
+                    <div class="left-content col-md-2 col-xs-3">
+                        <ul class="left-content-list">
+                            <li class="one-list">
+                                <a href="#" class="userimg">
+                                    <img src="images/touxiang.png" alt="">
+                                </a>                                
+                                <span class="xm">阿布GUU</span><br>
+                                积分：200<br>
+                                <a href="#">修改个人资料</a>
                             </li>
-                            <li class="page-no">1</li>
-                            <li>
-                                <a href="#">下一页</a>
+                            <li class="content-title">
+                                <i class="list-icon"></i>                            
+                                我的订单
+                            </li>
+                            <li class="content-menu">
+                                <a href="orderlist.html" class="color-f60">订单管理</a><br>
+                                <a href="ordermanagement.html">点评管理</a>
+                            </li>
+                            <li class="content-title">
+                                <i class="list-icon wdzc"></i>                            
+                                我的资产
+                            </li>
+                            <li class="content-menu">
+                                <a href="accountbalance.html">帐户余额</a><br>
+                                <a href="collectionaccount.html">收款帐户</a><br>
+                                <a href="#">我的途游卡</a><br>
+                                <a href="#">我的惠住卡</a><br>
+                                <a href="mygiftcard.html">我的礼品卡／红包</a><br>
+                                <a href="#">我的积分</a><br>
+                                <a href="#">我的体验劵</a>
+                            </li>
+                            <li class="content-title">
+                                <i class="list-icon grzx"></i>                           
+                                个人中心
+                            </li>
+                            <li class="content-menu">
+                                <a href="userinfo.html">个人资料</a><br>
+                                <a href="">修改密码</a><br>
+                                <a href="collection.html">我的收藏</a><br>
+                                <a href="myinvoice.html">我的发票</a><br>
+                                <a href="#">会员俱乐部</a><br>
+                                <a href="notice.html">通知</a><br>
+                                <a href="#">消息</a><br>
+                            </li>
+                            <li class="content-title">
+                                <i class="list-icon yqytc"></i>                            
+                                邀请与提成
+                            </li>
+                            <li class="content-menu">
+                                <a href="#">好友返利</a>
+                            </li>
+                            <li class="content-title">
+                                <i class="list-icon ewyh"></i>                            
+                                额外优惠
+                            </li>
+                            <li class="content-menu">
+                                <a href="extradiscount.html">预定额外优惠</a>
                             </li>
                         </ul>
-                    </div>                         
-                </div>                 
-            </div>           
+                    </div>
+                    <!-- end-左边content -->
+                    <div class="right-content col-md-10 col-xs-9">
+                        <h1>我的收藏</h1>
+                        <div class="wdsc_container">
+                            <div class="wdsc_box">
+                                <div class="img_box">
+                                    <img src="images/dianpingtu1.png" alt="">
+                                    <a href="#" class="icon">立即预定</a>
+                                </div>
+                                <div class="content_box">
+                                    <a href="#">济南途家世茂国际广场高级市景大床房</a><br>
+                                    <p>豪华联排别墅<span>|</span>3室1厅4卫<span>|</span>宜住6人<span>|</span>14套</p>
+                                    <div class="piece">
+                                        <span class="color-f30">￥</span><span class="color-f30 fs-18">470</span>起
+                                        <button class="fr qxsc">
+                                            <i class="icon"></i>取消收藏
+                                        </button>
+                                    </div>
+                                </div>                       
+                            </div>  
+                            <div class="wdsc_box">
+                                <div class="img_box">
+                                    <img src="images/shoucangtu_2.png" alt="">
+                                    <a href="#" class="icon">立即预定</a>
+                                </div>
+                                <div class="content_box">
+                                    <a href="#">济南途家世茂国际广场高级市景大床房</a><br>
+                                    <p>豪华联排别墅<span>|</span>3室1厅4卫<span>|</span>宜住6人<span>|</span>14套</p>
+                                    <div class="piece">
+                                        <span class="color-f30">￥</span><span class="color-f30 fs-18">470</span>起
+                                        <button class="fr qxsc">
+                                            <i class="icon"></i>取消收藏
+                                        </button>
+                                    </div>
+                                </div>                       
+                            </div>
+                            <div class="wdsc_box">
+                                <div class="img_box">
+                                    <img src="images/shoucangtu_3.png" alt="">
+                                    <a href="#" class="icon">立即预定</a>
+                                </div>
+                                <div class="content_box">
+                                    <a href="#">济南途家世茂国际广场高级市景大床房</a><br>
+                                    <p>豪华联排别墅<span>|</span>3室1厅4卫<span>|</span>宜住6人<span>|</span>14套</p>
+                                    <div class="piece">
+                                        <span class="color-f30">￥</span><span class="color-f30 fs-18">470</span>起
+                                        <button class="fr qxsc">
+                                            <i class="icon"></i>取消收藏
+                                        </button>
+                                    </div>
+                                </div>                       
+                            </div>
+                            <div class="wdsc_box">
+                                <div class="img_box">
+                                    <img src="images/dianpingtu1.png" alt="">
+                                    <a href="#" class="icon">立即预定</a>
+                                </div>
+                                <div class="content_box">
+                                    <a href="#">济南途家世茂国际广场高级市景大床房</a><br>
+                                    <p>豪华联排别墅<span>|</span>3室1厅4卫<span>|</span>宜住6人<span>|</span>14套</p>
+                                    <div class="piece">
+                                        <span class="color-f30">￥</span><span class="color-f30 fs-18">470</span>起
+                                        <button class="fr qxsc">
+                                            <i class="icon"></i>取消收藏
+                                        </button>
+                                    </div>
+                                </div>                       
+                            </div>
+                            <div class="wdsc_box">
+                                <div class="img_box">
+                                    <img src="images/shoucangtu_2.png" alt="">
+                                    <a href="#" class="icon">立即预定</a>
+                                </div>
+                                <div class="content_box">
+                                    <a href="#">济南途家世茂国际广场高级市景大床房</a><br>
+                                    <p>豪华联排别墅<span>|</span>3室1厅4卫<span>|</span>宜住6人<span>|</span>14套</p>
+                                    <div class="piece">
+                                        <span class="color-f30">￥</span><span class="color-f30 fs-18">470</span>起
+                                        <button class="fr qxsc">
+                                            <i class="icon"></i>取消收藏
+                                        </button>
+                                    </div>
+                                </div>                       
+                            </div>
+                            <div class="wdsc_box">
+                                <div class="img_box">
+                                    <img src="images/shoucangtu_3.png" alt="">
+                                    <a href="#" class="icon">立即预定</a>
+                                </div>
+                                <div class="content_box">
+                                    <a href="#">济南途家世茂国际广场高级市景大床房</a><br>
+                                    <p>豪华联排别墅<span>|</span>3室1厅4卫<span>|</span>宜住6人<span>|</span>14套</p>
+                                    <div class="piece">
+                                        <span class="color-f30">￥</span><span class="color-f30 fs-18">470</span>起
+                                        <button class="fr qxsc">
+                                            <i class="icon"></i>取消收藏
+                                        </button>
+                                    </div>
+                                </div>                       
+                            </div>
+                        </div>
+                        
+                        <!--  -->
+                        <div class="page">
+                            <ul>
+                                <li>
+                                    <a href="#">上一页</a>
+                                </li>
+                                <li class="page-no">1</li>
+                                <li>
+                                    <a href="#">下一页</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <!-- end-右边content -->
+                </div>
+                
+            </div>
         </div>
         <footer>
             <div class="main footer_link">
@@ -242,5 +255,10 @@
             </div>
         </footer>
     </div>
+    <script>
+        $('.qxsc').click(function(){
+            $(this).parents('.wdsc_box').hide();
+        })
+    </script>
 </body>
 </html>

@@ -1,16 +1,13 @@
 .dingdan-menu{
     position: relative;
-    font-size: 0;
+    height: 30px;
     line-height: 1;
     border-bottom: 2px solid #ddd;
 }
 .dingdan-menu li{
     display: inline-block;
-    margin-bottom: 12px;
 }
-.dingdan-menu li+li{
-    border-left: 1px solid #000;
-}
+
 .dingdan-menu a{
     display: inline-block;
     vertical-align: top;
@@ -23,24 +20,15 @@
 }
 .dingdan-menu .color-f60{
     color: #f60;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #f60;
+    display: inline-block;
 }
 .dingdan-menu span{
     font-size: 16px;
 }
-.hengxian{
-    position: absolute;
-    top: 28px;
-    width: 89px;
-    height: 2px;
-    background: #f60;
-}
-.zfb_line{
-    left: 0;
-}
-.yh_line{
-    left: 94px;
-    display: none;
-}
+
+
 .zhifubao-box{
     border: 1px solid #ddd;
     background: #fff;
@@ -113,6 +101,7 @@
     background: #ff9000;
 }
 .yinhang-box{
+    display: none;
     padding: 31px 0 10px 39px;
     margin-top: 19px;
     background: #fff;

@@ -2,27 +2,25 @@
     font-size: 16px;
     color: #333;
     line-height: 1;
+    margin: 0;
     border-bottom: 2px solid #ddd;
     padding-bottom: 12px;
 }
 .wdsc_container{
-    font-size: 0;
+    display: flex;
     padding-top: 20px;
+    flex-wrap: wrap;
+    justify-content: flex-start;    
 }
 .wdsc_box{
-    display: inline-block;
-    vertical-align: top;
+    flex: 0 1 30%;
     border: 1px solid #ddd;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    margin: 10px 1.66666% 20px;
 }
-.wdsc_box:nth-child(3n+1){
-    margin-left: 6px;
-}
+
 .img_box{
     position: relative;
-    width: 304px;
-    height: 191px;
+    height: 190px;
 }
 .img_box:hover .icon{
     display: block;
@@ -89,6 +87,7 @@
 .piece .qxsc{
     color: #333;
     font-size: 12px;
+    border: none;
 }
 .piece .qxsc:hover{
     text-decoration: underline;

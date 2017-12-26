@@ -80,10 +80,9 @@
     height: 28px;
     background: url(../images/tubiaoji.png) no-repeat -117px -329px;
 }
-.three-low .tx-btn{                         /* 支付宝、银行卡提现按钮 */
+.tx-btn{                         /* 支付宝、银行卡提现按钮 */
     position: relative;
     display: inline-block;
-    width: 360px;
     font-size: 14px;
     line-height: 44px;
     border: 2px solid #ddd;
@@ -92,13 +91,16 @@
     margin-right: 20px;
     cursor: pointer;
 }
-.three-low .tx-btn:hover{
+.telphone{
+    margin-right: 15px;
+}
+.tx-btn:hover{
     border-color: #ffcd5d;
 }
-.three-low .tx-btn:hover .icon{
+.tx-btn:hover .icon{
     display: block;
 }
-.three-low .tx-btn-title{
+.tx-btn .tx-btn-title{
     display: inline-block;
     width: 78px;
     line-height: 44px;
@@ -107,7 +109,7 @@
     border-right: 1px solid #f1f1f1;
     margin-right: 8px;
 }
-.three-low .icon{
+.icon{
     display: none;
     position: absolute;
     right: 0;
@@ -116,10 +118,10 @@
     height: 33px;
     background: url(../images/tubiaoji.png) no-repeat -107px -160px;
 }
-.three-low .tx-btn.active{
+.tx-btn.active{
     border-color: #f90;
 }
-.three-low .tx-btn.active .icon{
+.tx-btn.active .icon{
     display: block;
     background-position: -107px -217px;
 }
@@ -130,12 +132,21 @@
     font-size: 14px;
     line-height: 1;
 }
+#form{
+    padding: 30px 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-top: none;
+}
+#form .pt14{
+    padding-top: 14px;
+}
 .six-low{                           /* 最后一行的提现按钮 */
     font-size: 0;
     margin-top: 30px;
     padding-left: 210px;
 }
-.six-low .a_tx{                 
+.a_tx{                 
     display: block;
     position: relative;
     width: 96px;
@@ -150,7 +161,7 @@
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
 }
-.six-low .icon{
+.a_tx .icon{
     display: inline-block;
     width: 36px;
     height: 36px;
@@ -161,9 +172,10 @@
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
 }
-.six-low .a_tx:hover{
+.a_tx:hover{
+    color: #fff;
     background: #ff9000;
 }
-.six-low .a_tx:hover .icon{
+.a_tx:hover .icon{
     background: url(../images/tubiaoji.png) no-repeat #fb3 -106px -269px;
 }

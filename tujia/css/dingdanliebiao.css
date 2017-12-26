@@ -2,8 +2,10 @@
     position: relative;
     font-size: 0;
     line-height: 1;
+    height: 30px;
     border-bottom: 2px solid #ddd;
 }
+
 .dingdan-menu a{
     display: inline-block;
     vertical-align: top;
@@ -11,23 +13,16 @@
     font-size: 16px;  
     color: #333;
 }
-.dingdan-menu a:hover{
+
+.dingdan-menu .getF60{
     color: #f60;
+    border-bottom: 2px solid #f60;
 }
-.dingdan-menu .color-f60{
-    color: #f60;
-}
+
 .dingdan-menu span{
     font-size: 16px;
 }
-.hengxian{
-    position: absolute;
-    top: 28px;
-    left: 0;
-    width: 104px;
-    height: 2px;
-    background: #f60;
-}                                  /* 下拉列表开始 */   
+                                  /* 下拉列表开始 */   
 select{
     display: inline-block;
     margin: 20px 0 12px;
@@ -58,7 +53,6 @@ select:hover{
 .first-low{                     /* 第一行 */
     color: #999;
     line-height: 37px;
-    border: 1px solid #ddd;
     border-bottom: none;
 }
 .first-th{
@@ -161,32 +155,40 @@ select:hover{
     padding: 7px 0 6px 13px;
 }                                   /* 定金明细结束 */
 .second-low{                    /* 第二行 */
-    border: 1px solid #ddd;
     background: #fff;
     vertical-align: top;
+}
+th{
+    text-align: center;
 }
 .second-low>td+td{
     border-left: 1px solid #ddd;
 }
 .second-low img{
     float: left;
-    padding: 0 10px 0 12px;
+    padding-right: 10px;
 }
 .second-low>td{
     padding: 14px 0 11px;
+    text-align: center;
 }
 .second-low td:nth-child(7){
     line-height: 22px;
 }
+.second-low>td:first-child{
+    text-align: left;
+}
 .first-low th:nth-child(2),.first-low th:nth-child(3),.first-low th:nth-child(6),.first-low th:nth-child(7){
-    width: 119px;
+    width: 12%;
 }
 .first-low th:nth-child(4){
-    width: 79px;
+    width: 8%;
 }
 .first-low th:nth-child(5){
-    width: 159px;
+    width: 17%;
 }
+
+
 td a{
     color: #3b83cb;
 }
@@ -207,9 +209,9 @@ td a{
 }
 .jgmx-table{
     display: none;
-    position: absolute;
-    top: -10px;
-    left: -500px;
+    position: fixed;
+    top: 10px;
+    left: 500px;
     text-align: left;
     line-height: 38px;
     z-index: 100;

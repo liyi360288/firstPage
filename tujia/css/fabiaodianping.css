@@ -104,6 +104,8 @@
 .three-low .btn{
     position: relative;
     display: inline-block;
+    padding: 0;
+    height: 43px;
 }
 .three-low .btn-file{
     position: absolute;
@@ -144,4 +146,8 @@
     text-align: center;
     padding: 30px 0;
     font-size: 0;
+}
+.rside label{
+    margin: 0 12px;
+    vertical-align: -2px;
 }

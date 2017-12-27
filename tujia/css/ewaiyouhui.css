@@ -1,5 +1,4 @@
 .right-content{
-    width: 970px;
     border: 1px solid #ddd;
 } 
 .right-content h1{
@@ -45,10 +44,10 @@
     border-bottom: 1px solid #ddd;
 }
 .th_hyjb{
-    width: 244px;
+    width: 25%;
 }
 .th_yylx{
-    width: 237px;
+    width: 25%;
 }
 .second_low{
     line-height: 38px;

@@ -7,15 +7,18 @@
     <link rel="stylesheet" href="css/global-2015.css">
     <link rel="stylesheet" href="css/public.css">
     <link rel="stylesheet" href="css/gerenziliao.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
     <title>3.1个人中心-个人资料</title>
 </head>
 <body>
-    <div>
+    <div class="container-fluid">
+        <!-- 头部 -->
         <header>
             <div class="top">
                 <img src="images/top.png" alt="">
             </div>
-            <div class="top-menu">
+            <div class="top-menu row">
                 <div class="main">
                     <a href="#">我的途家</a>
                     <a href="#">[退出]</a>
@@ -23,8 +26,10 @@
                     <a href="#">申请开店</a>                          
                 </div>
             </div>
-            <div class="nav-war">
+            <div class="nav-war row">
                 <nav class="nav main">
+                    <img src="images/top_left_logo.png" alt="" class="top_img_left">     
+                    <img src="images/top_right_logo.png" alt="" class="top_img_right">    
                     <a href="#">首页</a>
                     <span>|</span>
                     <a href="#">国内公寓</a>
@@ -40,10 +45,11 @@
                     <a href="#">特色房</a>
                 </nav> 
             </div>
-        </header><!-- end-头部 -->
-        <div class="content">
-            <div class="clearfix main">
-                <div class="content-top">
+        </header>
+        <!-- end-头部 -->
+        <div class="content row">
+            <div class="clearfix main ">
+                <div class="content-top row">
                     <a href="#">途家网</a>
                     <span>&gt;</span>
                     <a href="#">我的途家</a>
@@ -51,7 +57,7 @@
                     <a href="#">个人资料</a>    
                 </div>
                 <!-- end-content-top -->
-                <div class="left-content fl">
+                <div class="left-content col-md-2">
                     <ul class="left-content-list">
                         <li class="one-list">
                             <a href="#" class="userimg">
@@ -112,7 +118,7 @@
                     </ul>
                 </div>
                 <!-- end-左边content --> 
-                <div class="right-content fr">
+                <div class="right-content col-md-10">
                     <h1>个人资料</h1>   
                     <div class="grzl_box">
                         <div class="grzl_box_top">
@@ -124,7 +130,7 @@
                                 <ul>
                                     <li>
                                         用户名： &nbsp;&nbsp;阿布Guu 
-                                        <span><a href="javascript:;" onclick="xGai()">修改</a></span>
+                                        <span><a href="javascript:;" id="changeUserName">修改</a></span>
                                     </li>
                                     <li> 
                                         电子邮箱：feiyin58773@sohu.com 
@@ -228,22 +234,23 @@
                                 </ul>
                             </form>
                         </div>
-                        <div class="xg_name">
-                            <div class="title">
-                                修改用户名
-                                <a href="#" class="icon"></a>
-                            </div>
-                            <ul class="xg_name_content">
-                                <li>
-                                    <span class="lside">原用户名：</span><span class="rside">刘阿布</span>
-                                </li>
-                                <li>
-                                    <span class="lside">新用户名：</span><input type="text">
-                                </li>
-                                <button class="btn">确定修改</button>
-                            </ul>
+                        
+                    </div> 
+                    <div class="xg_name">
+                        <div class="title">
+                            修改用户名
+                            <a href="#" class="icon"></a>
                         </div>
-                    </div>     
+                        <ul class="xg_name_content">
+                            <li>
+                                <span class="lside">原用户名：</span><span class="rside">刘阿布</span>
+                            </li>
+                            <li>
+                                <span class="lside">新用户名：</span><input type="text">
+                            </li>
+                            <button class="btn">确定修改</button>
+                        </ul>
+                    </div>    
                 </div>                 
             </div>           
         </div>
@@ -263,5 +270,16 @@
             </div>
         </footer>
     </div>
+    <script>
+        $('.touxiang').hover(function(){
+            $('.change_img').toggle();
+        });
+        $('#changeUserName').click(function(){
+            $('.xg_name').toggle();
+        });
+        $('.xg_name .title a').click(function(){
+            $('.xg_name').hide();
+        });
+    </script>
 </body>
 </html>

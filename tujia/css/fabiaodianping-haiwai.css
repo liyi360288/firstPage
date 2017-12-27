@@ -62,18 +62,14 @@
     font-size: 0;
 }
 .first-low li{
-    width: 245px;
     font-size: 14px;
 }
 .first-low>li:first-child,.lside{
     font-size: 16px;
-    width: 180px;
 }
 .first-low>li:last-child{
-    width: 200px;
 }
 .rside{
-    width: 740px;
 }
 #pinglun{
     color: #999;
@@ -170,4 +166,8 @@ label{
 .six-low .x_icon:hover{
     background: url(../images/tubiaoji.png) no-repeat -127px -128px #f60;
     border: none;
+}
+.rside label{
+    margin: 0 12px;
+    vertical-align: -2px;
 }

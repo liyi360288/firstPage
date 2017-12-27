@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="css/public.css">
     <link rel="stylesheet" href="css/global-2015.css">
     <link rel="stylesheet" href="css/fabiaodianping.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <title>1.2个人中心-发表点评</title>
+    <script src="js/jquery-3.2.1.min.js"></script>
     <style>
         #txt{
             width: 100px;
@@ -19,11 +21,12 @@
 </head>
 <body>
     <div>   
+        <!-- 头部 -->
         <header>
             <div class="top">
                 <img src="images/top.png" alt="">
             </div>
-            <div class="top-menu">
+            <div class="top-menu row">
                 <div class="main">
                     <a href="#">我的途家</a>
                     <a href="#">[退出]</a>
@@ -31,8 +34,10 @@
                     <a href="#">申请开店</a>                          
                 </div>
             </div>
-            <div class="nav-war">
+            <div class="nav-war row">
                 <nav class="nav main">
+                    <img src="images/top_left_logo.png" alt="" class="top_img_left">     
+                    <img src="images/top_right_logo.png" alt="" class="top_img_right">    
                     <a href="#">首页</a>
                     <span>|</span>
                     <a href="#">国内公寓</a>
@@ -48,10 +53,11 @@
                     <a href="#">特色房</a>
                 </nav> 
             </div>
-        </header><!-- end-头部 -->
+        </header>
+        <!-- end-头部 -->
         <div class="content">
             <div class="main">
-                <div class="content-top">
+                <div class="content-top row">
                     <a href="#">途家网</a>
                     <span>></span>
                     <a href="#">我的途家</a>
@@ -129,6 +135,9 @@
                                     <input type="file" class="btn-file" id="update">
                                     <i class="file-icon"></i>    
                                 </div>
+                                <div class="img_box">
+
+                                </div>
                                 <p>
                                     每上传一张实拍照片，赠送<span>50积分</span>，最多上传10张<i class="fr">还可以插入10张图片</i>
                                 </p>
@@ -199,6 +208,8 @@
             star('traffic');
             star('fitment');
         }
+        var oImgBox = document.getElementsByClassName('img_box')[0];
+        
     </script>
         
 </body>

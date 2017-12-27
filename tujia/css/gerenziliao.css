@@ -34,12 +34,11 @@
     width: 100px;
     height: 100px;
     border-radius: 50%;
+    overflow: hidden;
     margin: 0 20px 0 10px;
 }
-.grzl_box_top .touxiang img{
-    border-radius: 50%;
-}
-.touxiang img:hover+.change_img{
+
+.touxiang:hover .change_img{
     display: block;
 }
 .grzl_box_top .touxiang .change_img{
@@ -213,7 +212,7 @@
 .a_tj_box{
     display: inline-block;
     position: relative;
-    width: 43px;
+    width: 74px;
     height: 28px;
     line-height: 28px;
     border: 1px solid #ddd;
@@ -226,8 +225,8 @@
 }
 .a_tj_box .icon{
     position: absolute;
-    top: 9px;
-    left: 18px;
+    top: 7px;
+    left: 16px;
     display: block;
     width: 12px;
     height: 12px;
@@ -272,8 +271,15 @@
     border-bottom-left-radius: 3px;
 }                       /* 修改并提交按钮 end */
 .xg_name{
+    display: none;
     width: 408px;
     border: 1px solid #ddd;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -113px;
+    margin-left: -204px;
 }
 .xg_name .title{
     position: relative;

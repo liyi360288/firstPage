@@ -7,15 +7,17 @@
     <link rel="stylesheet" href="css/global-2015.css">
     <link rel="stylesheet" href="css/public.css">
     <link rel="stylesheet" href="css/fabiaodianping-haiwai.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <title>1.2个人中心-发表点评-海外</title>
 </head>
 <body>
-    <div>
+    <div class="container-fluid">
+        <!-- 头部 -->
         <header>
             <div class="top">
                 <img src="images/top.png" alt="">
             </div>
-            <div class="top-menu">
+            <div class="top-menu row">
                 <div class="main">
                     <a href="#">我的途家</a>
                     <a href="#">[退出]</a>
@@ -23,8 +25,10 @@
                     <a href="#">申请开店</a>                          
                 </div>
             </div>
-            <div class="nav-war">
+            <div class="nav-war row">
                 <nav class="nav main">
+                    <img src="images/top_left_logo.png" alt="" class="top_img_left">     
+                    <img src="images/top_right_logo.png" alt="" class="top_img_right">    
                     <a href="#">首页</a>
                     <span>|</span>
                     <a href="#">国内公寓</a>
@@ -40,10 +44,11 @@
                     <a href="#">特色房</a>
                 </nav> 
             </div>
-        </header><!-- end-头部 -->
+        </header>
+        <!-- end-头部 -->
         <div class="content">
             <div class="main">
-                <div class="content-top">
+                <div class="content-top row">
                     <a href="#">途家网</a>
                     <span>></span>
                     <a href="#">我的途家</a>
@@ -70,30 +75,30 @@
                     </ul>            
                 </div>
                 <div class="bot-content">
-                    <ul class="first-low">
-                        <li>总体评价</li>
-                        <li id="position">
+                    <ul class="first-low row">
+                        <li class="col-md-2">总体评价</li>
+                        <li id="position" class="col-md-3">
                             位置<i class="star_none"></i>
                             <i class="star_none"></i>
                             <i class="star_none"></i>
                             <i class="star_none"></i>
                             <i class="star_none"></i>
                         </li>
-                        <li id="clear">
+                        <li id="clear" class="col-md-3">
                             清洁<i class="star_none"></i>
                             <i class="star_none"></i>
                             <i class="star_none"></i>
                             <i class="star_none"></i>
                             <i class="star_none"></i>
                         </li>
-                        <li id="facility">
+                        <li id="facility" class="col-md-2">
                             设施<i class="star_none"></i>
                             <i class="star_none"></i>
                             <i class="star_none"></i>
                             <i class="star_none"></i>
                             <i class="star_none"></i>
                         </li>
-                        <li id="serve">
+                        <li id="serve" class="col-md-2">
                             服务<i class="star_none"></i>
                             <i class="star_none"></i>
                             <i class="star_none"></i>
@@ -101,18 +106,18 @@
                             <i class="star_none"></i>
                         </li>
                     </ul>
-                    <div class="second-low">
-                        <p class="lside">入住感受</p>
-                        <div class="rside">
+                    <div class="second-low row">
+                        <p class="lside col-md-2">入住感受</p>
+                        <div class="rside col-md-10">
                             <textarea name="" id="pinglun" cols="30" rows="10" placeholder="您觉得房屋宽敞舒适吗？服务设施还贴心吧&#10;分享您入住途家公寓的感受，帮助其他游客了解这个公寓。"></textarea>
                             <p>点评超过<span>20个字</span>，赠送<span>500积分</span>，可抵扣<span>5元订金</span><span class="fr color-666">您已输入了0个字</span></p>
                         </div>
                     </div>
-                    <div class="three-low">
-                        <p class="lside">
+                    <div class="three-low row">
+                        <p class="lside col-md-2">
                             上传照片<br><span>（选填）</span>
                         </p>
-                        <div class="rside">
+                        <div class="rside col-md-10">
                             <div class="btn">
                                 <input type="file" class="btn-file">
                                 <i class="file-icon"></i>                                
@@ -122,12 +127,12 @@
                             </p>
                         </div>
                     </div>
-                    <div class="four-low">
-                        <p class="lside">
+                    <div class="four-low row">
+                        <p class="lside col-md-2">
                             出行目的
                             <br><span>（选填）</span>
                         </p>
-                        <div class="rside">
+                        <div class="rside col-md-10">
                             <input type="radio" name="mudi" id="jtqz"><label for="jtqz">家庭亲子</label>
                             <input type="radio" name="mudi" id="pycy"><label for="pycy">朋友出游</label>
                             <input type="radio" name="mudi" id="qxdj"><label for="qxdj">情侣度假</label>
@@ -135,17 +140,17 @@
                             <input type="radio" name="mudi" id="yxtq"><label for="yxtq">游学探亲</label>
                             <input type="radio" name="mudi" id="qt"><label for="qt">其他</label>
                         </div>
-                    </div>
-                    <div class="five-low"> 
+                    </div> 
+                    <div class="five-low row"> 
                         <a href="#" class="a_tj">
                             发表点评<i class="icon"></i>
                         </a>                                            
                     </div>
-                    <div class="six-low">
-                        <p class="lside">
+                    <div class="six-low row">
+                        <p class="lside col-md-2">
                             上传照片<br><span>（选填）</span>
                         </p>
-                        <div class="rside" id="rside">
+                        <div class="rside col-md-10" id="rside" >
                             <div class="img-box">
                                 <img src="images/dpxiaotu.png" alt="">
                                 <a href="#" class="x_icon"></a>

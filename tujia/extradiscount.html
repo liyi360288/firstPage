@@ -7,15 +7,17 @@
     <link rel="stylesheet" href="css/global-2015.css">
     <link rel="stylesheet" href="css/public.css">
     <link rel="stylesheet" href="css/ewaiyouhui.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <title>4.1个人中心-额外优惠</title>
 </head>
 <body>
-    <div class="warpper orderpages">
+    <div class="warpper orderpages container-fluid">
+        <!-- 头部 -->
         <header>
             <div class="top">
                 <img src="images/top.png" alt="">
             </div>
-            <div class="top-menu">
+            <div class="top-menu row">
                 <div class="main">
                     <a href="#">我的途家</a>
                     <a href="#">[退出]</a>
@@ -23,8 +25,10 @@
                     <a href="#">申请开店</a>                          
                 </div>
             </div>
-            <div class="nav-war">
+            <div class="nav-war row">
                 <nav class="nav main">
+                    <img src="images/top_left_logo.png" alt="" class="top_img_left">     
+                    <img src="images/top_right_logo.png" alt="" class="top_img_right">    
                     <a href="#">首页</a>
                     <span>|</span>
                     <a href="#">国内公寓</a>
@@ -40,10 +44,11 @@
                     <a href="#">特色房</a>
                 </nav> 
             </div>
-        </header><!-- end-头部 -->
+        </header>
+        <!-- end-头部 -->
         <div class="content clearfix">
             <div class="main">
-                <div class="content-top">
+                <div class="content-top row">
                     <a href="#">途家网</a>
                     <span>&gt;</span>
                     <a href="#">我的途家</a>
@@ -51,7 +56,7 @@
                     <a href="#">订单管理</a>  
                 </div>
                 <!-- end-content-top -->
-                <div class="left-content fl">
+                <div class="left-content col-md-2 visible-md-block visible-lg-block">
                     <ul class="left-content-list">
                         <li class="one-list">
                             <a href="#" class="userimg">
@@ -112,12 +117,12 @@
                     </ul>
                 </div>
                 <!-- end-左边content -->
-                <div class="right-content fr">
+                <div class="right-content col-md-10">
                     <h1>预定额外优惠</h1>
                     <div class="content_container">
                         <p class="title1">高级会员预订途家公寓，不仅享受普通会员的所有权益，还可专享“房费额外返现”。</p>
                         <p class="title2">高级会员所能享受的额外返现，根据会员的级别，所预订公寓的类型而有所不同，具体见下表：</p>
-                        <table class="table_box">
+                        <table class="table_box table">
                             <thead>
 
                                 <tr class="first_low">
@@ -125,27 +130,29 @@
                                     <th class="th_yylx">公寓类型</th>
                                     <th class="th_ffyh">房费额外优惠</th>
                                 </tr>
-                            </thead>                            
-                            <tr class="second_low">
-                                <td class="bor_none">白金/砖石</td>
-                                <td>途家自营公寓</td>
-                                <td>额外优惠房费的10%，每单上限200元</td>
-                            </tr>
-                            <tr class="three_low">
-                                <td></td>
-                                <td>其他公寓</td>
-                                <td>额外优惠房费的5%，每单上限100元</td>
-                            </tr>
-                            <tr class="four_low">
-                                <td class="bor_none">金卡</td>
-                                <td>途家自营公寓</td>
-                                <td>额外优惠房费的5%，每单上限100元</td>
-                            </tr>
-                            <tr class="five_low">
-                                <td></td>
-                                <td>其他公寓</td>
-                                <td>额外优惠房费的3%，每单上限100元</td>
-                            </tr>
+                            </thead>     
+                            <tbody>                      
+                                <tr class="second_low">
+                                    <td class="bor_none">白金/砖石</td>
+                                    <td>途家自营公寓</td>
+                                    <td>额外优惠房费的10%，每单上限200元</td>
+                                </tr>
+                                <tr class="three_low">
+                                    <td></td>
+                                    <td>其他公寓</td>
+                                    <td>额外优惠房费的5%，每单上限100元</td>
+                                </tr>
+                                <tr class="four_low">
+                                    <td class="bor_none">金卡</td>
+                                    <td>途家自营公寓</td>
+                                    <td>额外优惠房费的5%，每单上限100元</td>
+                                </tr>
+                                <tr class="five_low">
+                                    <td></td>
+                                    <td>其他公寓</td>
+                                    <td>额外优惠房费的3%，每单上限100元</td>
+                                </tr>
+                            </tbody> 
                         </table>
                         <h2>额外返现的处理方法:</h2>
                         <ul class="list">
@@ -155,9 +162,14 @@
                         </ul>
                         <h2>示例：</h2>
                         <ul class="list">
-                            <li><span class="icon"></span>订单总房费为800元，产品优惠是“立减40元”，则白金/钻石会员下单时系统不是立减40元，而是把这40元转变为返现的一部分。同时该会员可获得的“额外返现”为
-800元*10%即80元。合计120元返现。</li>
-                            <li><span class="icon"></span>订单总房费为800元，产品优惠是“返现40元”，同时该会员可获得的“额外返现”为800元*10%即80元。合计120元返现。</li>
+                            <li>
+                                <span class="icon"></span>
+                                订单总房费为800元，产品优惠是“立减40元”，则白金/钻石会员下单时系统不是立减40元，而是把这40元转变为返现的一部分。同时该会员可获得的“额外返现”为800元*10%即80元。合计120元返现。
+                            </li>
+                            <li>
+                                <span class="icon"></span>
+                                订单总房费为800元，产品优惠是“返现40元”，同时该会员可获得的“额外返现”为800元*10%即80元。合计120元返现。
+                            </li>
                         </ul>
                     </div>
                     
